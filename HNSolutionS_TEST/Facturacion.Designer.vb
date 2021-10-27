@@ -63,9 +63,12 @@ Partial Class Facturacion
 		Me.Btn_LimpiarV = New System.Windows.Forms.Button()
 		Me.GroupBox1 = New System.Windows.Forms.GroupBox()
 		Me.Btn_Agregar = New System.Windows.Forms.Button()
+		Me.Label17 = New System.Windows.Forms.Label()
+		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
 		Me.Gbx_Datosclientes.SuspendLayout()
 		Me.GroupBox3.SuspendLayout()
 		Me.GroupBox1.SuspendLayout()
+		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.SuspendLayout()
 		'
 		'Gbx_Datosclientes
@@ -505,12 +508,34 @@ Partial Class Facturacion
 		Me.Btn_Agregar.Text = "Agregar"
 		Me.Btn_Agregar.UseVisualStyleBackColor = False
 		'
+		'Label17
+		'
+		Me.Label17.AutoSize = True
+		Me.Label17.BackColor = System.Drawing.Color.RoyalBlue
+		Me.Label17.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label17.Location = New System.Drawing.Point(508, -1)
+		Me.Label17.Name = "Label17"
+		Me.Label17.Size = New System.Drawing.Size(214, 48)
+		Me.Label17.TabIndex = 4
+		Me.Label17.Text = "Facturacion"
+		'
+		'PictureBox1
+		'
+		Me.PictureBox1.BackColor = System.Drawing.Color.RoyalBlue
+		Me.PictureBox1.Location = New System.Drawing.Point(-1, -1)
+		Me.PictureBox1.Name = "PictureBox1"
+		Me.PictureBox1.Size = New System.Drawing.Size(1170, 59)
+		Me.PictureBox1.TabIndex = 5
+		Me.PictureBox1.TabStop = False
+		'
 		'Facturacion
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(1170, 1050)
+		Me.Controls.Add(Me.Label17)
+		Me.Controls.Add(Me.PictureBox1)
 		Me.Controls.Add(Me.GroupBox3)
 		Me.Controls.Add(Me.GroupBox1)
 		Me.Controls.Add(Me.Gbx_Datosclientes)
@@ -522,7 +547,9 @@ Partial Class Facturacion
 		Me.GroupBox3.PerformLayout()
 		Me.GroupBox1.ResumeLayout(False)
 		Me.GroupBox1.PerformLayout()
+		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
 		Me.ResumeLayout(False)
+		Me.PerformLayout()
 
 	End Sub
 
@@ -567,4 +594,6 @@ Partial Class Facturacion
 	Friend WithEvents Btn_LimpiarV As Button
 	Friend WithEvents GroupBox1 As GroupBox
 	Friend WithEvents Btn_Agregar As Button
+	Friend WithEvents Label17 As Label
+	Friend WithEvents PictureBox1 As PictureBox
 End Class
