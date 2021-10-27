@@ -23,27 +23,27 @@ Partial Class Facturacion
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
 		Me.Gbx_Datosclientes = New System.Windows.Forms.GroupBox()
-		Me.Label1 = New System.Windows.Forms.Label()
-		Me.Label2 = New System.Windows.Forms.Label()
-		Me.Label3 = New System.Windows.Forms.Label()
-		Me.TxtDatosClientes = New System.Windows.Forms.TextBox()
-		Me.TxtDirrecion = New System.Windows.Forms.TextBox()
-		Me.TxtNumeroId = New System.Windows.Forms.TextBox()
 		Me.Btn_Limpiar = New System.Windows.Forms.Button()
+		Me.TxtNumeroId = New System.Windows.Forms.TextBox()
+		Me.TxtDirrecion = New System.Windows.Forms.TextBox()
+		Me.TxtDatosClientes = New System.Windows.Forms.TextBox()
+		Me.Label3 = New System.Windows.Forms.Label()
+		Me.Label2 = New System.Windows.Forms.Label()
+		Me.Label1 = New System.Windows.Forms.Label()
 		Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-		Me.Label12 = New System.Windows.Forms.Label()
-		Me.Lbx_Producto = New System.Windows.Forms.ListBox()
-		Me.Label13 = New System.Windows.Forms.Label()
-		Me.Lbx_Precio = New System.Windows.Forms.ListBox()
-		Me.Label14 = New System.Windows.Forms.Label()
-		Me.Lbx_Cantidad = New System.Windows.Forms.ListBox()
-		Me.Label15 = New System.Windows.Forms.Label()
-		Me.Lbx_Sub_Total = New System.Windows.Forms.ListBox()
-		Me.Label16 = New System.Windows.Forms.Label()
-		Me.Lbl_Total = New System.Windows.Forms.TextBox()
-		Me.Btn_Guardar = New System.Windows.Forms.Button()
-		Me.Btn_Cancelar = New System.Windows.Forms.Button()
 		Me.Btn_Nuevo = New System.Windows.Forms.Button()
+		Me.Btn_Cancelar = New System.Windows.Forms.Button()
+		Me.Btn_Guardar = New System.Windows.Forms.Button()
+		Me.Lbl_Total = New System.Windows.Forms.TextBox()
+		Me.Label16 = New System.Windows.Forms.Label()
+		Me.Lbx_Sub_Total = New System.Windows.Forms.ListBox()
+		Me.Label15 = New System.Windows.Forms.Label()
+		Me.Lbx_Cantidad = New System.Windows.Forms.ListBox()
+		Me.Label14 = New System.Windows.Forms.Label()
+		Me.Lbx_Precio = New System.Windows.Forms.ListBox()
+		Me.Label13 = New System.Windows.Forms.Label()
+		Me.Lbx_Producto = New System.Windows.Forms.ListBox()
+		Me.Label12 = New System.Windows.Forms.Label()
 		Me.Label4 = New System.Windows.Forms.Label()
 		Me.TxtProducto = New System.Windows.Forms.TextBox()
 		Me.Label5 = New System.Windows.Forms.Label()
@@ -85,25 +85,40 @@ Partial Class Facturacion
 		Me.Gbx_Datosclientes.TabStop = False
 		Me.Gbx_Datosclientes.Text = "Datos del Cliente:"
 		'
-		'Label1
+		'Btn_Limpiar
 		'
-		Me.Label1.AutoSize = True
-		Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label1.Location = New System.Drawing.Point(52, 60)
-		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(161, 25)
-		Me.Label1.TabIndex = 0
-		Me.Label1.Text = "Datos del Cliente:"
+		Me.Btn_Limpiar.BackColor = System.Drawing.Color.DodgerBlue
+		Me.Btn_Limpiar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Limpiar.Location = New System.Drawing.Point(706, 116)
+		Me.Btn_Limpiar.Name = "Btn_Limpiar"
+		Me.Btn_Limpiar.Size = New System.Drawing.Size(140, 41)
+		Me.Btn_Limpiar.TabIndex = 6
+		Me.Btn_Limpiar.Text = "Limpiar"
+		Me.Btn_Limpiar.UseVisualStyleBackColor = False
 		'
-		'Label2
+		'TxtNumeroId
 		'
-		Me.Label2.AutoSize = True
-		Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label2.Location = New System.Drawing.Point(52, 116)
-		Me.Label2.Name = "Label2"
-		Me.Label2.Size = New System.Drawing.Size(104, 25)
-		Me.Label2.TabIndex = 1
-		Me.Label2.Text = "Dirreccion:"
+		Me.TxtNumeroId.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+		Me.TxtNumeroId.Location = New System.Drawing.Point(287, 172)
+		Me.TxtNumeroId.Name = "TxtNumeroId"
+		Me.TxtNumeroId.Size = New System.Drawing.Size(247, 31)
+		Me.TxtNumeroId.TabIndex = 5
+		'
+		'TxtDirrecion
+		'
+		Me.TxtDirrecion.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.TxtDirrecion.Location = New System.Drawing.Point(287, 116)
+		Me.TxtDirrecion.Name = "TxtDirrecion"
+		Me.TxtDirrecion.Size = New System.Drawing.Size(247, 31)
+		Me.TxtDirrecion.TabIndex = 4
+		'
+		'TxtDatosClientes
+		'
+		Me.TxtDatosClientes.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.TxtDatosClientes.Location = New System.Drawing.Point(287, 60)
+		Me.TxtDatosClientes.Name = "TxtDatosClientes"
+		Me.TxtDatosClientes.Size = New System.Drawing.Size(247, 31)
+		Me.TxtDatosClientes.TabIndex = 3
 		'
 		'Label3
 		'
@@ -115,40 +130,25 @@ Partial Class Facturacion
 		Me.Label3.TabIndex = 2
 		Me.Label3.Text = "Numero Identidad:"
 		'
-		'TxtDatosClientes
+		'Label2
 		'
-		Me.TxtDatosClientes.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TxtDatosClientes.Location = New System.Drawing.Point(287, 60)
-		Me.TxtDatosClientes.Name = "TxtDatosClientes"
-		Me.TxtDatosClientes.Size = New System.Drawing.Size(247, 31)
-		Me.TxtDatosClientes.TabIndex = 3
+		Me.Label2.AutoSize = True
+		Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label2.Location = New System.Drawing.Point(52, 116)
+		Me.Label2.Name = "Label2"
+		Me.Label2.Size = New System.Drawing.Size(104, 25)
+		Me.Label2.TabIndex = 1
+		Me.Label2.Text = "Dirreccion:"
 		'
-		'TxtDirrecion
+		'Label1
 		'
-		Me.TxtDirrecion.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TxtDirrecion.Location = New System.Drawing.Point(287, 116)
-		Me.TxtDirrecion.Name = "TxtDirrecion"
-		Me.TxtDirrecion.Size = New System.Drawing.Size(247, 31)
-		Me.TxtDirrecion.TabIndex = 4
-		'
-		'TxtNumeroId
-		'
-		Me.TxtNumeroId.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-		Me.TxtNumeroId.Location = New System.Drawing.Point(287, 172)
-		Me.TxtNumeroId.Name = "TxtNumeroId"
-		Me.TxtNumeroId.Size = New System.Drawing.Size(247, 31)
-		Me.TxtNumeroId.TabIndex = 5
-		'
-		'Btn_Limpiar
-		'
-		Me.Btn_Limpiar.BackColor = System.Drawing.Color.DodgerBlue
-		Me.Btn_Limpiar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Btn_Limpiar.Location = New System.Drawing.Point(691, 106)
-		Me.Btn_Limpiar.Name = "Btn_Limpiar"
-		Me.Btn_Limpiar.Size = New System.Drawing.Size(140, 41)
-		Me.Btn_Limpiar.TabIndex = 6
-		Me.Btn_Limpiar.Text = "Limpiar"
-		Me.Btn_Limpiar.UseVisualStyleBackColor = False
+		Me.Label1.AutoSize = True
+		Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label1.Location = New System.Drawing.Point(52, 60)
+		Me.Label1.Name = "Label1"
+		Me.Label1.Size = New System.Drawing.Size(161, 25)
+		Me.Label1.TabIndex = 0
+		Me.Label1.Text = "Datos del Cliente:"
 		'
 		'GroupBox3
 		'
@@ -173,117 +173,16 @@ Partial Class Facturacion
 		Me.GroupBox3.TabStop = False
 		Me.GroupBox3.Text = "Datos Detalle"
 		'
-		'Label12
+		'Btn_Nuevo
 		'
-		Me.Label12.AutoSize = True
-		Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label12.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label12.Location = New System.Drawing.Point(42, 56)
-		Me.Label12.Name = "Label12"
-		Me.Label12.Size = New System.Drawing.Size(103, 25)
-		Me.Label12.TabIndex = 0
-		Me.Label12.Text = "Productos:"
-		'
-		'Lbx_Producto
-		'
-		Me.Lbx_Producto.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Lbx_Producto.FormattingEnabled = True
-		Me.Lbx_Producto.ItemHeight = 21
-		Me.Lbx_Producto.Location = New System.Drawing.Point(42, 94)
-		Me.Lbx_Producto.Name = "Lbx_Producto"
-		Me.Lbx_Producto.Size = New System.Drawing.Size(142, 214)
-		Me.Lbx_Producto.TabIndex = 1
-		'
-		'Label13
-		'
-		Me.Label13.AutoSize = True
-		Me.Label13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label13.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label13.Location = New System.Drawing.Point(225, 56)
-		Me.Label13.Name = "Label13"
-		Me.Label13.Size = New System.Drawing.Size(70, 25)
-		Me.Label13.TabIndex = 2
-		Me.Label13.Text = "Precio:"
-		'
-		'Lbx_Precio
-		'
-		Me.Lbx_Precio.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Lbx_Precio.FormattingEnabled = True
-		Me.Lbx_Precio.ItemHeight = 21
-		Me.Lbx_Precio.Location = New System.Drawing.Point(211, 94)
-		Me.Lbx_Precio.Name = "Lbx_Precio"
-		Me.Lbx_Precio.Size = New System.Drawing.Size(95, 214)
-		Me.Lbx_Precio.TabIndex = 3
-		'
-		'Label14
-		'
-		Me.Label14.AutoSize = True
-		Me.Label14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label14.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label14.Location = New System.Drawing.Point(337, 56)
-		Me.Label14.Name = "Label14"
-		Me.Label14.Size = New System.Drawing.Size(93, 25)
-		Me.Label14.TabIndex = 4
-		Me.Label14.Text = "Cantidad:"
-		'
-		'Lbx_Cantidad
-		'
-		Me.Lbx_Cantidad.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Lbx_Cantidad.FormattingEnabled = True
-		Me.Lbx_Cantidad.ItemHeight = 21
-		Me.Lbx_Cantidad.Location = New System.Drawing.Point(324, 94)
-		Me.Lbx_Cantidad.Name = "Lbx_Cantidad"
-		Me.Lbx_Cantidad.Size = New System.Drawing.Size(117, 214)
-		Me.Lbx_Cantidad.TabIndex = 5
-		'
-		'Label15
-		'
-		Me.Label15.AutoSize = True
-		Me.Label15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label15.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label15.Location = New System.Drawing.Point(488, 56)
-		Me.Label15.Name = "Label15"
-		Me.Label15.Size = New System.Drawing.Size(98, 25)
-		Me.Label15.TabIndex = 6
-		Me.Label15.Text = "Sub_Total:"
-		'
-		'Lbx_Sub_Total
-		'
-		Me.Lbx_Sub_Total.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Lbx_Sub_Total.FormattingEnabled = True
-		Me.Lbx_Sub_Total.ItemHeight = 21
-		Me.Lbx_Sub_Total.Location = New System.Drawing.Point(477, 94)
-		Me.Lbx_Sub_Total.Name = "Lbx_Sub_Total"
-		Me.Lbx_Sub_Total.Size = New System.Drawing.Size(125, 214)
-		Me.Lbx_Sub_Total.TabIndex = 7
-		'
-		'Label16
-		'
-		Me.Label16.AutoSize = True
-		Me.Label16.Location = New System.Drawing.Point(765, 81)
-		Me.Label16.Name = "Label16"
-		Me.Label16.Size = New System.Drawing.Size(81, 38)
-		Me.Label16.TabIndex = 8
-		Me.Label16.Text = "Total"
-		'
-		'Lbl_Total
-		'
-		Me.Lbl_Total.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-		Me.Lbl_Total.Location = New System.Drawing.Point(734, 133)
-		Me.Lbl_Total.Name = "Lbl_Total"
-		Me.Lbl_Total.Size = New System.Drawing.Size(150, 45)
-		Me.Lbl_Total.TabIndex = 9
-		'
-		'Btn_Guardar
-		'
-		Me.Btn_Guardar.BackColor = System.Drawing.Color.MediumSeaGreen
-		Me.Btn_Guardar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Btn_Guardar.Location = New System.Drawing.Point(635, 274)
-		Me.Btn_Guardar.Name = "Btn_Guardar"
-		Me.Btn_Guardar.Size = New System.Drawing.Size(112, 46)
-		Me.Btn_Guardar.TabIndex = 10
-		Me.Btn_Guardar.Text = "Guardar"
-		Me.Btn_Guardar.UseVisualStyleBackColor = False
+		Me.Btn_Nuevo.BackColor = System.Drawing.Color.DodgerBlue
+		Me.Btn_Nuevo.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Nuevo.Location = New System.Drawing.Point(871, 274)
+		Me.Btn_Nuevo.Name = "Btn_Nuevo"
+		Me.Btn_Nuevo.Size = New System.Drawing.Size(112, 46)
+		Me.Btn_Nuevo.TabIndex = 12
+		Me.Btn_Nuevo.Text = "Nuevo"
+		Me.Btn_Nuevo.UseVisualStyleBackColor = False
 		'
 		'Btn_Cancelar
 		'
@@ -296,16 +195,117 @@ Partial Class Facturacion
 		Me.Btn_Cancelar.Text = "Cancelar"
 		Me.Btn_Cancelar.UseVisualStyleBackColor = False
 		'
-		'Btn_Nuevo
+		'Btn_Guardar
 		'
-		Me.Btn_Nuevo.BackColor = System.Drawing.Color.DodgerBlue
-		Me.Btn_Nuevo.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Btn_Nuevo.Location = New System.Drawing.Point(871, 274)
-		Me.Btn_Nuevo.Name = "Btn_Nuevo"
-		Me.Btn_Nuevo.Size = New System.Drawing.Size(112, 46)
-		Me.Btn_Nuevo.TabIndex = 12
-		Me.Btn_Nuevo.Text = "Nuevo"
-		Me.Btn_Nuevo.UseVisualStyleBackColor = False
+		Me.Btn_Guardar.BackColor = System.Drawing.Color.MediumSeaGreen
+		Me.Btn_Guardar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Guardar.Location = New System.Drawing.Point(635, 274)
+		Me.Btn_Guardar.Name = "Btn_Guardar"
+		Me.Btn_Guardar.Size = New System.Drawing.Size(112, 46)
+		Me.Btn_Guardar.TabIndex = 10
+		Me.Btn_Guardar.Text = "Guardar"
+		Me.Btn_Guardar.UseVisualStyleBackColor = False
+		'
+		'Lbl_Total
+		'
+		Me.Lbl_Total.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+		Me.Lbl_Total.Location = New System.Drawing.Point(734, 133)
+		Me.Lbl_Total.Name = "Lbl_Total"
+		Me.Lbl_Total.Size = New System.Drawing.Size(150, 45)
+		Me.Lbl_Total.TabIndex = 9
+		'
+		'Label16
+		'
+		Me.Label16.AutoSize = True
+		Me.Label16.Location = New System.Drawing.Point(765, 81)
+		Me.Label16.Name = "Label16"
+		Me.Label16.Size = New System.Drawing.Size(81, 38)
+		Me.Label16.TabIndex = 8
+		Me.Label16.Text = "Total"
+		'
+		'Lbx_Sub_Total
+		'
+		Me.Lbx_Sub_Total.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Lbx_Sub_Total.FormattingEnabled = True
+		Me.Lbx_Sub_Total.ItemHeight = 21
+		Me.Lbx_Sub_Total.Location = New System.Drawing.Point(477, 94)
+		Me.Lbx_Sub_Total.Name = "Lbx_Sub_Total"
+		Me.Lbx_Sub_Total.Size = New System.Drawing.Size(125, 214)
+		Me.Lbx_Sub_Total.TabIndex = 7
+		'
+		'Label15
+		'
+		Me.Label15.AutoSize = True
+		Me.Label15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+		Me.Label15.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label15.Location = New System.Drawing.Point(488, 56)
+		Me.Label15.Name = "Label15"
+		Me.Label15.Size = New System.Drawing.Size(98, 25)
+		Me.Label15.TabIndex = 6
+		Me.Label15.Text = "Sub_Total:"
+		'
+		'Lbx_Cantidad
+		'
+		Me.Lbx_Cantidad.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Lbx_Cantidad.FormattingEnabled = True
+		Me.Lbx_Cantidad.ItemHeight = 21
+		Me.Lbx_Cantidad.Location = New System.Drawing.Point(324, 94)
+		Me.Lbx_Cantidad.Name = "Lbx_Cantidad"
+		Me.Lbx_Cantidad.Size = New System.Drawing.Size(117, 214)
+		Me.Lbx_Cantidad.TabIndex = 5
+		'
+		'Label14
+		'
+		Me.Label14.AutoSize = True
+		Me.Label14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+		Me.Label14.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label14.Location = New System.Drawing.Point(337, 56)
+		Me.Label14.Name = "Label14"
+		Me.Label14.Size = New System.Drawing.Size(93, 25)
+		Me.Label14.TabIndex = 4
+		Me.Label14.Text = "Cantidad:"
+		'
+		'Lbx_Precio
+		'
+		Me.Lbx_Precio.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Lbx_Precio.FormattingEnabled = True
+		Me.Lbx_Precio.ItemHeight = 21
+		Me.Lbx_Precio.Location = New System.Drawing.Point(211, 94)
+		Me.Lbx_Precio.Name = "Lbx_Precio"
+		Me.Lbx_Precio.Size = New System.Drawing.Size(95, 214)
+		Me.Lbx_Precio.TabIndex = 3
+		'
+		'Label13
+		'
+		Me.Label13.AutoSize = True
+		Me.Label13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+		Me.Label13.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label13.Location = New System.Drawing.Point(225, 56)
+		Me.Label13.Name = "Label13"
+		Me.Label13.Size = New System.Drawing.Size(70, 25)
+		Me.Label13.TabIndex = 2
+		Me.Label13.Text = "Precio:"
+		'
+		'Lbx_Producto
+		'
+		Me.Lbx_Producto.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Lbx_Producto.FormattingEnabled = True
+		Me.Lbx_Producto.ItemHeight = 21
+		Me.Lbx_Producto.Location = New System.Drawing.Point(42, 94)
+		Me.Lbx_Producto.Name = "Lbx_Producto"
+		Me.Lbx_Producto.Size = New System.Drawing.Size(142, 214)
+		Me.Lbx_Producto.TabIndex = 1
+		'
+		'Label12
+		'
+		Me.Label12.AutoSize = True
+		Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+		Me.Label12.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label12.Location = New System.Drawing.Point(42, 56)
+		Me.Label12.Name = "Label12"
+		Me.Label12.Size = New System.Drawing.Size(103, 25)
+		Me.Label12.TabIndex = 0
+		Me.Label12.Text = "Productos:"
 		'
 		'Label4
 		'
