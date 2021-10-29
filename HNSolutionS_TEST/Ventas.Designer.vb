@@ -24,7 +24,6 @@ Partial Class Ventas
     Private Sub InitializeComponent()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Buscar = New System.Windows.Forms.Button()
-        Me.Editar = New System.Windows.Forms.Button()
         Me.agregar = New System.Windows.Forms.Button()
         Me.Eliminar = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -56,15 +55,6 @@ Partial Class Ventas
         Me.Buscar.Text = "Buscar"
         Me.Buscar.UseVisualStyleBackColor = True
         '
-        'Editar
-        '
-        Me.Editar.Location = New System.Drawing.Point(400, 98)
-        Me.Editar.Name = "Editar"
-        Me.Editar.Size = New System.Drawing.Size(75, 23)
-        Me.Editar.TabIndex = 2
-        Me.Editar.Text = "Editar"
-        Me.Editar.UseVisualStyleBackColor = True
-        '
         'agregar
         '
         Me.agregar.Location = New System.Drawing.Point(481, 98)
@@ -81,7 +71,7 @@ Partial Class Ventas
         Me.Eliminar.Name = "Eliminar"
         Me.Eliminar.Size = New System.Drawing.Size(75, 23)
         Me.Eliminar.TabIndex = 4
-        Me.Eliminar.Text = "Eliminar"
+        Me.Eliminar.Text = "Cancelar"
         Me.Eliminar.UseVisualStyleBackColor = True
         '
         'Label1
@@ -166,7 +156,6 @@ Partial Class Ventas
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Eliminar)
         Me.Controls.Add(Me.agregar)
-        Me.Controls.Add(Me.Editar)
         Me.Controls.Add(Me.Buscar)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
@@ -181,7 +170,6 @@ Partial Class Ventas
 
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Buscar As Button
-    Friend WithEvents Editar As Button
     Friend WithEvents agregar As Button
     Friend WithEvents Eliminar As Button
     Friend WithEvents Label1 As Label
