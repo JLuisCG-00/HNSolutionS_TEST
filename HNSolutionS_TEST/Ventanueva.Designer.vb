@@ -25,6 +25,7 @@ Partial Class Ventanueva
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -41,7 +42,7 @@ Partial Class Ventanueva
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(192, 100)
+        Me.Button1.Location = New System.Drawing.Point(544, 295)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 8
@@ -55,11 +56,19 @@ Partial Class Ventanueva
         Me.TextBox1.Size = New System.Drawing.Size(100, 23)
         Me.TextBox1.TabIndex = 9
         '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(178, 99)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox2.TabIndex = 10
+        '
         'Ventanueva
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(712, 330)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
@@ -74,4 +83,5 @@ Partial Class Ventanueva
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
 End Class
