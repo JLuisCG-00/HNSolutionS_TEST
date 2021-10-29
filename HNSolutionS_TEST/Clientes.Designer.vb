@@ -33,17 +33,15 @@ Partial Class Clientes
 		Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
 		Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
 		Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
 		Me.Label1 = New System.Windows.Forms.Label()
 		CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.SuspendLayout()
 		'
 		'Label2
 		'
 		Me.Label2.AutoSize = True
 		Me.Label2.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label2.Location = New System.Drawing.Point(384, 73)
+		Me.Label2.Location = New System.Drawing.Point(330, 76)
 		Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
 		Me.Label2.Name = "Label2"
 		Me.Label2.Size = New System.Drawing.Size(276, 27)
@@ -54,33 +52,35 @@ Partial Class Clientes
 		'Eliminar
 		'
 		Me.Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.System
-		Me.Eliminar.Location = New System.Drawing.Point(808, 174)
+		Me.Eliminar.Location = New System.Drawing.Point(691, 174)
 		Me.Eliminar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.Eliminar.Name = "Eliminar"
-		Me.Eliminar.Size = New System.Drawing.Size(107, 38)
+		Me.Eliminar.Size = New System.Drawing.Size(88, 38)
 		Me.Eliminar.TabIndex = 17
 		Me.Eliminar.Text = "Cancelar"
 		Me.Eliminar.UseVisualStyleBackColor = True
 		'
 		'BtnAnadir
 		'
-		Me.BtnAnadir.Location = New System.Drawing.Point(692, 174)
+		Me.BtnAnadir.BackColor = System.Drawing.Color.MediumSeaGreen
+		Me.BtnAnadir.Location = New System.Drawing.Point(576, 174)
 		Me.BtnAnadir.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnAnadir.Name = "BtnAnadir"
 		Me.BtnAnadir.Size = New System.Drawing.Size(107, 38)
 		Me.BtnAnadir.TabIndex = 16
 		Me.BtnAnadir.Text = "Añadir"
-		Me.BtnAnadir.UseVisualStyleBackColor = True
+		Me.BtnAnadir.UseVisualStyleBackColor = False
 		'
 		'BtnBuscar
 		'
+		Me.BtnBuscar.BackColor = System.Drawing.Color.Silver
 		Me.BtnBuscar.Location = New System.Drawing.Point(449, 174)
 		Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnBuscar.Name = "BtnBuscar"
 		Me.BtnBuscar.Size = New System.Drawing.Size(107, 38)
 		Me.BtnBuscar.TabIndex = 15
 		Me.BtnBuscar.Text = "Buscar"
-		Me.BtnBuscar.UseVisualStyleBackColor = True
+		Me.BtnBuscar.UseVisualStyleBackColor = False
 		'
 		'TextBox1
 		'
@@ -108,7 +108,7 @@ Partial Class Clientes
 		Me.DataGridView1.Name = "DataGridView1"
 		Me.DataGridView1.RowHeadersWidth = 62
 		Me.DataGridView1.RowTemplate.Height = 33
-		Me.DataGridView1.Size = New System.Drawing.Size(661, 225)
+		Me.DataGridView1.Size = New System.Drawing.Size(666, 225)
 		Me.DataGridView1.TabIndex = 21
 		'
 		'Column1
@@ -139,31 +139,25 @@ Partial Class Clientes
 		Me.Column4.Name = "Column4"
 		Me.Column4.Width = 150
 		'
-		'PictureBox1
-		'
-		Me.PictureBox1.BackColor = System.Drawing.Color.RoyalBlue
-		Me.PictureBox1.Location = New System.Drawing.Point(-67, -7)
-		Me.PictureBox1.Name = "PictureBox1"
-		Me.PictureBox1.Size = New System.Drawing.Size(1170, 59)
-		Me.PictureBox1.TabIndex = 22
-		Me.PictureBox1.TabStop = False
-		'
 		'Label1
 		'
-		Me.Label1.AutoSize = True
-		Me.Label1.Location = New System.Drawing.Point(342, 128)
+		Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		Me.Label1.ForeColor = System.Drawing.Color.White
+		Me.Label1.Location = New System.Drawing.Point(2, -2)
+		Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(63, 25)
-		Me.Label1.TabIndex = 23
-		Me.Label1.Text = "Label1"
+		Me.Label1.Size = New System.Drawing.Size(933, 63)
+		Me.Label1.TabIndex = 22
+		Me.Label1.Text = "Clientes"
+		Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		'
 		'Clientes
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(1035, 535)
+		Me.ClientSize = New System.Drawing.Size(934, 535)
 		Me.Controls.Add(Me.Label1)
-		Me.Controls.Add(Me.PictureBox1)
 		Me.Controls.Add(Me.DataGridView1)
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Eliminar)
@@ -174,7 +168,6 @@ Partial Class Clientes
 		Me.Name = "Clientes"
 		Me.Text = "Clientes"
 		CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
 		Me.ResumeLayout(False)
 		Me.PerformLayout()
 
@@ -190,6 +183,5 @@ Partial Class Clientes
 	Friend WithEvents Column2 As DataGridViewTextBoxColumn
 	Friend WithEvents Column3 As DataGridViewTextBoxColumn
 	Friend WithEvents Column4 As DataGridViewTextBoxColumn
-	Friend WithEvents PictureBox1 As PictureBox
 	Friend WithEvents Label1 As Label
 End Class
