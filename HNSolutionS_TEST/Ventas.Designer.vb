@@ -59,13 +59,14 @@ Partial Class Ventas
 		'
 		'agregar
 		'
+		Me.agregar.BackColor = System.Drawing.Color.MediumSeaGreen
 		Me.agregar.Location = New System.Drawing.Point(687, 163)
 		Me.agregar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.agregar.Name = "agregar"
 		Me.agregar.Size = New System.Drawing.Size(107, 38)
 		Me.agregar.TabIndex = 3
 		Me.agregar.Text = "Añadir V."
-		Me.agregar.UseVisualStyleBackColor = True
+		Me.agregar.UseVisualStyleBackColor = False
 		'
 		'Eliminar
 		'
@@ -80,7 +81,7 @@ Partial Class Ventas
 		'
 		'Label1
 		'
-		Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+		Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
 		Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
 		Me.Label1.ForeColor = System.Drawing.Color.White
 		Me.Label1.Location = New System.Drawing.Point(0, -2)
