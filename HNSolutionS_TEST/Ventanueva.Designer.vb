@@ -41,13 +41,17 @@ Partial Class Ventanueva
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(0, -1)
         Me.Label1.Name = "Label1"
@@ -58,23 +62,24 @@ Partial Class Ventanueva
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(179, 331)
+        Me.Button1.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.Button1.Location = New System.Drawing.Point(179, 340)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Ordenar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(70, 145)
+        Me.TextBox1.Location = New System.Drawing.Point(15, 49)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 23)
         Me.TextBox1.TabIndex = 9
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(208, 145)
+        Me.TextBox2.Location = New System.Drawing.Point(153, 49)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 23)
         Me.TextBox2.TabIndex = 10
@@ -93,7 +98,7 @@ Partial Class Ventanueva
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(70, 127)
+        Me.Label2.Location = New System.Drawing.Point(15, 31)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(51, 15)
         Me.Label2.TabIndex = 13
@@ -102,7 +107,7 @@ Partial Class Ventanueva
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(208, 127)
+        Me.Label4.Location = New System.Drawing.Point(153, 31)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(57, 15)
         Me.Label4.TabIndex = 14
@@ -112,7 +117,7 @@ Partial Class Ventanueva
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Credito", "Contado", "Cheque", "Efectivo"})
-        Me.ComboBox1.Location = New System.Drawing.Point(361, 144)
+        Me.ComboBox1.Location = New System.Drawing.Point(306, 48)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 23)
         Me.ComboBox1.TabIndex = 15
@@ -120,7 +125,7 @@ Partial Class Ventanueva
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(361, 127)
+        Me.Label5.Location = New System.Drawing.Point(306, 31)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(95, 15)
         Me.Label5.TabIndex = 16
@@ -129,7 +134,7 @@ Partial Class Ventanueva
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(70, 189)
+        Me.Label6.Location = New System.Drawing.Point(15, 24)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(56, 15)
         Me.Label6.TabIndex = 18
@@ -137,24 +142,25 @@ Partial Class Ventanueva
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(70, 207)
+        Me.TextBox3.Location = New System.Drawing.Point(15, 42)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(238, 23)
         Me.TextBox3.TabIndex = 17
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(314, 206)
+        Me.Button2.BackColor = System.Drawing.Color.PaleGreen
+        Me.Button2.Location = New System.Drawing.Point(259, 41)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 19
         Me.Button2.Text = "Agregar"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(70, 235)
+        Me.Label8.Location = New System.Drawing.Point(15, 70)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(40, 15)
         Me.Label8.TabIndex = 23
@@ -162,14 +168,14 @@ Partial Class Ventanueva
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(70, 253)
+        Me.TextBox5.Location = New System.Drawing.Point(15, 88)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 23)
         Me.TextBox5.TabIndex = 22
         '
         'NumericUpDown1
         '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(208, 253)
+        Me.NumericUpDown1.Location = New System.Drawing.Point(153, 88)
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(46, 23)
         Me.NumericUpDown1.TabIndex = 24
@@ -177,7 +183,7 @@ Partial Class Ventanueva
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(205, 235)
+        Me.Label9.Location = New System.Drawing.Point(150, 70)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(55, 15)
         Me.Label9.TabIndex = 25
@@ -186,7 +192,7 @@ Partial Class Ventanueva
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(314, 235)
+        Me.Label7.Location = New System.Drawing.Point(259, 70)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(34, 15)
         Me.Label7.TabIndex = 26
@@ -195,7 +201,7 @@ Partial Class Ventanueva
         'Label10
         '
         Me.Label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label10.Location = New System.Drawing.Point(314, 253)
+        Me.Label10.Location = New System.Drawing.Point(259, 88)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(100, 23)
         Me.Label10.TabIndex = 27
@@ -203,41 +209,67 @@ Partial Class Ventanueva
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(275, 331)
+        Me.Button3.BackColor = System.Drawing.Color.Tomato
+        Me.Button3.Location = New System.Drawing.Point(275, 340)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 28
         Me.Button3.Text = "Cancelar"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Location = New System.Drawing.Point(55, 86)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(464, 100)
+        Me.GroupBox1.TabIndex = 29
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Datos clientes"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.TextBox3)
+        Me.GroupBox2.Controls.Add(Me.Label6)
+        Me.GroupBox2.Controls.Add(Me.Label10)
+        Me.GroupBox2.Controls.Add(Me.Button2)
+        Me.GroupBox2.Controls.Add(Me.Label7)
+        Me.GroupBox2.Controls.Add(Me.TextBox5)
+        Me.GroupBox2.Controls.Add(Me.Label9)
+        Me.GroupBox2.Controls.Add(Me.Label8)
+        Me.GroupBox2.Controls.Add(Me.NumericUpDown1)
+        Me.GroupBox2.Location = New System.Drawing.Point(55, 209)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(464, 125)
+        Me.GroupBox2.TabIndex = 30
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Datos de la Venta"
         '
         'Ventanueva
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(546, 375)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.NumericUpDown1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Ventanueva"
         Me.Text = "Ventanueva"
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -262,4 +294,6 @@ Partial Class Ventanueva
     Friend WithEvents Label7 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Button3 As Button
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents GroupBox2 As GroupBox
 End Class
