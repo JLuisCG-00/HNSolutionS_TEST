@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "HNSolutionS_TEST", "HNSolutionS_TEST\HNSolutionS_TEST.vbproj", "{80D1F677-D174-4D17-B634-11A1C494D936}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B9CA527-232C-4665-AAA5-6895CE34C46C}"
-	ProjectSection(SolutionItems) = preProject
-		Ventas.vb = Ventas.vb
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
