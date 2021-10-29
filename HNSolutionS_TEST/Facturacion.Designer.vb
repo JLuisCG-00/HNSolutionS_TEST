@@ -91,7 +91,7 @@ Partial Class Facturacion
 		'Btn_Limpiar
 		'
 		Me.Btn_Limpiar.BackColor = System.Drawing.Color.DodgerBlue
-		Me.Btn_Limpiar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Limpiar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Btn_Limpiar.Location = New System.Drawing.Point(706, 116)
 		Me.Btn_Limpiar.Name = "Btn_Limpiar"
 		Me.Btn_Limpiar.Size = New System.Drawing.Size(140, 41)
@@ -126,30 +126,30 @@ Partial Class Facturacion
 		'Label3
 		'
 		Me.Label3.AutoSize = True
-		Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label3.Location = New System.Drawing.Point(54, 172)
 		Me.Label3.Name = "Label3"
-		Me.Label3.Size = New System.Drawing.Size(173, 25)
+		Me.Label3.Size = New System.Drawing.Size(184, 24)
 		Me.Label3.TabIndex = 2
 		Me.Label3.Text = "Numero Identidad:"
 		'
 		'Label2
 		'
 		Me.Label2.AutoSize = True
-		Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label2.Location = New System.Drawing.Point(52, 116)
 		Me.Label2.Name = "Label2"
-		Me.Label2.Size = New System.Drawing.Size(104, 25)
+		Me.Label2.Size = New System.Drawing.Size(114, 24)
 		Me.Label2.TabIndex = 1
 		Me.Label2.Text = "Dirreccion:"
 		'
 		'Label1
 		'
 		Me.Label1.AutoSize = True
-		Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label1.Location = New System.Drawing.Point(52, 60)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(161, 25)
+		Me.Label1.Size = New System.Drawing.Size(177, 24)
 		Me.Label1.TabIndex = 0
 		Me.Label1.Text = "Datos del Cliente:"
 		'
@@ -179,7 +179,7 @@ Partial Class Facturacion
 		'Btn_Nuevo
 		'
 		Me.Btn_Nuevo.BackColor = System.Drawing.Color.DodgerBlue
-		Me.Btn_Nuevo.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Nuevo.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Btn_Nuevo.Location = New System.Drawing.Point(871, 274)
 		Me.Btn_Nuevo.Name = "Btn_Nuevo"
 		Me.Btn_Nuevo.Size = New System.Drawing.Size(112, 46)
@@ -190,7 +190,7 @@ Partial Class Facturacion
 		'Btn_Cancelar
 		'
 		Me.Btn_Cancelar.BackColor = System.Drawing.Color.Red
-		Me.Btn_Cancelar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Cancelar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Btn_Cancelar.Location = New System.Drawing.Point(753, 274)
 		Me.Btn_Cancelar.Name = "Btn_Cancelar"
 		Me.Btn_Cancelar.Size = New System.Drawing.Size(112, 46)
@@ -201,7 +201,7 @@ Partial Class Facturacion
 		'Btn_Guardar
 		'
 		Me.Btn_Guardar.BackColor = System.Drawing.Color.MediumSeaGreen
-		Me.Btn_Guardar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Guardar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Btn_Guardar.Location = New System.Drawing.Point(635, 274)
 		Me.Btn_Guardar.Name = "Btn_Guardar"
 		Me.Btn_Guardar.Size = New System.Drawing.Size(112, 46)
@@ -240,10 +240,10 @@ Partial Class Facturacion
 		'
 		Me.Label15.AutoSize = True
 		Me.Label15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label15.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label15.Location = New System.Drawing.Point(488, 56)
 		Me.Label15.Name = "Label15"
-		Me.Label15.Size = New System.Drawing.Size(98, 25)
+		Me.Label15.Size = New System.Drawing.Size(112, 24)
 		Me.Label15.TabIndex = 6
 		Me.Label15.Text = "Sub_Total:"
 		'
@@ -261,10 +261,10 @@ Partial Class Facturacion
 		'
 		Me.Label14.AutoSize = True
 		Me.Label14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label14.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label14.Location = New System.Drawing.Point(337, 56)
 		Me.Label14.Name = "Label14"
-		Me.Label14.Size = New System.Drawing.Size(93, 25)
+		Me.Label14.Size = New System.Drawing.Size(101, 24)
 		Me.Label14.TabIndex = 4
 		Me.Label14.Text = "Cantidad:"
 		'
@@ -282,10 +282,10 @@ Partial Class Facturacion
 		'
 		Me.Label13.AutoSize = True
 		Me.Label13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label13.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label13.Location = New System.Drawing.Point(225, 56)
 		Me.Label13.Name = "Label13"
-		Me.Label13.Size = New System.Drawing.Size(70, 25)
+		Me.Label13.Size = New System.Drawing.Size(77, 24)
 		Me.Label13.TabIndex = 2
 		Me.Label13.Text = "Precio:"
 		'
@@ -303,20 +303,20 @@ Partial Class Facturacion
 		'
 		Me.Label12.AutoSize = True
 		Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.Label12.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label12.Location = New System.Drawing.Point(42, 56)
 		Me.Label12.Name = "Label12"
-		Me.Label12.Size = New System.Drawing.Size(103, 25)
+		Me.Label12.Size = New System.Drawing.Size(115, 24)
 		Me.Label12.TabIndex = 0
 		Me.Label12.Text = "Productos:"
 		'
 		'Label4
 		'
 		Me.Label4.AutoSize = True
-		Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label4.Location = New System.Drawing.Point(52, 83)
 		Me.Label4.Name = "Label4"
-		Me.Label4.Size = New System.Drawing.Size(95, 25)
+		Me.Label4.Size = New System.Drawing.Size(104, 24)
 		Me.Label4.TabIndex = 0
 		Me.Label4.Text = "Pruducto:"
 		'
@@ -331,10 +331,10 @@ Partial Class Facturacion
 		'Label5
 		'
 		Me.Label5.AutoSize = True
-		Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label5.Location = New System.Drawing.Point(52, 136)
 		Me.Label5.Name = "Label5"
-		Me.Label5.Size = New System.Drawing.Size(114, 25)
+		Me.Label5.Size = New System.Drawing.Size(128, 24)
 		Me.Label5.TabIndex = 2
 		Me.Label5.Text = "Descriccion:"
 		'
@@ -349,10 +349,10 @@ Partial Class Facturacion
 		'Label6
 		'
 		Me.Label6.AutoSize = True
-		Me.Label6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label6.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label6.Location = New System.Drawing.Point(52, 188)
 		Me.Label6.Name = "Label6"
-		Me.Label6.Size = New System.Drawing.Size(93, 25)
+		Me.Label6.Size = New System.Drawing.Size(101, 24)
 		Me.Label6.TabIndex = 4
 		Me.Label6.Text = "Cantidad:"
 		'
@@ -367,10 +367,10 @@ Partial Class Facturacion
 		'Label7
 		'
 		Me.Label7.AutoSize = True
-		Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label7.Location = New System.Drawing.Point(601, 83)
 		Me.Label7.Name = "Label7"
-		Me.Label7.Size = New System.Drawing.Size(99, 25)
+		Me.Label7.Size = New System.Drawing.Size(108, 24)
 		Me.Label7.TabIndex = 6
 		Me.Label7.Text = "Categoria:"
 		'
@@ -386,10 +386,10 @@ Partial Class Facturacion
 		'Label8
 		'
 		Me.Label8.AutoSize = True
-		Me.Label8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label8.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label8.Location = New System.Drawing.Point(601, 133)
 		Me.Label8.Name = "Label8"
-		Me.Label8.Size = New System.Drawing.Size(70, 25)
+		Me.Label8.Size = New System.Drawing.Size(77, 24)
 		Me.Label8.TabIndex = 8
 		Me.Label8.Text = "Precio:"
 		'
@@ -404,10 +404,10 @@ Partial Class Facturacion
 		'Label9
 		'
 		Me.Label9.AutoSize = True
-		Me.Label9.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label9.Location = New System.Drawing.Point(601, 188)
 		Me.Label9.Name = "Label9"
-		Me.Label9.Size = New System.Drawing.Size(146, 25)
+		Me.Label9.Size = New System.Drawing.Size(162, 24)
 		Me.Label9.TabIndex = 10
 		Me.Label9.Text = "Forma De Pago:"
 		'
@@ -423,10 +423,10 @@ Partial Class Facturacion
 		'Label10
 		'
 		Me.Label10.AutoSize = True
-		Me.Label10.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label10.Location = New System.Drawing.Point(54, 254)
 		Me.Label10.Name = "Label10"
-		Me.Label10.Size = New System.Drawing.Size(66, 25)
+		Me.Label10.Size = New System.Drawing.Size(74, 24)
 		Me.Label10.TabIndex = 12
 		Me.Label10.Text = "Fecha:"
 		'
@@ -442,10 +442,10 @@ Partial Class Facturacion
 		'Label11
 		'
 		Me.Label11.AutoSize = True
-		Me.Label11.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label11.Location = New System.Drawing.Point(601, 247)
 		Me.Label11.Name = "Label11"
-		Me.Label11.Size = New System.Drawing.Size(100, 25)
+		Me.Label11.Size = New System.Drawing.Size(107, 24)
 		Me.Label11.TabIndex = 14
 		Me.Label11.Text = "Vendedor:"
 		'
@@ -461,7 +461,7 @@ Partial Class Facturacion
 		'Btn_LimpiarV
 		'
 		Me.Btn_LimpiarV.BackColor = System.Drawing.Color.DodgerBlue
-		Me.Btn_LimpiarV.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_LimpiarV.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Btn_LimpiarV.Location = New System.Drawing.Point(372, 308)
 		Me.Btn_LimpiarV.Name = "Btn_LimpiarV"
 		Me.Btn_LimpiarV.Size = New System.Drawing.Size(127, 47)
@@ -500,7 +500,7 @@ Partial Class Facturacion
 		'Btn_Agregar
 		'
 		Me.Btn_Agregar.BackColor = System.Drawing.Color.MediumSeaGreen
-		Me.Btn_Agregar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_Agregar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Btn_Agregar.Location = New System.Drawing.Point(544, 308)
 		Me.Btn_Agregar.Name = "Btn_Agregar"
 		Me.Btn_Agregar.Size = New System.Drawing.Size(127, 47)
@@ -511,7 +511,7 @@ Partial Class Facturacion
 		'Label17
 		'
 		Me.Label17.AutoSize = True
-		Me.Label17.BackColor = System.Drawing.Color.RoyalBlue
+		Me.Label17.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
 		Me.Label17.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label17.Location = New System.Drawing.Point(508, -1)
 		Me.Label17.Name = "Label17"
@@ -521,7 +521,7 @@ Partial Class Facturacion
 		'
 		'PictureBox1
 		'
-		Me.PictureBox1.BackColor = System.Drawing.Color.RoyalBlue
+		Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
 		Me.PictureBox1.Location = New System.Drawing.Point(-1, -1)
 		Me.PictureBox1.Name = "PictureBox1"
 		Me.PictureBox1.Size = New System.Drawing.Size(1170, 59)

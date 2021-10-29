@@ -57,8 +57,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAV4AAAAvCAYAAACrIqLKAAAABGdBTUEAALGPC/xhBQAAALFJREFUeF7t
         1DEBAAAMw6D5N925yAUiuAGQEi9ATLwAMfECxMQLEBMvQEy8ADHxAsTECxATL0BMvAAx8QLExAsQEy9A
@@ -67,7 +67,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAV4AAAEgCAYAAAD8AxurAAAABGdBTUEAALGPC/xhBQAABelJREFUeF7t
         1MEJw0AAA8H0X0Aghbkex2pi4fAszF8vfW5JUprjlaQ4xytJcY5XkuIcryTFOV5JinO8khTneCUpzvFK
@@ -98,7 +98,7 @@
         eCUp7b7/LDf3x6KV4g4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASEAAAEhCAYAAAAwHRYbAAAABGdBTUEAALGPC/xhBQAADtZJREFUeF7t
         2Vtua8cVRVG7x7ZhtyIOkKQjCZz+RTmle+uKi1wkz6Meu6rmAiZE7j/Vx/iQfvr4+IjQ37b+uLsRUb1+

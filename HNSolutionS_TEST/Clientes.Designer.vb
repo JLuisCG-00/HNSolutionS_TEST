@@ -52,10 +52,11 @@ Partial Class Clientes
 		'Eliminar
 		'
 		Me.Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.System
+		Me.Eliminar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Eliminar.Location = New System.Drawing.Point(691, 174)
 		Me.Eliminar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.Eliminar.Name = "Eliminar"
-		Me.Eliminar.Size = New System.Drawing.Size(88, 38)
+		Me.Eliminar.Size = New System.Drawing.Size(102, 38)
 		Me.Eliminar.TabIndex = 17
 		Me.Eliminar.Text = "Cancelar"
 		Me.Eliminar.UseVisualStyleBackColor = True
@@ -63,6 +64,7 @@ Partial Class Clientes
 		'BtnAnadir
 		'
 		Me.BtnAnadir.BackColor = System.Drawing.Color.MediumSeaGreen
+		Me.BtnAnadir.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.BtnAnadir.Location = New System.Drawing.Point(576, 174)
 		Me.BtnAnadir.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnAnadir.Name = "BtnAnadir"
@@ -74,6 +76,7 @@ Partial Class Clientes
 		'BtnBuscar
 		'
 		Me.BtnBuscar.BackColor = System.Drawing.Color.Silver
+		Me.BtnBuscar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.BtnBuscar.Location = New System.Drawing.Point(449, 174)
 		Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnBuscar.Name = "BtnBuscar"
@@ -156,6 +159,7 @@ Partial Class Clientes
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(934, 535)
 		Me.Controls.Add(Me.Label1)
 		Me.Controls.Add(Me.DataGridView1)

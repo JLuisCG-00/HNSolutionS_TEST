@@ -149,26 +149,29 @@ Partial Class AgregarCliente
 		'
 		'Btn_GuardaCliente
 		'
+		Me.Btn_GuardaCliente.BackColor = System.Drawing.Color.MediumSeaGreen
 		Me.Btn_GuardaCliente.Location = New System.Drawing.Point(238, 326)
 		Me.Btn_GuardaCliente.Name = "Btn_GuardaCliente"
 		Me.Btn_GuardaCliente.Size = New System.Drawing.Size(112, 34)
 		Me.Btn_GuardaCliente.TabIndex = 9
 		Me.Btn_GuardaCliente.Text = "Guardar"
-		Me.Btn_GuardaCliente.UseVisualStyleBackColor = True
+		Me.Btn_GuardaCliente.UseVisualStyleBackColor = False
 		'
 		'Btn_CancelarCliente
 		'
+		Me.Btn_CancelarCliente.BackColor = System.Drawing.SystemColors.Control
 		Me.Btn_CancelarCliente.Location = New System.Drawing.Point(382, 326)
 		Me.Btn_CancelarCliente.Name = "Btn_CancelarCliente"
 		Me.Btn_CancelarCliente.Size = New System.Drawing.Size(112, 34)
 		Me.Btn_CancelarCliente.TabIndex = 10
 		Me.Btn_CancelarCliente.Text = "Cancelar"
-		Me.Btn_CancelarCliente.UseVisualStyleBackColor = True
+		Me.Btn_CancelarCliente.UseVisualStyleBackColor = False
 		'
 		'AgregarCliente
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(751, 557)
 		Me.Controls.Add(Me.Gbx_Agregarclientes)
 		Me.Controls.Add(Me.Label2)
