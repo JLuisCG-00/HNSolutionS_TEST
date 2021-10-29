@@ -27,7 +27,6 @@ Partial Class Ventas
         Me.agregar = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.factura = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -36,12 +35,14 @@ Partial Class Ventas
         Me.Direccion = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.descripcion = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Cancelar = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(62, 98)
+        Me.TextBox1.Location = New System.Drawing.Point(19, 31)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(223, 23)
         Me.TextBox1.TabIndex = 0
@@ -49,7 +50,8 @@ Partial Class Ventas
         'Buscar
         '
         Me.Buscar.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.Buscar.Location = New System.Drawing.Point(291, 98)
+        Me.Buscar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Buscar.Location = New System.Drawing.Point(248, 31)
         Me.Buscar.Name = "Buscar"
         Me.Buscar.Size = New System.Drawing.Size(75, 23)
         Me.Buscar.TabIndex = 1
@@ -59,7 +61,8 @@ Partial Class Ventas
         'agregar
         '
         Me.agregar.BackColor = System.Drawing.Color.PaleGreen
-        Me.agregar.Location = New System.Drawing.Point(481, 98)
+        Me.agregar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.agregar.Location = New System.Drawing.Point(481, 97)
         Me.agregar.Name = "agregar"
         Me.agregar.Size = New System.Drawing.Size(75, 23)
         Me.agregar.TabIndex = 3
@@ -88,15 +91,6 @@ Partial Class Ventas
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "IMPORTADORA NOELIA"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label3.Location = New System.Drawing.Point(53, 87)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(319, 42)
-        Me.Label3.TabIndex = 12
         '
         'DataGridView1
         '
@@ -154,6 +148,7 @@ Partial Class Ventas
         'Cancelar
         '
         Me.Cancelar.BackColor = System.Drawing.Color.Tomato
+        Me.Cancelar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Cancelar.Location = New System.Drawing.Point(586, 97)
         Me.Cancelar.Name = "Cancelar"
         Me.Cancelar.Size = New System.Drawing.Size(75, 23)
@@ -161,24 +156,35 @@ Partial Class Ventas
         Me.Cancelar.Text = "Cancelar"
         Me.Cancelar.UseVisualStyleBackColor = False
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.Buscar)
+        Me.GroupBox1.Location = New System.Drawing.Point(59, 67)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(344, 75)
+        Me.GroupBox1.TabIndex = 15
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Buscar Ventas"
+        '
         'Ventas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(711, 387)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Cancelar)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.agregar)
-        Me.Controls.Add(Me.Buscar)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Ventas"
         Me.Text = "Ventas"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -189,7 +195,6 @@ Partial Class Ventas
     Friend WithEvents agregar As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents factura As DataGridViewTextBoxColumn
     Friend WithEvents Cantidad As DataGridViewTextBoxColumn
@@ -198,4 +203,5 @@ Partial Class Ventas
     Friend WithEvents Direccion As DataGridViewTextBoxColumn
     Friend WithEvents descripcion As DataGridViewTextBoxColumn
     Friend WithEvents Cancelar As Button
+    Friend WithEvents GroupBox1 As GroupBox
 End Class
