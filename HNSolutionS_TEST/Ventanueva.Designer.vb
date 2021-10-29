@@ -83,7 +83,7 @@ Partial Class Ventanueva
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(267, 51)
+        Me.Label3.Location = New System.Drawing.Point(179, 61)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(187, 18)
         Me.Label3.TabIndex = 12
