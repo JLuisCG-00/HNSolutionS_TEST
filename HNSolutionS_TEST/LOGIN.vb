@@ -29,7 +29,7 @@
         If ChkContra.Checked = True Then
             txtContra.PasswordChar = ""
 
-        ElseIf ChkContra.Checked = False Then
+        Else ChkContra.Checked = False
             txtContra.PasswordChar = "*"
 
 

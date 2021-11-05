@@ -64,6 +64,7 @@ Partial Class LOGIN
         Me.PictureBox2.Location = New System.Drawing.Point(111, 67)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(154, 127)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
         '
@@ -71,7 +72,7 @@ Partial Class LOGIN
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(152, 225)
+        Me.Label2.Location = New System.Drawing.Point(152, 214)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(81, 21)
         Me.Label2.TabIndex = 4
@@ -81,7 +82,7 @@ Partial Class LOGIN
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(138, 326)
+        Me.Label3.Location = New System.Drawing.Point(138, 291)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(116, 21)
         Me.Label3.TabIndex = 5
@@ -89,15 +90,16 @@ Partial Class LOGIN
         '
         'txtUsuario
         '
-        Me.txtUsuario.Location = New System.Drawing.Point(129, 265)
+        Me.txtUsuario.Location = New System.Drawing.Point(129, 238)
         Me.txtUsuario.Name = "txtUsuario"
         Me.txtUsuario.Size = New System.Drawing.Size(125, 27)
         Me.txtUsuario.TabIndex = 6
         '
         'txtContra
         '
-        Me.txtContra.Location = New System.Drawing.Point(129, 361)
+        Me.txtContra.Location = New System.Drawing.Point(129, 324)
         Me.txtContra.Name = "txtContra"
+        Me.txtContra.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtContra.Size = New System.Drawing.Size(125, 27)
         Me.txtContra.TabIndex = 7
         '
@@ -105,7 +107,7 @@ Partial Class LOGIN
         '
         Me.ChkContra.AutoSize = True
         Me.ChkContra.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
-        Me.ChkContra.Location = New System.Drawing.Point(120, 394)
+        Me.ChkContra.Location = New System.Drawing.Point(120, 357)
         Me.ChkContra.Name = "ChkContra"
         Me.ChkContra.Size = New System.Drawing.Size(157, 22)
         Me.ChkContra.TabIndex = 8
@@ -114,7 +116,7 @@ Partial Class LOGIN
         '
         'BtnIniciar
         '
-        Me.BtnIniciar.Location = New System.Drawing.Point(46, 444)
+        Me.BtnIniciar.Location = New System.Drawing.Point(46, 402)
         Me.BtnIniciar.Name = "BtnIniciar"
         Me.BtnIniciar.Size = New System.Drawing.Size(113, 29)
         Me.BtnIniciar.TabIndex = 9
@@ -123,7 +125,7 @@ Partial Class LOGIN
         '
         'btnSalir
         '
-        Me.btnSalir.Location = New System.Drawing.Point(231, 444)
+        Me.btnSalir.Location = New System.Drawing.Point(229, 402)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(113, 29)
         Me.btnSalir.TabIndex = 10
