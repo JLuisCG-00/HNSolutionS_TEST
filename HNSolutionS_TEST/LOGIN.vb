@@ -20,7 +20,7 @@
     End Sub
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
-        If MsgBox("¿Desea salir del sistema", vbQuestion + vbYesNo, "Pregunta") = vbYes Then
+        If MsgBox("¿Desea salir del sistema?", vbQuestion + vbYesNo, "Pregunta") = vbYes Then
             End
         End If
     End Sub
