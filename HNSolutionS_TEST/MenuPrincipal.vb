@@ -17,7 +17,7 @@
     End Sub
 
     Private Sub BtnInventario_Click(sender As Object, e As EventArgs) Handles BtnInventario.Click
-        Inventario.Show()
+        InventarioOG.Show()
     End Sub
 
     Private Sub BtnGestion_Click(sender As Object, e As EventArgs) Handles BtnGestion.Click
