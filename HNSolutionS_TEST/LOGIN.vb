@@ -10,7 +10,7 @@
             MenuPrincipal.Show()
 
         Else
-            MessageBox.Show("Error, ha ingresado un dato inconrrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Error, ha ingresado un dato incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
         End If
 
@@ -20,7 +20,7 @@
     End Sub
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
-        If MsgBox("¿Desea salir del sistema", vbQuestion + vbYesNo, "Pregunta") = vbYes Then
+        If MsgBox("¿Desea salir del sistema?", vbQuestion + vbYesNo, "Pregunta") = vbYes Then
             End
         End If
     End Sub
@@ -29,7 +29,7 @@
         If ChkContra.Checked = True Then
             txtContra.PasswordChar = ""
 
-        ElseIf ChkContra.Checked = False Then
+        Else ChkContra.Checked = False
             txtContra.PasswordChar = "*"
 
 
