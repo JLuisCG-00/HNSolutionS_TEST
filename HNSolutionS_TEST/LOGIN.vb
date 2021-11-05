@@ -10,7 +10,7 @@
             MenuPrincipal.Show()
 
         Else
-            MessageBox.Show("Error, ha ingresado un dato inconrrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Error, ha ingresado un dato incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
         End If
 
