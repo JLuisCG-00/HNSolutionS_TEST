@@ -25,16 +25,16 @@ Partial Class AgregarCliente
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.Label2 = New System.Windows.Forms.Label()
 		Me.Gbx_Agregarclientes = New System.Windows.Forms.GroupBox()
-		Me.Label3 = New System.Windows.Forms.Label()
-		Me.Label4 = New System.Windows.Forms.Label()
-		Me.Label5 = New System.Windows.Forms.Label()
-		Me.Label6 = New System.Windows.Forms.Label()
-		Me.Txt_NumeroIdentidad = New System.Windows.Forms.TextBox()
-		Me.Txt_NombreAgregarcliente = New System.Windows.Forms.TextBox()
-		Me.Txt_TelefonoCliente = New System.Windows.Forms.TextBox()
-		Me.Txt_DireccionCliente = New System.Windows.Forms.TextBox()
-		Me.Btn_GuardaCliente = New System.Windows.Forms.Button()
 		Me.Btn_CancelarCliente = New System.Windows.Forms.Button()
+		Me.Btn_GuardaCliente = New System.Windows.Forms.Button()
+		Me.Txt_DireccionCliente = New System.Windows.Forms.TextBox()
+		Me.Txt_TelefonoCliente = New System.Windows.Forms.TextBox()
+		Me.Txt_NombreAgregarcliente = New System.Windows.Forms.TextBox()
+		Me.Txt_NumeroIdentidad = New System.Windows.Forms.TextBox()
+		Me.Label6 = New System.Windows.Forms.Label()
+		Me.Label5 = New System.Windows.Forms.Label()
+		Me.Label4 = New System.Windows.Forms.Label()
+		Me.Label3 = New System.Windows.Forms.Label()
 		Me.Gbx_Agregarclientes.SuspendLayout()
 		Me.SuspendLayout()
 		'
@@ -83,69 +83,15 @@ Partial Class AgregarCliente
 		Me.Gbx_Agregarclientes.TabStop = False
 		Me.Gbx_Agregarclientes.Text = "Agregar Cliente"
 		'
-		'Label3
+		'Btn_CancelarCliente
 		'
-		Me.Label3.AutoSize = True
-		Me.Label3.Location = New System.Drawing.Point(40, 48)
-		Me.Label3.Name = "Label3"
-		Me.Label3.Size = New System.Drawing.Size(215, 24)
-		Me.Label3.TabIndex = 0
-		Me.Label3.Text = "Numero De Identidad:"
-		'
-		'Label4
-		'
-		Me.Label4.AutoSize = True
-		Me.Label4.Location = New System.Drawing.Point(40, 119)
-		Me.Label4.Name = "Label4"
-		Me.Label4.Size = New System.Drawing.Size(91, 24)
-		Me.Label4.TabIndex = 1
-		Me.Label4.Text = "Nombre:"
-		'
-		'Label5
-		'
-		Me.Label5.AutoSize = True
-		Me.Label5.Location = New System.Drawing.Point(40, 193)
-		Me.Label5.Name = "Label5"
-		Me.Label5.Size = New System.Drawing.Size(99, 24)
-		Me.Label5.TabIndex = 2
-		Me.Label5.Text = "Telefono:"
-		'
-		'Label6
-		'
-		Me.Label6.AutoSize = True
-		Me.Label6.Location = New System.Drawing.Point(40, 261)
-		Me.Label6.Name = "Label6"
-		Me.Label6.Size = New System.Drawing.Size(106, 24)
-		Me.Label6.TabIndex = 3
-		Me.Label6.Text = "Direccion:"
-		'
-		'Txt_NumeroIdentidad
-		'
-		Me.Txt_NumeroIdentidad.Location = New System.Drawing.Point(297, 48)
-		Me.Txt_NumeroIdentidad.Name = "Txt_NumeroIdentidad"
-		Me.Txt_NumeroIdentidad.Size = New System.Drawing.Size(274, 30)
-		Me.Txt_NumeroIdentidad.TabIndex = 4
-		'
-		'Txt_NombreAgregarcliente
-		'
-		Me.Txt_NombreAgregarcliente.Location = New System.Drawing.Point(297, 119)
-		Me.Txt_NombreAgregarcliente.Name = "Txt_NombreAgregarcliente"
-		Me.Txt_NombreAgregarcliente.Size = New System.Drawing.Size(267, 30)
-		Me.Txt_NombreAgregarcliente.TabIndex = 5
-		'
-		'Txt_TelefonoCliente
-		'
-		Me.Txt_TelefonoCliente.Location = New System.Drawing.Point(297, 193)
-		Me.Txt_TelefonoCliente.Name = "Txt_TelefonoCliente"
-		Me.Txt_TelefonoCliente.Size = New System.Drawing.Size(267, 30)
-		Me.Txt_TelefonoCliente.TabIndex = 6
-		'
-		'Txt_DireccionCliente
-		'
-		Me.Txt_DireccionCliente.Location = New System.Drawing.Point(297, 261)
-		Me.Txt_DireccionCliente.Name = "Txt_DireccionCliente"
-		Me.Txt_DireccionCliente.Size = New System.Drawing.Size(267, 30)
-		Me.Txt_DireccionCliente.TabIndex = 7
+		Me.Btn_CancelarCliente.BackColor = System.Drawing.SystemColors.Control
+		Me.Btn_CancelarCliente.Location = New System.Drawing.Point(382, 326)
+		Me.Btn_CancelarCliente.Name = "Btn_CancelarCliente"
+		Me.Btn_CancelarCliente.Size = New System.Drawing.Size(112, 34)
+		Me.Btn_CancelarCliente.TabIndex = 10
+		Me.Btn_CancelarCliente.Text = "Cancelar"
+		Me.Btn_CancelarCliente.UseVisualStyleBackColor = False
 		'
 		'Btn_GuardaCliente
 		'
@@ -157,15 +103,69 @@ Partial Class AgregarCliente
 		Me.Btn_GuardaCliente.Text = "Guardar"
 		Me.Btn_GuardaCliente.UseVisualStyleBackColor = False
 		'
-		'Btn_CancelarCliente
+		'Txt_DireccionCliente
 		'
-		Me.Btn_CancelarCliente.BackColor = System.Drawing.SystemColors.Control
-		Me.Btn_CancelarCliente.Location = New System.Drawing.Point(382, 326)
-		Me.Btn_CancelarCliente.Name = "Btn_CancelarCliente"
-		Me.Btn_CancelarCliente.Size = New System.Drawing.Size(112, 34)
-		Me.Btn_CancelarCliente.TabIndex = 10
-		Me.Btn_CancelarCliente.Text = "Cancelar"
-		Me.Btn_CancelarCliente.UseVisualStyleBackColor = False
+		Me.Txt_DireccionCliente.Location = New System.Drawing.Point(297, 261)
+		Me.Txt_DireccionCliente.Name = "Txt_DireccionCliente"
+		Me.Txt_DireccionCliente.Size = New System.Drawing.Size(267, 30)
+		Me.Txt_DireccionCliente.TabIndex = 7
+		'
+		'Txt_TelefonoCliente
+		'
+		Me.Txt_TelefonoCliente.Location = New System.Drawing.Point(297, 193)
+		Me.Txt_TelefonoCliente.Name = "Txt_TelefonoCliente"
+		Me.Txt_TelefonoCliente.Size = New System.Drawing.Size(267, 30)
+		Me.Txt_TelefonoCliente.TabIndex = 6
+		'
+		'Txt_NombreAgregarcliente
+		'
+		Me.Txt_NombreAgregarcliente.Location = New System.Drawing.Point(297, 119)
+		Me.Txt_NombreAgregarcliente.Name = "Txt_NombreAgregarcliente"
+		Me.Txt_NombreAgregarcliente.Size = New System.Drawing.Size(267, 30)
+		Me.Txt_NombreAgregarcliente.TabIndex = 5
+		'
+		'Txt_NumeroIdentidad
+		'
+		Me.Txt_NumeroIdentidad.Location = New System.Drawing.Point(297, 48)
+		Me.Txt_NumeroIdentidad.Name = "Txt_NumeroIdentidad"
+		Me.Txt_NumeroIdentidad.Size = New System.Drawing.Size(274, 30)
+		Me.Txt_NumeroIdentidad.TabIndex = 4
+		'
+		'Label6
+		'
+		Me.Label6.AutoSize = True
+		Me.Label6.Location = New System.Drawing.Point(40, 261)
+		Me.Label6.Name = "Label6"
+		Me.Label6.Size = New System.Drawing.Size(106, 24)
+		Me.Label6.TabIndex = 3
+		Me.Label6.Text = "Direccion:"
+		'
+		'Label5
+		'
+		Me.Label5.AutoSize = True
+		Me.Label5.Location = New System.Drawing.Point(40, 193)
+		Me.Label5.Name = "Label5"
+		Me.Label5.Size = New System.Drawing.Size(99, 24)
+		Me.Label5.TabIndex = 2
+		Me.Label5.Text = "Telefono:"
+		'
+		'Label4
+		'
+		Me.Label4.AutoSize = True
+		Me.Label4.Location = New System.Drawing.Point(40, 119)
+		Me.Label4.Name = "Label4"
+		Me.Label4.Size = New System.Drawing.Size(91, 24)
+		Me.Label4.TabIndex = 1
+		Me.Label4.Text = "Nombre:"
+		'
+		'Label3
+		'
+		Me.Label3.AutoSize = True
+		Me.Label3.Location = New System.Drawing.Point(40, 48)
+		Me.Label3.Name = "Label3"
+		Me.Label3.Size = New System.Drawing.Size(215, 24)
+		Me.Label3.TabIndex = 0
+		Me.Label3.Text = "Numero De Identidad:"
 		'
 		'AgregarCliente
 		'
@@ -177,6 +177,7 @@ Partial Class AgregarCliente
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Label1)
 		Me.Name = "AgregarCliente"
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "AgregarCliente"
 		Me.Gbx_Agregarclientes.ResumeLayout(False)
 		Me.Gbx_Agregarclientes.PerformLayout()

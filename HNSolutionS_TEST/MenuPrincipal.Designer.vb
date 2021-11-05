@@ -1,32 +1,27 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MenuPrincipal
-    Inherits System.Windows.Forms.Form
+	Inherits System.Windows.Forms.Form
 
-    'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()>
-    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-        Try
-            If disposing AndAlso components IsNot Nothing Then
-                components.Dispose()
-            End If
-        Finally
-            MyBase.Dispose(disposing)
-        End Try
-    End Sub
+	'Form reemplaza a Dispose para limpiar la lista de componentes.
+	<System.Diagnostics.DebuggerNonUserCode()>
+	Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+		Try
+			If disposing AndAlso components IsNot Nothing Then
+				components.Dispose()
+			End If
+		Finally
+			MyBase.Dispose(disposing)
+		End Try
+	End Sub
 
-    'Requerido por el Diseñador de Windows Forms
-    Private components As System.ComponentModel.IContainer
+	'Requerido por el Diseñador de Windows Forms
+	Private components As System.ComponentModel.IContainer
 
-    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
-    'Se puede modificar usando el Diseñador de Windows Forms.  
-    'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()>
-    Private Sub InitializeComponent()
-		Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuPrincipal))
-		Me.Panel1 = New System.Windows.Forms.Panel()
-		Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-		Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+	'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+	'Se puede modificar usando el Diseñador de Windows Forms.  
+	'No lo modifique con el editor de código.
+	<System.Diagnostics.DebuggerStepThrough()>
+	Private Sub InitializeComponent()
 		Me.Panel2 = New System.Windows.Forms.Panel()
 		Me.BtnGestion = New System.Windows.Forms.Button()
 		Me.BtnInventario = New System.Windows.Forms.Button()
@@ -34,57 +29,8 @@ Partial Class MenuPrincipal
 		Me.BtnVentas = New System.Windows.Forms.Button()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.BtnClientes = New System.Windows.Forms.Button()
-		Me.Panel1.SuspendLayout()
-		CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-		CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.Panel2.SuspendLayout()
 		Me.SuspendLayout()
-		'
-		'Panel1
-		'
-		Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.Panel1.Controls.Add(Me.PictureBox3)
-		Me.Panel1.Controls.Add(Me.PictureBox2)
-		Me.Panel1.Controls.Add(Me.PictureBox1)
-		Me.Panel1.Location = New System.Drawing.Point(0, 0)
-		Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.Panel1.Name = "Panel1"
-		Me.Panel1.Size = New System.Drawing.Size(1417, 50)
-		Me.Panel1.TabIndex = 0
-		'
-		'PictureBox3
-		'
-		Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-		Me.PictureBox3.Location = New System.Drawing.Point(1256, 0)
-		Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.PictureBox3.Name = "PictureBox3"
-		Me.PictureBox3.Size = New System.Drawing.Size(43, 50)
-		Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-		Me.PictureBox3.TabIndex = 3
-		Me.PictureBox3.TabStop = False
-		'
-		'PictureBox2
-		'
-		Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-		Me.PictureBox2.Location = New System.Drawing.Point(1307, 2)
-		Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.PictureBox2.Name = "PictureBox2"
-		Me.PictureBox2.Size = New System.Drawing.Size(43, 43)
-		Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-		Me.PictureBox2.TabIndex = 2
-		Me.PictureBox2.TabStop = False
-		'
-		'PictureBox1
-		'
-		Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-		Me.PictureBox1.Location = New System.Drawing.Point(1359, 0)
-		Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.PictureBox1.Name = "PictureBox1"
-		Me.PictureBox1.Size = New System.Drawing.Size(41, 50)
-		Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-		Me.PictureBox1.TabIndex = 1
-		Me.PictureBox1.TabStop = False
 		'
 		'Panel2
 		'
@@ -183,32 +129,23 @@ Partial Class MenuPrincipal
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.White
-		Me.ClientSize = New System.Drawing.Size(1411, 985)
+		Me.ClientSize = New System.Drawing.Size(1628, 985)
 		Me.Controls.Add(Me.Panel2)
-		Me.Controls.Add(Me.Panel1)
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
 		Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.Name = "MenuPrincipal"
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "MenuPrincipal"
-		Me.Panel1.ResumeLayout(False)
-		CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-		CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
 		Me.Panel2.ResumeLayout(False)
 		Me.Panel2.PerformLayout()
 		Me.ResumeLayout(False)
 
 	End Sub
-
-	Friend WithEvents Panel1 As Panel
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents BtnGestion As Button
-    Friend WithEvents BtnInventario As Button
-    Friend WithEvents BtnFacturacion As Button
-    Friend WithEvents BtnVentas As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents BtnClientes As Button
+	Friend WithEvents Panel2 As Panel
+	Friend WithEvents BtnGestion As Button
+	Friend WithEvents BtnInventario As Button
+	Friend WithEvents BtnFacturacion As Button
+	Friend WithEvents BtnVentas As Button
+	Friend WithEvents Label1 As Label
+	Friend WithEvents BtnClientes As Button
 End Class

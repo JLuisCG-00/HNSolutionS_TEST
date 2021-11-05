@@ -22,160 +22,164 @@ Partial Class Clientes
 	'No lo modifique con el editor de código.
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Eliminar = New System.Windows.Forms.Button()
-        Me.BtnAnadir = New System.Windows.Forms.Button()
-        Me.BtnBuscar = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Label1 = New System.Windows.Forms.Label()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(264, 61)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(225, 22)
-        Me.Label2.TabIndex = 19
-        Me.Label2.Text = "IMPORTADORA NOELIA"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Eliminar
-        '
-        Me.Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Eliminar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Eliminar.Location = New System.Drawing.Point(553, 139)
-        Me.Eliminar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Eliminar.Name = "Eliminar"
-        Me.Eliminar.Size = New System.Drawing.Size(82, 30)
-        Me.Eliminar.TabIndex = 17
-        Me.Eliminar.Text = "Cancelar"
-        Me.Eliminar.UseVisualStyleBackColor = True
-        '
-        'BtnAnadir
-        '
-        Me.BtnAnadir.BackColor = System.Drawing.Color.MediumSeaGreen
-        Me.BtnAnadir.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.BtnAnadir.Location = New System.Drawing.Point(461, 139)
-        Me.BtnAnadir.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnAnadir.Name = "BtnAnadir"
-        Me.BtnAnadir.Size = New System.Drawing.Size(86, 30)
-        Me.BtnAnadir.TabIndex = 16
-        Me.BtnAnadir.Text = "Añadir"
-        Me.BtnAnadir.UseVisualStyleBackColor = False
-        '
-        'BtnBuscar
-        '
-        Me.BtnBuscar.BackColor = System.Drawing.Color.Silver
-        Me.BtnBuscar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.BtnBuscar.Location = New System.Drawing.Point(359, 139)
-        Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(86, 30)
-        Me.BtnBuscar.TabIndex = 15
-        Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = False
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(99, 139)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(254, 27)
-        Me.TextBox1.TabIndex = 14
-        '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label3.Location = New System.Drawing.Point(90, 126)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(364, 56)
-        Me.Label3.TabIndex = 20
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
-        Me.DataGridView1.Location = New System.Drawing.Point(90, 212)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 62
-        Me.DataGridView1.RowTemplate.Height = 33
-        Me.DataGridView1.Size = New System.Drawing.Size(533, 180)
-        Me.DataGridView1.TabIndex = 21
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "Numero De Identidad"
-        Me.Column1.MinimumWidth = 8
-        Me.Column1.Name = "Column1"
-        Me.Column1.Width = 150
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "Nombre"
-        Me.Column2.MinimumWidth = 8
-        Me.Column2.Name = "Column2"
-        Me.Column2.Width = 150
-        '
-        'Column3
-        '
-        Me.Column3.HeaderText = "Telefono"
-        Me.Column3.MinimumWidth = 8
-        Me.Column3.Name = "Column3"
-        Me.Column3.Width = 150
-        '
-        'Column4
-        '
-        Me.Column4.HeaderText = "Direccion"
-        Me.Column4.MinimumWidth = 8
-        Me.Column4.Name = "Column4"
-        Me.Column4.Width = 150
-        '
-        'Label1
-        '
-        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(2, -2)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(746, 50)
-        Me.Label1.TabIndex = 22
-        Me.Label1.Text = "CLIENTES"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Clientes
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(747, 428)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Eliminar)
-        Me.Controls.Add(Me.BtnAnadir)
-        Me.Controls.Add(Me.BtnBuscar)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label3)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Name = "Clientes"
-        Me.Text = "Clientes"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+		Me.Label2 = New System.Windows.Forms.Label()
+		Me.Eliminar = New System.Windows.Forms.Button()
+		Me.BtnAnadir = New System.Windows.Forms.Button()
+		Me.BtnBuscar = New System.Windows.Forms.Button()
+		Me.TextBox1 = New System.Windows.Forms.TextBox()
+		Me.Label3 = New System.Windows.Forms.Label()
+		Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+		Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+		Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+		Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+		Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+		Me.Label1 = New System.Windows.Forms.Label()
+		CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+		Me.SuspendLayout()
+		'
+		'Label2
+		'
+		Me.Label2.AutoSize = True
+		Me.Label2.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label2.Location = New System.Drawing.Point(330, 76)
+		Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+		Me.Label2.Name = "Label2"
+		Me.Label2.Size = New System.Drawing.Size(276, 27)
+		Me.Label2.TabIndex = 19
+		Me.Label2.Text = "IMPORTADORA NOELIA"
+		Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		'
+		'Eliminar
+		'
+		Me.Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.System
+		Me.Eliminar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Eliminar.Location = New System.Drawing.Point(691, 174)
+		Me.Eliminar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.Eliminar.Name = "Eliminar"
+		Me.Eliminar.Size = New System.Drawing.Size(102, 38)
+		Me.Eliminar.TabIndex = 17
+		Me.Eliminar.Text = "Cancelar"
+		Me.Eliminar.UseVisualStyleBackColor = True
+		'
+		'BtnAnadir
+		'
+		Me.BtnAnadir.BackColor = System.Drawing.Color.MediumSeaGreen
+		Me.BtnAnadir.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnAnadir.Location = New System.Drawing.Point(576, 174)
+		Me.BtnAnadir.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnAnadir.Name = "BtnAnadir"
+		Me.BtnAnadir.Size = New System.Drawing.Size(108, 38)
+		Me.BtnAnadir.TabIndex = 16
+		Me.BtnAnadir.Text = "Añadir"
+		Me.BtnAnadir.UseVisualStyleBackColor = False
+		'
+		'BtnBuscar
+		'
+		Me.BtnBuscar.BackColor = System.Drawing.Color.Silver
+		Me.BtnBuscar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnBuscar.Location = New System.Drawing.Point(449, 174)
+		Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnBuscar.Name = "BtnBuscar"
+		Me.BtnBuscar.Size = New System.Drawing.Size(108, 38)
+		Me.BtnBuscar.TabIndex = 15
+		Me.BtnBuscar.Text = "Buscar"
+		Me.BtnBuscar.UseVisualStyleBackColor = False
+		'
+		'TextBox1
+		'
+		Me.TextBox1.Location = New System.Drawing.Point(124, 174)
+		Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.TextBox1.Name = "TextBox1"
+		Me.TextBox1.Size = New System.Drawing.Size(316, 31)
+		Me.TextBox1.TabIndex = 14
+		'
+		'Label3
+		'
+		Me.Label3.BackColor = System.Drawing.Color.Transparent
+		Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+		Me.Label3.Location = New System.Drawing.Point(112, 158)
+		Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+		Me.Label3.Name = "Label3"
+		Me.Label3.Size = New System.Drawing.Size(454, 70)
+		Me.Label3.TabIndex = 20
+		'
+		'DataGridView1
+		'
+		Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+		Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
+		Me.DataGridView1.Location = New System.Drawing.Point(112, 265)
+		Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
+		Me.DataGridView1.Name = "DataGridView1"
+		Me.DataGridView1.RowHeadersWidth = 62
+		Me.DataGridView1.RowTemplate.Height = 33
+		Me.DataGridView1.Size = New System.Drawing.Size(666, 225)
+		Me.DataGridView1.TabIndex = 21
+		'
+		'Column1
+		'
+		Me.Column1.HeaderText = "Numero De Identidad"
+		Me.Column1.MinimumWidth = 8
+		Me.Column1.Name = "Column1"
+		Me.Column1.Width = 150
+		'
+		'Column2
+		'
+		Me.Column2.HeaderText = "Nombre"
+		Me.Column2.MinimumWidth = 8
+		Me.Column2.Name = "Column2"
+		Me.Column2.Width = 150
+		'
+		'Column3
+		'
+		Me.Column3.HeaderText = "Telefono"
+		Me.Column3.MinimumWidth = 8
+		Me.Column3.Name = "Column3"
+		Me.Column3.Width = 150
+		'
+		'Column4
+		'
+		Me.Column4.HeaderText = "Direccion"
+		Me.Column4.MinimumWidth = 8
+		Me.Column4.Name = "Column4"
+		Me.Column4.Width = 150
+		'
+		'Label1
+		'
+		Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		Me.Label1.ForeColor = System.Drawing.Color.White
+		Me.Label1.Location = New System.Drawing.Point(2, -2)
+		Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+		Me.Label1.Name = "Label1"
+		Me.Label1.Size = New System.Drawing.Size(932, 62)
+		Me.Label1.TabIndex = 22
+		Me.Label1.Text = "CLIENTES"
+		Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		'
+		'Clientes
+		'
+		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.Color.White
+		Me.ClientSize = New System.Drawing.Size(934, 535)
+		Me.Controls.Add(Me.Label1)
+		Me.Controls.Add(Me.DataGridView1)
+		Me.Controls.Add(Me.Label2)
+		Me.Controls.Add(Me.Eliminar)
+		Me.Controls.Add(Me.BtnAnadir)
+		Me.Controls.Add(Me.BtnBuscar)
+		Me.Controls.Add(Me.TextBox1)
+		Me.Controls.Add(Me.Label3)
+		Me.Margin = New System.Windows.Forms.Padding(2)
+		Me.Name = "Clientes"
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+		Me.Text = "Clientes"
+		CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+		Me.ResumeLayout(False)
+		Me.PerformLayout()
 
-    End Sub
-    Friend WithEvents Label2 As Label
+	End Sub
+	Friend WithEvents Label2 As Label
 	Friend WithEvents Eliminar As Button
 	Friend WithEvents BtnAnadir As Button
 	Friend WithEvents BtnBuscar As Button
