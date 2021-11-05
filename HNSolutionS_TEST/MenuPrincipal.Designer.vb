@@ -28,12 +28,12 @@ Partial Class MenuPrincipal
 		Me.PictureBox2 = New System.Windows.Forms.PictureBox()
 		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
 		Me.Panel2 = New System.Windows.Forms.Panel()
-		Me.Button5 = New System.Windows.Forms.Button()
-		Me.Button4 = New System.Windows.Forms.Button()
-		Me.Button3 = New System.Windows.Forms.Button()
-		Me.Button2 = New System.Windows.Forms.Button()
+		Me.BtnGestion = New System.Windows.Forms.Button()
+		Me.BtnInventario = New System.Windows.Forms.Button()
+		Me.BtnFacturacion = New System.Windows.Forms.Button()
+		Me.BtnVentas = New System.Windows.Forms.Button()
 		Me.Label1 = New System.Windows.Forms.Label()
-		Me.Button1 = New System.Windows.Forms.Button()
+		Me.BtnClientes = New System.Windows.Forms.Button()
 		Me.Panel1.SuspendLayout()
 		CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
 		CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,69 +89,69 @@ Partial Class MenuPrincipal
 		'Panel2
 		'
 		Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.Panel2.Controls.Add(Me.Button5)
-		Me.Panel2.Controls.Add(Me.Button4)
-		Me.Panel2.Controls.Add(Me.Button3)
-		Me.Panel2.Controls.Add(Me.Button2)
+		Me.Panel2.Controls.Add(Me.BtnGestion)
+		Me.Panel2.Controls.Add(Me.BtnInventario)
+		Me.Panel2.Controls.Add(Me.BtnFacturacion)
+		Me.Panel2.Controls.Add(Me.BtnVentas)
 		Me.Panel2.Controls.Add(Me.Label1)
-		Me.Panel2.Controls.Add(Me.Button1)
+		Me.Panel2.Controls.Add(Me.BtnClientes)
 		Me.Panel2.Location = New System.Drawing.Point(17, 123)
 		Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.Panel2.Name = "Panel2"
 		Me.Panel2.Size = New System.Drawing.Size(256, 708)
 		Me.Panel2.TabIndex = 4
 		'
-		'Button5
+		'BtnGestion
 		'
-		Me.Button5.BackColor = System.Drawing.Color.White
-		Me.Button5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.Button5.Location = New System.Drawing.Point(20, 355)
-		Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.Button5.Name = "Button5"
-		Me.Button5.Size = New System.Drawing.Size(217, 38)
-		Me.Button5.TabIndex = 10
-		Me.Button5.Text = "Gestión"
-		Me.Button5.UseVisualStyleBackColor = False
+		Me.BtnGestion.BackColor = System.Drawing.Color.White
+		Me.BtnGestion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnGestion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.BtnGestion.Location = New System.Drawing.Point(20, 355)
+		Me.BtnGestion.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnGestion.Name = "BtnGestion"
+		Me.BtnGestion.Size = New System.Drawing.Size(217, 38)
+		Me.BtnGestion.TabIndex = 10
+		Me.BtnGestion.Text = "Gestión"
+		Me.BtnGestion.UseVisualStyleBackColor = False
 		'
-		'Button4
+		'BtnInventario
 		'
-		Me.Button4.BackColor = System.Drawing.Color.White
-		Me.Button4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Button4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.Button4.Location = New System.Drawing.Point(20, 283)
-		Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.Button4.Name = "Button4"
-		Me.Button4.Size = New System.Drawing.Size(217, 38)
-		Me.Button4.TabIndex = 9
-		Me.Button4.Text = "Inventario"
-		Me.Button4.UseVisualStyleBackColor = False
+		Me.BtnInventario.BackColor = System.Drawing.Color.White
+		Me.BtnInventario.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnInventario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.BtnInventario.Location = New System.Drawing.Point(20, 283)
+		Me.BtnInventario.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnInventario.Name = "BtnInventario"
+		Me.BtnInventario.Size = New System.Drawing.Size(217, 38)
+		Me.BtnInventario.TabIndex = 9
+		Me.BtnInventario.Text = "Inventario"
+		Me.BtnInventario.UseVisualStyleBackColor = False
 		'
-		'Button3
+		'BtnFacturacion
 		'
-		Me.Button3.BackColor = System.Drawing.Color.White
-		Me.Button3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.Button3.Location = New System.Drawing.Point(20, 213)
-		Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.Button3.Name = "Button3"
-		Me.Button3.Size = New System.Drawing.Size(217, 38)
-		Me.Button3.TabIndex = 8
-		Me.Button3.Text = "Facturación"
-		Me.Button3.UseVisualStyleBackColor = False
+		Me.BtnFacturacion.BackColor = System.Drawing.Color.White
+		Me.BtnFacturacion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnFacturacion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.BtnFacturacion.Location = New System.Drawing.Point(20, 213)
+		Me.BtnFacturacion.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnFacturacion.Name = "BtnFacturacion"
+		Me.BtnFacturacion.Size = New System.Drawing.Size(217, 38)
+		Me.BtnFacturacion.TabIndex = 8
+		Me.BtnFacturacion.Text = "Facturación"
+		Me.BtnFacturacion.UseVisualStyleBackColor = False
 		'
-		'Button2
+		'BtnVentas
 		'
-		Me.Button2.BackColor = System.Drawing.Color.White
-		Me.Button2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.Button2.Location = New System.Drawing.Point(20, 147)
-		Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.Button2.Name = "Button2"
-		Me.Button2.Size = New System.Drawing.Size(217, 38)
-		Me.Button2.TabIndex = 7
-		Me.Button2.Text = "Ventas"
-		Me.Button2.UseVisualStyleBackColor = False
+		Me.BtnVentas.BackColor = System.Drawing.Color.White
+		Me.BtnVentas.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnVentas.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.BtnVentas.Location = New System.Drawing.Point(20, 147)
+		Me.BtnVentas.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnVentas.Name = "BtnVentas"
+		Me.BtnVentas.Size = New System.Drawing.Size(217, 38)
+		Me.BtnVentas.TabIndex = 7
+		Me.BtnVentas.Text = "Ventas"
+		Me.BtnVentas.UseVisualStyleBackColor = False
 		'
 		'Label1
 		'
@@ -165,18 +165,18 @@ Partial Class MenuPrincipal
 		Me.Label1.TabIndex = 6
 		Me.Label1.Text = "Importadora Noelia"
 		'
-		'Button1
+		'BtnClientes
 		'
-		Me.Button1.BackColor = System.Drawing.Color.White
-		Me.Button1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.Button1.Location = New System.Drawing.Point(20, 82)
-		Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-		Me.Button1.Name = "Button1"
-		Me.Button1.Size = New System.Drawing.Size(217, 38)
-		Me.Button1.TabIndex = 5
-		Me.Button1.Text = "Clientes"
-		Me.Button1.UseVisualStyleBackColor = False
+		Me.BtnClientes.BackColor = System.Drawing.Color.White
+		Me.BtnClientes.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnClientes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.BtnClientes.Location = New System.Drawing.Point(20, 82)
+		Me.BtnClientes.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnClientes.Name = "BtnClientes"
+		Me.BtnClientes.Size = New System.Drawing.Size(217, 38)
+		Me.BtnClientes.TabIndex = 5
+		Me.BtnClientes.Text = "Clientes"
+		Me.BtnClientes.UseVisualStyleBackColor = False
 		'
 		'MenuPrincipal
 		'
@@ -205,10 +205,10 @@ Partial Class MenuPrincipal
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents BtnGestion As Button
+    Friend WithEvents BtnInventario As Button
+    Friend WithEvents BtnFacturacion As Button
+    Friend WithEvents BtnVentas As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents BtnClientes As Button
 End Class
