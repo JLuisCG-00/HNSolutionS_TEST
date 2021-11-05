@@ -22,6 +22,7 @@ Partial Class MenuPrincipal
 	'No lo modifique con el editor de código.
 	<System.Diagnostics.DebuggerStepThrough()>
 	Private Sub InitializeComponent()
+		Me.components = New System.ComponentModel.Container()
 		Me.Panel2 = New System.Windows.Forms.Panel()
 		Me.BtnGestion = New System.Windows.Forms.Button()
 		Me.BtnInventario = New System.Windows.Forms.Button()
@@ -29,6 +30,9 @@ Partial Class MenuPrincipal
 		Me.BtnVentas = New System.Windows.Forms.Button()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.BtnClientes = New System.Windows.Forms.Button()
+		Me.LblHora = New System.Windows.Forms.Label()
+		Me.LblFecha = New System.Windows.Forms.Label()
+		Me.HoraFecha = New System.Windows.Forms.Timer(Me.components)
 		Me.Panel2.SuspendLayout()
 		Me.SuspendLayout()
 		'
@@ -124,12 +128,41 @@ Partial Class MenuPrincipal
 		Me.BtnClientes.Text = "Clientes"
 		Me.BtnClientes.UseVisualStyleBackColor = False
 		'
+		'LblHora
+		'
+		Me.LblHora.AutoSize = True
+		Me.LblHora.BackColor = System.Drawing.Color.White
+		Me.LblHora.Font = New System.Drawing.Font("Segoe UI", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		Me.LblHora.ForeColor = System.Drawing.SystemColors.Highlight
+		Me.LblHora.Location = New System.Drawing.Point(579, 253)
+		Me.LblHora.Name = "LblHora"
+		Me.LblHora.Size = New System.Drawing.Size(260, 128)
+		Me.LblHora.TabIndex = 11
+		Me.LblHora.Text = "Hora"
+		'
+		'LblFecha
+		'
+		Me.LblFecha.AutoSize = True
+		Me.LblFecha.Font = New System.Drawing.Font("Segoe UI", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		Me.LblFecha.ForeColor = System.Drawing.SystemColors.Highlight
+		Me.LblFecha.Location = New System.Drawing.Point(465, 430)
+		Me.LblFecha.Name = "LblFecha"
+		Me.LblFecha.Size = New System.Drawing.Size(174, 74)
+		Me.LblFecha.TabIndex = 12
+		Me.LblFecha.Text = "Fecha"
+		'
+		'HoraFecha
+		'
+		Me.HoraFecha.Enabled = True
+		'
 		'MenuPrincipal
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(1628, 985)
+		Me.Controls.Add(Me.LblFecha)
+		Me.Controls.Add(Me.LblHora)
 		Me.Controls.Add(Me.Panel2)
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
 		Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
@@ -139,6 +172,7 @@ Partial Class MenuPrincipal
 		Me.Panel2.ResumeLayout(False)
 		Me.Panel2.PerformLayout()
 		Me.ResumeLayout(False)
+		Me.PerformLayout()
 
 	End Sub
 	Friend WithEvents Panel2 As Panel
@@ -148,4 +182,7 @@ Partial Class MenuPrincipal
 	Friend WithEvents BtnVentas As Button
 	Friend WithEvents Label1 As Label
 	Friend WithEvents BtnClientes As Button
+	Friend WithEvents LblHora As Label
+	Friend WithEvents LblFecha As Label
+	Friend WithEvents HoraFecha As Timer
 End Class

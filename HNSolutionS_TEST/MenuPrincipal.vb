@@ -27,4 +27,19 @@
     Private Sub MenuPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub HoraFecha_Tick(sender As Object, e As EventArgs) Handles HoraFecha.Tick
+        LblHora.Text = DateTime.Now.ToLongTimeString()
+        LblFecha.Text = DateTime.Now.ToLongDateString()
+
+
+
+
+
+
+
+
+
+
+    End Sub
 End Class
