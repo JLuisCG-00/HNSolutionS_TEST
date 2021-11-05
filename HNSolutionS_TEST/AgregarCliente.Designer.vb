@@ -25,6 +25,7 @@ Partial Class AgregarCliente
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.Label2 = New System.Windows.Forms.Label()
 		Me.Gbx_Agregarclientes = New System.Windows.Forms.GroupBox()
+		Me.Button1 = New System.Windows.Forms.Button()
 		Me.Btn_CancelarCliente = New System.Windows.Forms.Button()
 		Me.Btn_GuardaCliente = New System.Windows.Forms.Button()
 		Me.Txt_DireccionCliente = New System.Windows.Forms.TextBox()
@@ -65,6 +66,7 @@ Partial Class AgregarCliente
 		'
 		'Gbx_Agregarclientes
 		'
+		Me.Gbx_Agregarclientes.Controls.Add(Me.Button1)
 		Me.Gbx_Agregarclientes.Controls.Add(Me.Btn_CancelarCliente)
 		Me.Gbx_Agregarclientes.Controls.Add(Me.Btn_GuardaCliente)
 		Me.Gbx_Agregarclientes.Controls.Add(Me.Txt_DireccionCliente)
@@ -82,6 +84,16 @@ Partial Class AgregarCliente
 		Me.Gbx_Agregarclientes.TabIndex = 25
 		Me.Gbx_Agregarclientes.TabStop = False
 		Me.Gbx_Agregarclientes.Text = "Agregar Cliente"
+		'
+		'Button1
+		'
+		Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+		Me.Button1.Location = New System.Drawing.Point(513, 326)
+		Me.Button1.Name = "Button1"
+		Me.Button1.Size = New System.Drawing.Size(112, 34)
+		Me.Button1.TabIndex = 11
+		Me.Button1.Text = "Limpiar"
+		Me.Button1.UseVisualStyleBackColor = False
 		'
 		'Btn_CancelarCliente
 		'
@@ -199,4 +211,5 @@ Partial Class AgregarCliente
 	Friend WithEvents Label5 As Label
 	Friend WithEvents Label4 As Label
 	Friend WithEvents Label3 As Label
+	Friend WithEvents Button1 As Button
 End Class
