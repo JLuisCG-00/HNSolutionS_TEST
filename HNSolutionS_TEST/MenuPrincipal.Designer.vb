@@ -179,9 +179,10 @@ Partial Class MenuPrincipal
         Me.Controls.Add(Me.LblFecha)
         Me.Controls.Add(Me.LblHora)
         Me.Controls.Add(Me.Panel2)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "MenuPrincipal"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MenuPrincipal"
         Me.Panel2.ResumeLayout(False)
