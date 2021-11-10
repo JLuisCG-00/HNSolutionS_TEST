@@ -1,6 +1,14 @@
-﻿Public Class LOGIN
+﻿Imports System.Data.SqlClient
+Public Class LOGIN
+    Dim conexion As New SqlConnection
     Private Sub LOGIN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Try
+            conexion.ConnectionString = "Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True"
+            conexion.Open()
+            MsgBox("Conexion exitosa a la base de datos")
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
     End Sub
 
     Private Sub BtnIniciar_Click(sender As Object, e As EventArgs) Handles BtnIniciar.Click
@@ -16,6 +24,7 @@
 
         txtUsuario.Text = ""
         txtContra.Text = ""
+
 
     End Sub
 
