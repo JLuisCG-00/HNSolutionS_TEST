@@ -81,11 +81,11 @@ Partial Class Facturacion
         Me.Gbx_Datosclientes.Controls.Add(Me.Label2)
         Me.Gbx_Datosclientes.Controls.Add(Me.Label1)
         Me.Gbx_Datosclientes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Gbx_Datosclientes.Location = New System.Drawing.Point(96, 70)
-        Me.Gbx_Datosclientes.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Gbx_Datosclientes.Location = New System.Drawing.Point(84, 52)
+        Me.Gbx_Datosclientes.Margin = New System.Windows.Forms.Padding(2)
         Me.Gbx_Datosclientes.Name = "Gbx_Datosclientes"
-        Me.Gbx_Datosclientes.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Gbx_Datosclientes.Size = New System.Drawing.Size(793, 172)
+        Me.Gbx_Datosclientes.Padding = New System.Windows.Forms.Padding(2)
+        Me.Gbx_Datosclientes.Size = New System.Drawing.Size(694, 129)
         Me.Gbx_Datosclientes.TabIndex = 0
         Me.Gbx_Datosclientes.TabStop = False
         Me.Gbx_Datosclientes.Text = "Datos del Cliente:"
@@ -94,10 +94,10 @@ Partial Class Facturacion
         '
         Me.Btn_Limpiar.BackColor = System.Drawing.Color.DodgerBlue
         Me.Btn_Limpiar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_Limpiar.Location = New System.Drawing.Point(565, 93)
-        Me.Btn_Limpiar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Btn_Limpiar.Location = New System.Drawing.Point(494, 70)
+        Me.Btn_Limpiar.Margin = New System.Windows.Forms.Padding(2)
         Me.Btn_Limpiar.Name = "Btn_Limpiar"
-        Me.Btn_Limpiar.Size = New System.Drawing.Size(112, 33)
+        Me.Btn_Limpiar.Size = New System.Drawing.Size(98, 25)
         Me.Btn_Limpiar.TabIndex = 6
         Me.Btn_Limpiar.Text = "Limpiar"
         Me.Btn_Limpiar.UseVisualStyleBackColor = False
@@ -105,38 +105,38 @@ Partial Class Facturacion
         'TxtNumeroId
         '
         Me.TxtNumeroId.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.TxtNumeroId.Location = New System.Drawing.Point(230, 138)
-        Me.TxtNumeroId.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtNumeroId.Location = New System.Drawing.Point(201, 104)
+        Me.TxtNumeroId.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNumeroId.Name = "TxtNumeroId"
-        Me.TxtNumeroId.Size = New System.Drawing.Size(198, 27)
+        Me.TxtNumeroId.Size = New System.Drawing.Size(174, 23)
         Me.TxtNumeroId.TabIndex = 5
         '
         'TxtDirrecion
         '
         Me.TxtDirrecion.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TxtDirrecion.Location = New System.Drawing.Point(230, 93)
-        Me.TxtDirrecion.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtDirrecion.Location = New System.Drawing.Point(201, 70)
+        Me.TxtDirrecion.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDirrecion.Name = "TxtDirrecion"
-        Me.TxtDirrecion.Size = New System.Drawing.Size(198, 27)
+        Me.TxtDirrecion.Size = New System.Drawing.Size(174, 23)
         Me.TxtDirrecion.TabIndex = 4
         '
         'TxtDatosClientes
         '
         Me.TxtDatosClientes.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TxtDatosClientes.Location = New System.Drawing.Point(230, 48)
-        Me.TxtDatosClientes.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtDatosClientes.Location = New System.Drawing.Point(201, 36)
+        Me.TxtDatosClientes.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDatosClientes.Name = "TxtDatosClientes"
-        Me.TxtDatosClientes.Size = New System.Drawing.Size(198, 27)
+        Me.TxtDatosClientes.Size = New System.Drawing.Size(174, 23)
         Me.TxtDatosClientes.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(43, 138)
+        Me.Label3.Location = New System.Drawing.Point(38, 104)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(154, 19)
+        Me.Label3.Size = New System.Drawing.Size(125, 16)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Numero Identidad:"
         '
@@ -144,10 +144,10 @@ Partial Class Facturacion
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(42, 93)
+        Me.Label2.Location = New System.Drawing.Point(37, 70)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(96, 19)
+        Me.Label2.Size = New System.Drawing.Size(76, 16)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Dirreccion:"
         '
@@ -155,10 +155,10 @@ Partial Class Facturacion
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(42, 48)
+        Me.Label1.Location = New System.Drawing.Point(37, 36)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(148, 19)
+        Me.Label1.Size = New System.Drawing.Size(119, 16)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Datos del Cliente:"
         '
@@ -178,11 +178,11 @@ Partial Class Facturacion
         Me.GroupBox3.Controls.Add(Me.Lbx_Producto)
         Me.GroupBox3.Controls.Add(Me.Label12)
         Me.GroupBox3.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.GroupBox3.Location = New System.Drawing.Point(96, 557)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Location = New System.Drawing.Point(84, 418)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox3.Size = New System.Drawing.Size(793, 274)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2)
+        Me.GroupBox3.Size = New System.Drawing.Size(694, 206)
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Datos Detalle"
@@ -191,10 +191,10 @@ Partial Class Facturacion
         '
         Me.Btn_Nuevo.BackColor = System.Drawing.Color.DodgerBlue
         Me.Btn_Nuevo.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_Nuevo.Location = New System.Drawing.Point(697, 219)
-        Me.Btn_Nuevo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Btn_Nuevo.Location = New System.Drawing.Point(610, 164)
+        Me.Btn_Nuevo.Margin = New System.Windows.Forms.Padding(2)
         Me.Btn_Nuevo.Name = "Btn_Nuevo"
-        Me.Btn_Nuevo.Size = New System.Drawing.Size(90, 37)
+        Me.Btn_Nuevo.Size = New System.Drawing.Size(79, 28)
         Me.Btn_Nuevo.TabIndex = 12
         Me.Btn_Nuevo.Text = "Nuevo"
         Me.Btn_Nuevo.UseVisualStyleBackColor = False
@@ -203,10 +203,10 @@ Partial Class Facturacion
         '
         Me.Btn_Cancelar.BackColor = System.Drawing.Color.Red
         Me.Btn_Cancelar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_Cancelar.Location = New System.Drawing.Point(602, 219)
-        Me.Btn_Cancelar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Btn_Cancelar.Location = New System.Drawing.Point(527, 164)
+        Me.Btn_Cancelar.Margin = New System.Windows.Forms.Padding(2)
         Me.Btn_Cancelar.Name = "Btn_Cancelar"
-        Me.Btn_Cancelar.Size = New System.Drawing.Size(90, 37)
+        Me.Btn_Cancelar.Size = New System.Drawing.Size(79, 28)
         Me.Btn_Cancelar.TabIndex = 11
         Me.Btn_Cancelar.Text = "Cancelar"
         Me.Btn_Cancelar.UseVisualStyleBackColor = False
@@ -215,10 +215,10 @@ Partial Class Facturacion
         '
         Me.Btn_Guardar.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Btn_Guardar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_Guardar.Location = New System.Drawing.Point(508, 219)
-        Me.Btn_Guardar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Btn_Guardar.Location = New System.Drawing.Point(444, 164)
+        Me.Btn_Guardar.Margin = New System.Windows.Forms.Padding(2)
         Me.Btn_Guardar.Name = "Btn_Guardar"
-        Me.Btn_Guardar.Size = New System.Drawing.Size(90, 37)
+        Me.Btn_Guardar.Size = New System.Drawing.Size(79, 28)
         Me.Btn_Guardar.TabIndex = 10
         Me.Btn_Guardar.Text = "Guardar"
         Me.Btn_Guardar.UseVisualStyleBackColor = False
@@ -226,19 +226,19 @@ Partial Class Facturacion
         'Lbl_Total
         '
         Me.Lbl_Total.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Lbl_Total.Location = New System.Drawing.Point(587, 106)
-        Me.Lbl_Total.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Lbl_Total.Location = New System.Drawing.Point(514, 80)
+        Me.Lbl_Total.Margin = New System.Windows.Forms.Padding(2)
         Me.Lbl_Total.Name = "Lbl_Total"
-        Me.Lbl_Total.Size = New System.Drawing.Size(121, 39)
+        Me.Lbl_Total.Size = New System.Drawing.Size(106, 32)
         Me.Lbl_Total.TabIndex = 9
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(612, 65)
+        Me.Label16.Location = New System.Drawing.Point(536, 49)
         Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(70, 32)
+        Me.Label16.Size = New System.Drawing.Size(55, 25)
         Me.Label16.TabIndex = 8
         Me.Label16.Text = "Total"
         '
@@ -246,11 +246,10 @@ Partial Class Facturacion
         '
         Me.Lbx_Sub_Total.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Lbx_Sub_Total.FormattingEnabled = True
-        Me.Lbx_Sub_Total.ItemHeight = 17
-        Me.Lbx_Sub_Total.Location = New System.Drawing.Point(382, 75)
-        Me.Lbx_Sub_Total.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Lbx_Sub_Total.Location = New System.Drawing.Point(334, 56)
+        Me.Lbx_Sub_Total.Margin = New System.Windows.Forms.Padding(2)
         Me.Lbx_Sub_Total.Name = "Lbx_Sub_Total"
-        Me.Lbx_Sub_Total.Size = New System.Drawing.Size(101, 157)
+        Me.Lbx_Sub_Total.Size = New System.Drawing.Size(89, 108)
         Me.Lbx_Sub_Total.TabIndex = 7
         '
         'Label15
@@ -258,10 +257,10 @@ Partial Class Facturacion
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label15.Location = New System.Drawing.Point(390, 45)
+        Me.Label15.Location = New System.Drawing.Point(341, 34)
         Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(93, 19)
+        Me.Label15.Size = New System.Drawing.Size(74, 16)
         Me.Label15.TabIndex = 6
         Me.Label15.Text = "Sub_Total:"
         '
@@ -269,11 +268,10 @@ Partial Class Facturacion
         '
         Me.Lbx_Cantidad.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Lbx_Cantidad.FormattingEnabled = True
-        Me.Lbx_Cantidad.ItemHeight = 17
-        Me.Lbx_Cantidad.Location = New System.Drawing.Point(259, 75)
-        Me.Lbx_Cantidad.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Lbx_Cantidad.Location = New System.Drawing.Point(227, 56)
+        Me.Lbx_Cantidad.Margin = New System.Windows.Forms.Padding(2)
         Me.Lbx_Cantidad.Name = "Lbx_Cantidad"
-        Me.Lbx_Cantidad.Size = New System.Drawing.Size(94, 157)
+        Me.Lbx_Cantidad.Size = New System.Drawing.Size(83, 108)
         Me.Lbx_Cantidad.TabIndex = 5
         '
         'Label14
@@ -281,10 +279,10 @@ Partial Class Facturacion
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label14.Location = New System.Drawing.Point(270, 45)
+        Me.Label14.Location = New System.Drawing.Point(236, 34)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(85, 19)
+        Me.Label14.Size = New System.Drawing.Size(68, 16)
         Me.Label14.TabIndex = 4
         Me.Label14.Text = "Cantidad:"
         '
@@ -292,11 +290,10 @@ Partial Class Facturacion
         '
         Me.Lbx_Precio.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Lbx_Precio.FormattingEnabled = True
-        Me.Lbx_Precio.ItemHeight = 17
-        Me.Lbx_Precio.Location = New System.Drawing.Point(169, 75)
-        Me.Lbx_Precio.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Lbx_Precio.Location = New System.Drawing.Point(148, 56)
+        Me.Lbx_Precio.Margin = New System.Windows.Forms.Padding(2)
         Me.Lbx_Precio.Name = "Lbx_Precio"
-        Me.Lbx_Precio.Size = New System.Drawing.Size(77, 157)
+        Me.Lbx_Precio.Size = New System.Drawing.Size(68, 108)
         Me.Lbx_Precio.TabIndex = 3
         '
         'Label13
@@ -304,10 +301,10 @@ Partial Class Facturacion
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label13.Location = New System.Drawing.Point(180, 45)
+        Me.Label13.Location = New System.Drawing.Point(158, 34)
         Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(65, 19)
+        Me.Label13.Size = New System.Drawing.Size(52, 16)
         Me.Label13.TabIndex = 2
         Me.Label13.Text = "Precio:"
         '
@@ -315,11 +312,10 @@ Partial Class Facturacion
         '
         Me.Lbx_Producto.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Lbx_Producto.FormattingEnabled = True
-        Me.Lbx_Producto.ItemHeight = 17
-        Me.Lbx_Producto.Location = New System.Drawing.Point(34, 75)
-        Me.Lbx_Producto.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Lbx_Producto.Location = New System.Drawing.Point(30, 56)
+        Me.Lbx_Producto.Margin = New System.Windows.Forms.Padding(2)
         Me.Lbx_Producto.Name = "Lbx_Producto"
-        Me.Lbx_Producto.Size = New System.Drawing.Size(114, 157)
+        Me.Lbx_Producto.Size = New System.Drawing.Size(100, 108)
         Me.Lbx_Producto.TabIndex = 1
         '
         'Label12
@@ -327,10 +323,10 @@ Partial Class Facturacion
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label12.Location = New System.Drawing.Point(34, 45)
+        Me.Label12.Location = New System.Drawing.Point(30, 34)
         Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(97, 19)
+        Me.Label12.Size = New System.Drawing.Size(74, 16)
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "Productos:"
         '
@@ -338,70 +334,70 @@ Partial Class Facturacion
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(42, 66)
+        Me.Label4.Location = New System.Drawing.Point(37, 50)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(88, 19)
+        Me.Label4.Size = New System.Drawing.Size(68, 16)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Pruducto:"
         '
         'TxtProducto
         '
         Me.TxtProducto.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TxtProducto.Location = New System.Drawing.Point(145, 66)
-        Me.TxtProducto.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtProducto.Location = New System.Drawing.Point(127, 50)
+        Me.TxtProducto.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtProducto.Name = "TxtProducto"
-        Me.TxtProducto.Size = New System.Drawing.Size(189, 27)
+        Me.TxtProducto.Size = New System.Drawing.Size(166, 23)
         Me.TxtProducto.TabIndex = 1
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(42, 109)
+        Me.Label5.Location = New System.Drawing.Point(37, 82)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(107, 19)
+        Me.Label5.Size = New System.Drawing.Size(84, 16)
         Me.Label5.TabIndex = 2
         Me.Label5.Text = "Descriccion:"
         '
         'TxtDescriccion
         '
         Me.TxtDescriccion.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TxtDescriccion.Location = New System.Drawing.Point(145, 109)
-        Me.TxtDescriccion.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtDescriccion.Location = New System.Drawing.Point(127, 82)
+        Me.TxtDescriccion.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDescriccion.Name = "TxtDescriccion"
-        Me.TxtDescriccion.Size = New System.Drawing.Size(189, 27)
+        Me.TxtDescriccion.Size = New System.Drawing.Size(166, 23)
         Me.TxtDescriccion.TabIndex = 3
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New System.Drawing.Point(42, 150)
+        Me.Label6.Location = New System.Drawing.Point(37, 112)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(85, 19)
+        Me.Label6.Size = New System.Drawing.Size(68, 16)
         Me.Label6.TabIndex = 4
         Me.Label6.Text = "Cantidad:"
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(145, 148)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox1.Location = New System.Drawing.Point(127, 111)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(121, 27)
+        Me.TextBox1.Size = New System.Drawing.Size(106, 23)
         Me.TextBox1.TabIndex = 5
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New System.Drawing.Point(481, 66)
+        Me.Label7.Location = New System.Drawing.Point(421, 50)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(91, 19)
+        Me.Label7.Size = New System.Drawing.Size(73, 16)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Categoria:"
         '
@@ -409,40 +405,40 @@ Partial Class Facturacion
         '
         Me.CbxCategoria.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CbxCategoria.FormattingEnabled = True
-        Me.CbxCategoria.Location = New System.Drawing.Point(620, 64)
-        Me.CbxCategoria.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CbxCategoria.Location = New System.Drawing.Point(542, 48)
+        Me.CbxCategoria.Margin = New System.Windows.Forms.Padding(2)
         Me.CbxCategoria.Name = "CbxCategoria"
-        Me.CbxCategoria.Size = New System.Drawing.Size(146, 28)
+        Me.CbxCategoria.Size = New System.Drawing.Size(128, 23)
         Me.CbxCategoria.TabIndex = 7
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label8.Location = New System.Drawing.Point(481, 106)
+        Me.Label8.Location = New System.Drawing.Point(421, 80)
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(65, 19)
+        Me.Label8.Size = New System.Drawing.Size(52, 16)
         Me.Label8.TabIndex = 8
         Me.Label8.Text = "Precio:"
         '
         'TxtPrecio
         '
         Me.TxtPrecio.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TxtPrecio.Location = New System.Drawing.Point(620, 109)
-        Me.TxtPrecio.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtPrecio.Location = New System.Drawing.Point(542, 82)
+        Me.TxtPrecio.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtPrecio.Name = "TxtPrecio"
-        Me.TxtPrecio.Size = New System.Drawing.Size(111, 27)
+        Me.TxtPrecio.Size = New System.Drawing.Size(98, 23)
         Me.TxtPrecio.TabIndex = 9
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label9.Location = New System.Drawing.Point(481, 150)
+        Me.Label9.Location = New System.Drawing.Point(421, 112)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(136, 19)
+        Me.Label9.Size = New System.Drawing.Size(110, 16)
         Me.Label9.TabIndex = 10
         Me.Label9.Text = "Forma De Pago:"
         '
@@ -450,20 +446,20 @@ Partial Class Facturacion
         '
         Me.CbxPago.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CbxPago.FormattingEnabled = True
-        Me.CbxPago.Location = New System.Drawing.Point(620, 150)
-        Me.CbxPago.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CbxPago.Location = New System.Drawing.Point(542, 112)
+        Me.CbxPago.Margin = New System.Windows.Forms.Padding(2)
         Me.CbxPago.Name = "CbxPago"
-        Me.CbxPago.Size = New System.Drawing.Size(146, 28)
+        Me.CbxPago.Size = New System.Drawing.Size(128, 23)
         Me.CbxPago.TabIndex = 11
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label10.Location = New System.Drawing.Point(43, 203)
+        Me.Label10.Location = New System.Drawing.Point(38, 152)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(62, 19)
+        Me.Label10.Size = New System.Drawing.Size(50, 16)
         Me.Label10.TabIndex = 12
         Me.Label10.Text = "Fecha:"
         '
@@ -471,20 +467,20 @@ Partial Class Facturacion
         '
         Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.DateTimePicker1.Location = New System.Drawing.Point(145, 203)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(127, 152)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(241, 27)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(211, 23)
         Me.DateTimePicker1.TabIndex = 13
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label11.Location = New System.Drawing.Point(481, 198)
+        Me.Label11.Location = New System.Drawing.Point(421, 148)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(90, 19)
+        Me.Label11.Size = New System.Drawing.Size(72, 16)
         Me.Label11.TabIndex = 14
         Me.Label11.Text = "Vendedor:"
         '
@@ -492,20 +488,20 @@ Partial Class Facturacion
         '
         Me.CbxVendedor.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.CbxVendedor.FormattingEnabled = True
-        Me.CbxVendedor.Location = New System.Drawing.Point(620, 198)
-        Me.CbxVendedor.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CbxVendedor.Location = New System.Drawing.Point(542, 148)
+        Me.CbxVendedor.Margin = New System.Windows.Forms.Padding(2)
         Me.CbxVendedor.Name = "CbxVendedor"
-        Me.CbxVendedor.Size = New System.Drawing.Size(146, 28)
+        Me.CbxVendedor.Size = New System.Drawing.Size(128, 23)
         Me.CbxVendedor.TabIndex = 15
         '
         'Btn_LimpiarV
         '
         Me.Btn_LimpiarV.BackColor = System.Drawing.Color.DodgerBlue
         Me.Btn_LimpiarV.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_LimpiarV.Location = New System.Drawing.Point(298, 246)
-        Me.Btn_LimpiarV.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Btn_LimpiarV.Location = New System.Drawing.Point(261, 184)
+        Me.Btn_LimpiarV.Margin = New System.Windows.Forms.Padding(2)
         Me.Btn_LimpiarV.Name = "Btn_LimpiarV"
-        Me.Btn_LimpiarV.Size = New System.Drawing.Size(102, 38)
+        Me.Btn_LimpiarV.Size = New System.Drawing.Size(89, 28)
         Me.Btn_LimpiarV.TabIndex = 16
         Me.Btn_LimpiarV.Text = "Limpiar"
         Me.Btn_LimpiarV.UseVisualStyleBackColor = False
@@ -531,11 +527,11 @@ Partial Class Facturacion
         Me.GroupBox1.Controls.Add(Me.TxtProducto)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.GroupBox1.Location = New System.Drawing.Point(96, 247)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(84, 185)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(793, 295)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
+        Me.GroupBox1.Size = New System.Drawing.Size(694, 221)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos de Venta:"
@@ -544,10 +540,10 @@ Partial Class Facturacion
         '
         Me.Btn_Agregar.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Btn_Agregar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_Agregar.Location = New System.Drawing.Point(435, 246)
-        Me.Btn_Agregar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Btn_Agregar.Location = New System.Drawing.Point(381, 184)
+        Me.Btn_Agregar.Margin = New System.Windows.Forms.Padding(2)
         Me.Btn_Agregar.Name = "Btn_Agregar"
-        Me.Btn_Agregar.Size = New System.Drawing.Size(102, 38)
+        Me.Btn_Agregar.Size = New System.Drawing.Size(89, 28)
         Me.Btn_Agregar.TabIndex = 17
         Me.Btn_Agregar.Text = "Agregar"
         Me.Btn_Agregar.UseVisualStyleBackColor = False
@@ -558,10 +554,10 @@ Partial Class Facturacion
         Me.Label17.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.Label17.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label17.Location = New System.Drawing.Point(385, 9)
+        Me.Label17.Location = New System.Drawing.Point(337, 7)
         Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(139, 24)
+        Me.Label17.Size = New System.Drawing.Size(119, 19)
         Me.Label17.TabIndex = 4
         Me.Label17.Text = "FACTURACIÓN"
         '
@@ -569,24 +565,24 @@ Partial Class Facturacion
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.PictureBox1.Location = New System.Drawing.Point(-1, -1)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(936, 47)
+        Me.PictureBox1.Size = New System.Drawing.Size(819, 35)
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
         'Facturacion
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(936, 840)
+        Me.ClientSize = New System.Drawing.Size(823, 632)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Gbx_Datosclientes)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Facturacion"
         Me.Text = "Facturacion"
         Me.Gbx_Datosclientes.ResumeLayout(False)

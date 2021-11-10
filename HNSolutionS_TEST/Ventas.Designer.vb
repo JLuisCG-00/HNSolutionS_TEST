@@ -100,7 +100,7 @@ Partial Class Ventas
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 62
         Me.DataGridView1.RowTemplate.Height = 25
-        Me.DataGridView1.Size = New System.Drawing.Size(643, 150)
+        Me.DataGridView1.Size = New System.Drawing.Size(647, 183)
         Me.DataGridView1.TabIndex = 13
         '
         'factura

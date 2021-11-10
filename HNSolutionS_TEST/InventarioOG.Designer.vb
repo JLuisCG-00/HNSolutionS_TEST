@@ -53,7 +53,7 @@ Partial Class InventarioOG
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(1, -1)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(881, 50)
+        Me.Label1.Size = New System.Drawing.Size(771, 38)
         Me.Label1.TabIndex = 23
         Me.Label1.Text = "INVENTARIO"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -65,11 +65,11 @@ Partial Class InventarioOG
         Me.CMBReporte.Controls.Add(Me.Label2)
         Me.CMBReporte.Controls.Add(Me.Label4)
         Me.CMBReporte.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.CMBReporte.Location = New System.Drawing.Point(1, 105)
+        Me.CMBReporte.Location = New System.Drawing.Point(1, 79)
         Me.CMBReporte.Margin = New System.Windows.Forms.Padding(2)
         Me.CMBReporte.Name = "CMBReporte"
         Me.CMBReporte.Padding = New System.Windows.Forms.Padding(2)
-        Me.CMBReporte.Size = New System.Drawing.Size(612, 172)
+        Me.CMBReporte.Size = New System.Drawing.Size(536, 129)
         Me.CMBReporte.TabIndex = 24
         Me.CMBReporte.TabStop = False
         Me.CMBReporte.Text = "REPORTE DE INVENTARIO:"
@@ -77,29 +77,29 @@ Partial Class InventarioOG
         'TxtDirrecion
         '
         Me.TxtDirrecion.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TxtDirrecion.Location = New System.Drawing.Point(56, 86)
+        Me.TxtDirrecion.Location = New System.Drawing.Point(49, 64)
         Me.TxtDirrecion.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDirrecion.Name = "TxtDirrecion"
-        Me.TxtDirrecion.Size = New System.Drawing.Size(198, 27)
+        Me.TxtDirrecion.Size = New System.Drawing.Size(174, 23)
         Me.TxtDirrecion.TabIndex = 4
         '
         'TxtDatosClientes
         '
         Me.TxtDatosClientes.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.TxtDatosClientes.Location = New System.Drawing.Point(302, 86)
+        Me.TxtDatosClientes.Location = New System.Drawing.Point(264, 64)
         Me.TxtDatosClientes.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDatosClientes.Name = "TxtDatosClientes"
-        Me.TxtDatosClientes.Size = New System.Drawing.Size(198, 27)
+        Me.TxtDatosClientes.Size = New System.Drawing.Size(174, 23)
         Me.TxtDatosClientes.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(302, 55)
+        Me.Label2.Location = New System.Drawing.Point(264, 41)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(296, 19)
+        Me.Label2.Size = New System.Drawing.Size(238, 16)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Cantidad de productos en inventario"
         '
@@ -107,10 +107,10 @@ Partial Class InventarioOG
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(56, 55)
+        Me.Label4.Location = New System.Drawing.Point(49, 41)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(163, 19)
+        Me.Label4.Size = New System.Drawing.Size(130, 16)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Costo de inventario"
         '
@@ -118,28 +118,29 @@ Partial Class InventarioOG
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(57, 304)
+        Me.Label3.Location = New System.Drawing.Point(50, 228)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 22)
+        Me.Label3.Size = New System.Drawing.Size(52, 17)
         Me.Label3.TabIndex = 25
         Me.Label3.Text = "Sucursal"
         '
         'CmbSucursal
         '
         Me.CmbSucursal.FormattingEnabled = True
-        Me.CmbSucursal.Location = New System.Drawing.Point(128, 298)
+        Me.CmbSucursal.Location = New System.Drawing.Point(112, 224)
+        Me.CmbSucursal.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CmbSucursal.Name = "CmbSucursal"
-        Me.CmbSucursal.Size = New System.Drawing.Size(151, 28)
+        Me.CmbSucursal.Size = New System.Drawing.Size(133, 23)
         Me.CmbSucursal.TabIndex = 26
         '
         'Btn_ProInv
         '
         Me.Btn_ProInv.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Btn_ProInv.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_ProInv.Location = New System.Drawing.Point(11, 51)
+        Me.Btn_ProInv.Location = New System.Drawing.Point(10, 38)
         Me.Btn_ProInv.Margin = New System.Windows.Forms.Padding(2)
         Me.Btn_ProInv.Name = "Btn_ProInv"
-        Me.Btn_ProInv.Size = New System.Drawing.Size(268, 38)
+        Me.Btn_ProInv.Size = New System.Drawing.Size(234, 28)
         Me.Btn_ProInv.TabIndex = 27
         Me.Btn_ProInv.Text = "Productos bajos en Inventario"
         Me.Btn_ProInv.UseVisualStyleBackColor = False
@@ -148,10 +149,10 @@ Partial Class InventarioOG
         '
         Me.btn_reporte.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btn_reporte.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btn_reporte.Location = New System.Drawing.Point(303, 51)
+        Me.btn_reporte.Location = New System.Drawing.Point(265, 38)
         Me.btn_reporte.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_reporte.Name = "btn_reporte"
-        Me.btn_reporte.Size = New System.Drawing.Size(268, 38)
+        Me.btn_reporte.Size = New System.Drawing.Size(234, 28)
         Me.btn_reporte.TabIndex = 28
         Me.btn_reporte.Text = "Reporte de movimientos"
         Me.btn_reporte.UseVisualStyleBackColor = False
@@ -160,10 +161,10 @@ Partial Class InventarioOG
         '
         Me.btn_ReporteInventario.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btn_ReporteInventario.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btn_ReporteInventario.Location = New System.Drawing.Point(597, 51)
+        Me.btn_ReporteInventario.Location = New System.Drawing.Point(522, 38)
         Me.btn_ReporteInventario.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_ReporteInventario.Name = "btn_ReporteInventario"
-        Me.btn_ReporteInventario.Size = New System.Drawing.Size(268, 38)
+        Me.btn_ReporteInventario.Size = New System.Drawing.Size(234, 28)
         Me.btn_ReporteInventario.TabIndex = 29
         Me.btn_ReporteInventario.Text = "Reporte de inventario"
         Me.btn_ReporteInventario.UseVisualStyleBackColor = False
@@ -172,10 +173,9 @@ Partial Class InventarioOG
         '
         Me.BtnAjustes.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.BtnAjustes.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.BtnAjustes.Location = New System.Drawing.Point(693, 149)
-        Me.BtnAjustes.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnAjustes.Location = New System.Drawing.Point(606, 112)
         Me.BtnAjustes.Name = "BtnAjustes"
-        Me.BtnAjustes.Size = New System.Drawing.Size(86, 30)
+        Me.BtnAjustes.Size = New System.Drawing.Size(75, 22)
         Me.BtnAjustes.TabIndex = 30
         Me.BtnAjustes.Text = "Ajustes"
         Me.BtnAjustes.UseVisualStyleBackColor = False
@@ -184,10 +184,9 @@ Partial Class InventarioOG
         '
         Me.btn_agregar.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btn_agregar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btn_agregar.Location = New System.Drawing.Point(693, 191)
-        Me.btn_agregar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.btn_agregar.Location = New System.Drawing.Point(606, 143)
         Me.btn_agregar.Name = "btn_agregar"
-        Me.btn_agregar.Size = New System.Drawing.Size(86, 30)
+        Me.btn_agregar.Size = New System.Drawing.Size(75, 22)
         Me.btn_agregar.TabIndex = 31
         Me.btn_agregar.Text = "Agregar"
         Me.btn_agregar.UseVisualStyleBackColor = False
@@ -196,10 +195,9 @@ Partial Class InventarioOG
         '
         Me.btn_modificar.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btn_modificar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btn_modificar.Location = New System.Drawing.Point(693, 238)
-        Me.btn_modificar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.btn_modificar.Location = New System.Drawing.Point(606, 178)
         Me.btn_modificar.Name = "btn_modificar"
-        Me.btn_modificar.Size = New System.Drawing.Size(86, 30)
+        Me.btn_modificar.Size = New System.Drawing.Size(75, 22)
         Me.btn_modificar.TabIndex = 32
         Me.btn_modificar.Text = "Modificar"
         Me.btn_modificar.UseVisualStyleBackColor = False
@@ -208,11 +206,12 @@ Partial Class InventarioOG
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        Me.DataGridView1.Location = New System.Drawing.Point(57, 359)
+        Me.DataGridView1.Location = New System.Drawing.Point(50, 269)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 29
-        Me.DataGridView1.Size = New System.Drawing.Size(556, 108)
+        Me.DataGridView1.Size = New System.Drawing.Size(675, 81)
         Me.DataGridView1.TabIndex = 33
         '
         'Column1
@@ -252,10 +251,10 @@ Partial Class InventarioOG
         '
         'InventarioOG
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(876, 509)
+        Me.ClientSize = New System.Drawing.Size(766, 382)
         Me.ControlBox = False
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.btn_modificar)
@@ -268,6 +267,7 @@ Partial Class InventarioOG
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.CMBReporte)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "InventarioOG"
         Me.Text = "Inventario"
         Me.CMBReporte.ResumeLayout(False)
