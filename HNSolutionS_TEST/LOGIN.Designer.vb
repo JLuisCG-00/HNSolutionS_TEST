@@ -41,8 +41,9 @@ Partial Class LOGIN
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.PictureBox1.Location = New System.Drawing.Point(1, -1)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(373, 62)
+        Me.PictureBox1.Size = New System.Drawing.Size(326, 46)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -52,18 +53,19 @@ Partial Class LOGIN
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(97, 18)
+        Me.Label1.Location = New System.Drawing.Point(85, 14)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(180, 24)
+        Me.Label1.Size = New System.Drawing.Size(151, 19)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "INICIO DE SESIÓN "
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(111, 67)
+        Me.PictureBox2.Location = New System.Drawing.Point(97, 50)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(154, 127)
+        Me.PictureBox2.Size = New System.Drawing.Size(135, 95)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
@@ -72,9 +74,9 @@ Partial Class LOGIN
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(152, 214)
+        Me.Label2.Location = New System.Drawing.Point(133, 160)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 21)
+        Me.Label2.Size = New System.Drawing.Size(65, 17)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "USUARIO"
         '
@@ -82,62 +84,67 @@ Partial Class LOGIN
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(138, 291)
+        Me.Label3.Location = New System.Drawing.Point(121, 218)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(116, 21)
+        Me.Label3.Size = New System.Drawing.Size(94, 17)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "CONTRASEÑA"
         '
         'txtUsuario
         '
-        Me.txtUsuario.Location = New System.Drawing.Point(129, 238)
+        Me.txtUsuario.Location = New System.Drawing.Point(113, 178)
+        Me.txtUsuario.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtUsuario.Name = "txtUsuario"
-        Me.txtUsuario.Size = New System.Drawing.Size(125, 27)
+        Me.txtUsuario.Size = New System.Drawing.Size(110, 23)
         Me.txtUsuario.TabIndex = 6
         '
         'txtContra
         '
-        Me.txtContra.Location = New System.Drawing.Point(129, 324)
+        Me.txtContra.Location = New System.Drawing.Point(113, 243)
+        Me.txtContra.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtContra.Name = "txtContra"
         Me.txtContra.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtContra.Size = New System.Drawing.Size(125, 27)
+        Me.txtContra.Size = New System.Drawing.Size(110, 23)
         Me.txtContra.TabIndex = 7
         '
         'ChkContra
         '
         Me.ChkContra.AutoSize = True
         Me.ChkContra.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
-        Me.ChkContra.Location = New System.Drawing.Point(120, 357)
+        Me.ChkContra.Location = New System.Drawing.Point(105, 268)
+        Me.ChkContra.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ChkContra.Name = "ChkContra"
-        Me.ChkContra.Size = New System.Drawing.Size(157, 22)
+        Me.ChkContra.Size = New System.Drawing.Size(130, 18)
         Me.ChkContra.TabIndex = 8
         Me.ChkContra.Text = "Mostrar contraseña"
         Me.ChkContra.UseVisualStyleBackColor = True
         '
         'BtnIniciar
         '
-        Me.BtnIniciar.Location = New System.Drawing.Point(46, 402)
+        Me.BtnIniciar.Location = New System.Drawing.Point(40, 302)
+        Me.BtnIniciar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnIniciar.Name = "BtnIniciar"
-        Me.BtnIniciar.Size = New System.Drawing.Size(113, 29)
+        Me.BtnIniciar.Size = New System.Drawing.Size(99, 22)
         Me.BtnIniciar.TabIndex = 9
         Me.BtnIniciar.Text = "Iniciar sesión"
         Me.BtnIniciar.UseVisualStyleBackColor = True
         '
         'btnSalir
         '
-        Me.btnSalir.Location = New System.Drawing.Point(229, 402)
+        Me.btnSalir.Location = New System.Drawing.Point(200, 302)
+        Me.btnSalir.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(113, 29)
+        Me.btnSalir.Size = New System.Drawing.Size(99, 22)
         Me.btnSalir.TabIndex = 10
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '
         'LOGIN
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(374, 485)
+        Me.ClientSize = New System.Drawing.Size(327, 364)
         Me.ControlBox = False
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.BtnIniciar)
@@ -150,6 +157,7 @@ Partial Class LOGIN
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "LOGIN"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
