@@ -56,7 +56,7 @@ Partial Class MenuPrincipal
         Me.BtnGestion.BackColor = System.Drawing.Color.White
         Me.BtnGestion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnGestion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnGestion.Location = New System.Drawing.Point(14, 174)
+        Me.BtnGestion.Location = New System.Drawing.Point(14, 169)
         Me.BtnGestion.Name = "BtnGestion"
         Me.BtnGestion.Size = New System.Drawing.Size(152, 22)
         Me.BtnGestion.TabIndex = 10
