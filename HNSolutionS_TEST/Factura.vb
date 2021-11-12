@@ -1,4 +1,4 @@
-﻿Public Class Facturacion
+﻿Public Class Factura
 	Private Sub Facturacion_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 	End Sub

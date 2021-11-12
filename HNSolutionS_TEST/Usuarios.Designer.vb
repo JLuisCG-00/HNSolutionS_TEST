@@ -36,6 +36,7 @@ Partial Class Usuarios
 		Me.Txt_Telefono = New System.Windows.Forms.TextBox()
 		Me.Txt_Email = New System.Windows.Forms.TextBox()
 		Me.BtnRegistrar = New System.Windows.Forms.Button()
+		Me.Bt_Limpiar = New System.Windows.Forms.Button()
 		Me.SuspendLayout()
 		'
 		'Label1
@@ -156,11 +157,21 @@ Partial Class Usuarios
 		Me.BtnRegistrar.Text = "Registrar"
 		Me.BtnRegistrar.UseVisualStyleBackColor = True
 		'
+		'Bt_Limpiar
+		'
+		Me.Bt_Limpiar.Location = New System.Drawing.Point(252, 516)
+		Me.Bt_Limpiar.Name = "Bt_Limpiar"
+		Me.Bt_Limpiar.Size = New System.Drawing.Size(112, 34)
+		Me.Bt_Limpiar.TabIndex = 37
+		Me.Bt_Limpiar.Text = "Limpiar"
+		Me.Bt_Limpiar.UseVisualStyleBackColor = True
+		'
 		'Usuarios
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(544, 671)
+		Me.Controls.Add(Me.Bt_Limpiar)
 		Me.Controls.Add(Me.BtnRegistrar)
 		Me.Controls.Add(Me.Txt_Email)
 		Me.Controls.Add(Me.Txt_Telefono)
@@ -176,6 +187,7 @@ Partial Class Usuarios
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Label1)
 		Me.Name = "Usuarios"
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Usuarios"
 		Me.ResumeLayout(False)
 		Me.PerformLayout()
@@ -196,4 +208,5 @@ Partial Class Usuarios
 	Friend WithEvents Txt_Telefono As TextBox
 	Friend WithEvents Txt_Email As TextBox
 	Friend WithEvents BtnRegistrar As Button
+	Friend WithEvents Bt_Limpiar As Button
 End Class

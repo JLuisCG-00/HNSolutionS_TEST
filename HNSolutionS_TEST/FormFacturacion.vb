@@ -10,4 +10,8 @@ Public Class FormFacturacion
             MostrarFacturasDGV.DataSource = DaTable
         End Using
     End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
 End Class
