@@ -22,9 +22,31 @@ Partial Class FormFacturacion
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.MostrarFacturasDGV = New System.Windows.Forms.DataGridView()
+        CType(Me.MostrarFacturasDGV, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'MostrarFacturasDGV
+        '
+        Me.MostrarFacturasDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.MostrarFacturasDGV.Location = New System.Drawing.Point(21, 162)
+        Me.MostrarFacturasDGV.Name = "MostrarFacturasDGV"
+        Me.MostrarFacturasDGV.RowTemplate.Height = 25
+        Me.MostrarFacturasDGV.Size = New System.Drawing.Size(815, 340)
+        Me.MostrarFacturasDGV.TabIndex = 0
+        '
+        'FormFacturacion
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(876, 526)
+        Me.Controls.Add(Me.MostrarFacturasDGV)
+        Me.Name = "FormFacturacion"
         Me.Text = "FormFacturacion"
+        CType(Me.MostrarFacturasDGV, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
     End Sub
+
+    Friend WithEvents MostrarFacturasDGV As DataGridView
 End Class

@@ -1,7 +1,7 @@
 ﻿Public Class MenuPrincipal
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles BtnFacturacion.Click
 
-        FormularioGVD.Show()
+        FormFacturacion.Show()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnClientes.Click
@@ -12,7 +12,7 @@
 
     End Sub
 
-    Private Sub BtnVentas_Click(sender As Object, e As EventArgs) Handles BtnVentas.Click
+    Private Sub BtnVentas_Click(sender As Object, e As EventArgs)
         Ventas.Show()
     End Sub
 

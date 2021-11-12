@@ -28,7 +28,6 @@ Partial Class MenuPrincipal
         Me.BtnGestion = New System.Windows.Forms.Button()
         Me.BtnInventario = New System.Windows.Forms.Button()
         Me.BtnFacturacion = New System.Windows.Forms.Button()
-        Me.BtnVentas = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnClientes = New System.Windows.Forms.Button()
         Me.LblHora = New System.Windows.Forms.Label()
@@ -45,7 +44,6 @@ Partial Class MenuPrincipal
         Me.Panel2.Controls.Add(Me.BtnGestion)
         Me.Panel2.Controls.Add(Me.BtnInventario)
         Me.Panel2.Controls.Add(Me.BtnFacturacion)
-        Me.Panel2.Controls.Add(Me.BtnVentas)
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Controls.Add(Me.BtnClientes)
         Me.Panel2.Location = New System.Drawing.Point(1, 70)
@@ -58,7 +56,7 @@ Partial Class MenuPrincipal
         Me.BtnGestion.BackColor = System.Drawing.Color.White
         Me.BtnGestion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnGestion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnGestion.Location = New System.Drawing.Point(14, 213)
+        Me.BtnGestion.Location = New System.Drawing.Point(14, 174)
         Me.BtnGestion.Name = "BtnGestion"
         Me.BtnGestion.Size = New System.Drawing.Size(152, 22)
         Me.BtnGestion.TabIndex = 10
@@ -70,7 +68,7 @@ Partial Class MenuPrincipal
         Me.BtnInventario.BackColor = System.Drawing.Color.White
         Me.BtnInventario.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnInventario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnInventario.Location = New System.Drawing.Point(14, 170)
+        Me.BtnInventario.Location = New System.Drawing.Point(14, 131)
         Me.BtnInventario.Name = "BtnInventario"
         Me.BtnInventario.Size = New System.Drawing.Size(152, 22)
         Me.BtnInventario.TabIndex = 9
@@ -82,24 +80,12 @@ Partial Class MenuPrincipal
         Me.BtnFacturacion.BackColor = System.Drawing.Color.White
         Me.BtnFacturacion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnFacturacion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnFacturacion.Location = New System.Drawing.Point(14, 128)
+        Me.BtnFacturacion.Location = New System.Drawing.Point(14, 89)
         Me.BtnFacturacion.Name = "BtnFacturacion"
         Me.BtnFacturacion.Size = New System.Drawing.Size(152, 22)
         Me.BtnFacturacion.TabIndex = 8
         Me.BtnFacturacion.Text = "Facturación"
         Me.BtnFacturacion.UseVisualStyleBackColor = False
-        '
-        'BtnVentas
-        '
-        Me.BtnVentas.BackColor = System.Drawing.Color.White
-        Me.BtnVentas.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.BtnVentas.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnVentas.Location = New System.Drawing.Point(14, 88)
-        Me.BtnVentas.Name = "BtnVentas"
-        Me.BtnVentas.Size = New System.Drawing.Size(152, 22)
-        Me.BtnVentas.TabIndex = 7
-        Me.BtnVentas.Text = "Ventas"
-        Me.BtnVentas.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -190,9 +176,8 @@ Partial Class MenuPrincipal
 	Friend WithEvents BtnGestion As Button
 	Friend WithEvents BtnInventario As Button
 	Friend WithEvents BtnFacturacion As Button
-	Friend WithEvents BtnVentas As Button
-	Friend WithEvents Label1 As Label
-	Friend WithEvents BtnClientes As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents BtnClientes As Button
 	Friend WithEvents LblHora As Label
 	Friend WithEvents LblFecha As Label
 	Friend WithEvents HoraFecha As Timer

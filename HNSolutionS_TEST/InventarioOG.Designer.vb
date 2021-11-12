@@ -50,7 +50,7 @@ Partial Class InventarioOG
         Me.Btn_ProInv.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.Btn_ProInv.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn_ProInv.Location = New System.Drawing.Point(10, 38)
-        Me.Btn_ProInv.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
+        Me.Btn_ProInv.Margin = New System.Windows.Forms.Padding(1)
         Me.Btn_ProInv.Name = "Btn_ProInv"
         Me.Btn_ProInv.Size = New System.Drawing.Size(234, 29)
         Me.Btn_ProInv.TabIndex = 27
@@ -62,7 +62,7 @@ Partial Class InventarioOG
         Me.btn_reporte.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btn_reporte.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn_reporte.Location = New System.Drawing.Point(265, 38)
-        Me.btn_reporte.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
+        Me.btn_reporte.Margin = New System.Windows.Forms.Padding(1)
         Me.btn_reporte.Name = "btn_reporte"
         Me.btn_reporte.Size = New System.Drawing.Size(234, 29)
         Me.btn_reporte.TabIndex = 28
@@ -74,7 +74,7 @@ Partial Class InventarioOG
         Me.btn_ReporteInventario.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.btn_ReporteInventario.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn_ReporteInventario.Location = New System.Drawing.Point(522, 38)
-        Me.btn_ReporteInventario.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
+        Me.btn_ReporteInventario.Margin = New System.Windows.Forms.Padding(1)
         Me.btn_ReporteInventario.Name = "btn_ReporteInventario"
         Me.btn_ReporteInventario.Size = New System.Drawing.Size(234, 29)
         Me.btn_ReporteInventario.TabIndex = 29
@@ -131,7 +131,6 @@ Partial Class InventarioOG
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(766, 425)
-        Me.ControlBox = False
         Me.Controls.Add(Me.TablaArticulosDGV)
         Me.Controls.Add(Me.btn_modificar)
         Me.Controls.Add(Me.btn_agregar)
