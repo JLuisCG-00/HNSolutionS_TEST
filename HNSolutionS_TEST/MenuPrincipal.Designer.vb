@@ -48,10 +48,9 @@ Partial Class MenuPrincipal
         Me.Panel2.Controls.Add(Me.BtnVentas)
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Controls.Add(Me.BtnClientes)
-        Me.Panel2.Location = New System.Drawing.Point(1, 93)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel2.Location = New System.Drawing.Point(1, 70)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(218, 571)
+        Me.Panel2.Size = New System.Drawing.Size(191, 428)
         Me.Panel2.TabIndex = 4
         '
         'BtnGestion
@@ -59,10 +58,9 @@ Partial Class MenuPrincipal
         Me.BtnGestion.BackColor = System.Drawing.Color.White
         Me.BtnGestion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnGestion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnGestion.Location = New System.Drawing.Point(16, 284)
-        Me.BtnGestion.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnGestion.Location = New System.Drawing.Point(14, 213)
         Me.BtnGestion.Name = "BtnGestion"
-        Me.BtnGestion.Size = New System.Drawing.Size(174, 30)
+        Me.BtnGestion.Size = New System.Drawing.Size(152, 22)
         Me.BtnGestion.TabIndex = 10
         Me.BtnGestion.Text = "Gestión"
         Me.BtnGestion.UseVisualStyleBackColor = False
@@ -72,10 +70,9 @@ Partial Class MenuPrincipal
         Me.BtnInventario.BackColor = System.Drawing.Color.White
         Me.BtnInventario.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnInventario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnInventario.Location = New System.Drawing.Point(16, 226)
-        Me.BtnInventario.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnInventario.Location = New System.Drawing.Point(14, 170)
         Me.BtnInventario.Name = "BtnInventario"
-        Me.BtnInventario.Size = New System.Drawing.Size(174, 30)
+        Me.BtnInventario.Size = New System.Drawing.Size(152, 22)
         Me.BtnInventario.TabIndex = 9
         Me.BtnInventario.Text = "Inventario"
         Me.BtnInventario.UseVisualStyleBackColor = False
@@ -85,10 +82,9 @@ Partial Class MenuPrincipal
         Me.BtnFacturacion.BackColor = System.Drawing.Color.White
         Me.BtnFacturacion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnFacturacion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnFacturacion.Location = New System.Drawing.Point(16, 170)
-        Me.BtnFacturacion.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnFacturacion.Location = New System.Drawing.Point(14, 128)
         Me.BtnFacturacion.Name = "BtnFacturacion"
-        Me.BtnFacturacion.Size = New System.Drawing.Size(174, 30)
+        Me.BtnFacturacion.Size = New System.Drawing.Size(152, 22)
         Me.BtnFacturacion.TabIndex = 8
         Me.BtnFacturacion.Text = "Facturación"
         Me.BtnFacturacion.UseVisualStyleBackColor = False
@@ -98,10 +94,9 @@ Partial Class MenuPrincipal
         Me.BtnVentas.BackColor = System.Drawing.Color.White
         Me.BtnVentas.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnVentas.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnVentas.Location = New System.Drawing.Point(16, 118)
-        Me.BtnVentas.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnVentas.Location = New System.Drawing.Point(14, 88)
         Me.BtnVentas.Name = "BtnVentas"
-        Me.BtnVentas.Size = New System.Drawing.Size(174, 30)
+        Me.BtnVentas.Size = New System.Drawing.Size(152, 22)
         Me.BtnVentas.TabIndex = 7
         Me.BtnVentas.Text = "Ventas"
         Me.BtnVentas.UseVisualStyleBackColor = False
@@ -111,9 +106,9 @@ Partial Class MenuPrincipal
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(27, 20)
+        Me.Label1.Location = New System.Drawing.Point(24, 15)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 23)
+        Me.Label1.Size = New System.Drawing.Size(126, 20)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Importadora Noelia"
         '
@@ -122,10 +117,9 @@ Partial Class MenuPrincipal
         Me.BtnClientes.BackColor = System.Drawing.Color.White
         Me.BtnClientes.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnClientes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnClientes.Location = New System.Drawing.Point(16, 66)
-        Me.BtnClientes.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnClientes.Location = New System.Drawing.Point(14, 50)
         Me.BtnClientes.Name = "BtnClientes"
-        Me.BtnClientes.Size = New System.Drawing.Size(174, 30)
+        Me.BtnClientes.Size = New System.Drawing.Size(152, 22)
         Me.BtnClientes.TabIndex = 5
         Me.BtnClientes.Text = "Clientes"
         Me.BtnClientes.UseVisualStyleBackColor = False
@@ -136,10 +130,10 @@ Partial Class MenuPrincipal
         Me.LblHora.BackColor = System.Drawing.Color.White
         Me.LblHora.Font = New System.Drawing.Font("Segoe UI", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.LblHora.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.LblHora.Location = New System.Drawing.Point(463, 202)
+        Me.LblHora.Location = New System.Drawing.Point(555, 145)
         Me.LblHora.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblHora.Name = "LblHora"
-        Me.LblHora.Size = New System.Drawing.Size(218, 106)
+        Me.LblHora.Size = New System.Drawing.Size(175, 86)
         Me.LblHora.TabIndex = 11
         Me.LblHora.Text = "Hora"
         '
@@ -148,10 +142,10 @@ Partial Class MenuPrincipal
         Me.LblFecha.AutoSize = True
         Me.LblFecha.Font = New System.Drawing.Font("Segoe UI", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.LblFecha.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.LblFecha.Location = New System.Drawing.Point(372, 344)
+        Me.LblFecha.Location = New System.Drawing.Point(378, 254)
         Me.LblFecha.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblFecha.Name = "LblFecha"
-        Me.LblFecha.Size = New System.Drawing.Size(148, 62)
+        Me.LblFecha.Size = New System.Drawing.Size(120, 51)
         Me.LblFecha.TabIndex = 12
         Me.LblFecha.Text = "Fecha"
         '
@@ -163,24 +157,24 @@ Partial Class MenuPrincipal
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(1, -2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(218, 106)
+        Me.PictureBox1.Size = New System.Drawing.Size(191, 80)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 13
         Me.PictureBox1.TabStop = False
         '
         'MenuPrincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1235, 662)
+        Me.ClientSize = New System.Drawing.Size(1081, 496)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.LblFecha)
         Me.Controls.Add(Me.LblHora)
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "MenuPrincipal"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
