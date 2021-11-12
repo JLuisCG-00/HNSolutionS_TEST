@@ -1,6 +1,8 @@
 ﻿Imports System.Data.SqlClient
 Public Class LOGIN
     Dim conexion As New SqlConnection
+    Dim adaptador As New SqlDataAdapter
+    Dim datos As New DataSet
     Private Sub LOGIN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             conexion.ConnectionString = "Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True"
@@ -12,19 +14,30 @@ Public Class LOGIN
     End Sub
 
     Private Sub BtnIniciar_Click(sender As Object, e As EventArgs) Handles BtnIniciar.Click
-        If txtUsuario.Text = "Administrador" And txtContra.Text = "1234" Or
-           txtUsuario.Text = "Empleado" And txtContra.Text = "5678" Then
-
+        Dim consulta As String
+        Dim lista As Byte
+        Using Sql As New SqlConnection("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
+            Sql.Open()
+        End Using
+        If txtUsuario.Text <> "" And txtContra.Text <> "" Then
+            consulta = "SELECT * FROM Users WHERE Usuario='" & txtUsuario.Text & "' and Contraseña='" & txtContra.Text & "'"
+            adaptador = New SqlDataAdapter(consulta, conexion)
+            datos = New DataSet
+            adaptador.Fill(datos, "Users")
+            lista = datos.Tables("Users").Rows.Count
+        End If
+        If lista <> 0 Then
+            txtUsuario.Text = datos.Tables("Users").Rows(0).Item("Contraseña")
+            txtUsuario.Text = datos.Tables("Users").Rows(0).Item("Usuario")
+            MsgBox("Bienvenido")
+            Me.Hide()
             MenuPrincipal.Show()
-
         Else
-            MessageBox.Show("Error, ha ingresado un dato incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-
+            MsgBox("Contraseña o usuario incorrecta, intente de nuevo")
         End If
 
         txtUsuario.Text = ""
         txtContra.Text = ""
-
 
     End Sub
 

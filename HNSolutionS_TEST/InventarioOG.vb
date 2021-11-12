@@ -18,4 +18,5 @@ Public Class InventarioOG
     Private Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
         Inventario.Show()
     End Sub
+
 End Class

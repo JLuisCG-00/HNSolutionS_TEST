@@ -12,34 +12,14 @@
 
     End Sub
 
-    Private Sub BtnVentas_Click(sender As Object, e As EventArgs)
-        Ventas.Show()
-    End Sub
 
     Private Sub BtnInventario_Click(sender As Object, e As EventArgs) Handles BtnInventario.Click
         InventarioOG.Show()
     End Sub
 
-    Private Sub BtnGestion_Click(sender As Object, e As EventArgs) Handles BtnGestion.Click
-
-    End Sub
-
-    Private Sub MenuPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub HoraFecha_Tick(sender As Object, e As EventArgs) Handles HoraFecha.Tick
         LblHora.Text = DateTime.Now.ToLongTimeString()
         LblFecha.Text = DateTime.Now.ToLongDateString()
-
-
-
-
-
-
-
-
-
 
     End Sub
 End Class
