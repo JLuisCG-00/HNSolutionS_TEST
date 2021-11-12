@@ -35,8 +35,8 @@ Partial Class Usuarios
 		Me.Txt_Nombre = New System.Windows.Forms.TextBox()
 		Me.Txt_Telefono = New System.Windows.Forms.TextBox()
 		Me.Txt_Email = New System.Windows.Forms.TextBox()
-		Me.BtnRegistrar = New System.Windows.Forms.Button()
-		Me.Bt_Limpiar = New System.Windows.Forms.Button()
+		Me.BtnAnadir = New System.Windows.Forms.Button()
+		Me.Button1 = New System.Windows.Forms.Button()
 		Me.SuspendLayout()
 		'
 		'Label1
@@ -148,31 +148,35 @@ Partial Class Usuarios
 		Me.Txt_Email.Size = New System.Drawing.Size(230, 31)
 		Me.Txt_Email.TabIndex = 35
 		'
-		'BtnRegistrar
+		'BtnAnadir
 		'
-		Me.BtnRegistrar.Location = New System.Drawing.Point(134, 516)
-		Me.BtnRegistrar.Name = "BtnRegistrar"
-		Me.BtnRegistrar.Size = New System.Drawing.Size(112, 34)
-		Me.BtnRegistrar.TabIndex = 36
-		Me.BtnRegistrar.Text = "Registrar"
-		Me.BtnRegistrar.UseVisualStyleBackColor = True
+		Me.BtnAnadir.BackColor = System.Drawing.Color.MediumSeaGreen
+		Me.BtnAnadir.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.BtnAnadir.Location = New System.Drawing.Point(133, 512)
+		Me.BtnAnadir.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.BtnAnadir.Name = "BtnAnadir"
+		Me.BtnAnadir.Size = New System.Drawing.Size(109, 38)
+		Me.BtnAnadir.TabIndex = 38
+		Me.BtnAnadir.Text = "Registrar"
+		Me.BtnAnadir.UseVisualStyleBackColor = False
 		'
-		'Bt_Limpiar
+		'Button1
 		'
-		Me.Bt_Limpiar.Location = New System.Drawing.Point(252, 516)
-		Me.Bt_Limpiar.Name = "Bt_Limpiar"
-		Me.Bt_Limpiar.Size = New System.Drawing.Size(112, 34)
-		Me.Bt_Limpiar.TabIndex = 37
-		Me.Bt_Limpiar.Text = "Limpiar"
-		Me.Bt_Limpiar.UseVisualStyleBackColor = True
+		Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+		Me.Button1.Location = New System.Drawing.Point(269, 512)
+		Me.Button1.Name = "Button1"
+		Me.Button1.Size = New System.Drawing.Size(112, 34)
+		Me.Button1.TabIndex = 39
+		Me.Button1.Text = "Limpiar"
+		Me.Button1.UseVisualStyleBackColor = False
 		'
 		'Usuarios
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(544, 671)
-		Me.Controls.Add(Me.Bt_Limpiar)
-		Me.Controls.Add(Me.BtnRegistrar)
+		Me.ClientSize = New System.Drawing.Size(544, 600)
+		Me.Controls.Add(Me.Button1)
+		Me.Controls.Add(Me.BtnAnadir)
 		Me.Controls.Add(Me.Txt_Email)
 		Me.Controls.Add(Me.Txt_Telefono)
 		Me.Controls.Add(Me.Txt_Nombre)
@@ -207,6 +211,6 @@ Partial Class Usuarios
 	Friend WithEvents Txt_Nombre As TextBox
 	Friend WithEvents Txt_Telefono As TextBox
 	Friend WithEvents Txt_Email As TextBox
-	Friend WithEvents BtnRegistrar As Button
-	Friend WithEvents Bt_Limpiar As Button
+	Friend WithEvents BtnAnadir As Button
+	Friend WithEvents Button1 As Button
 End Class
