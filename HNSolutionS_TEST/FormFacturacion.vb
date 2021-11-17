@@ -11,7 +11,9 @@ Public Class FormFacturacion
         End Using
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
+    Private Sub BtnAnadir_Click(sender As Object, e As EventArgs) Handles BtnAnadir.Click
+        Me.Hide()
+        Factura.Show()
     End Sub
 End Class

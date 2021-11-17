@@ -22,14 +22,13 @@ Partial Class Clientes
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Eliminar = New System.Windows.Forms.Button()
         Me.BtnAnadir = New System.Windows.Forms.Button()
-        Me.BtnBuscar = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TablaClientesDGV = New System.Windows.Forms.DataGridView()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.TablaClientesDGV, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -37,61 +36,23 @@ Partial Class Clientes
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(279, 36)
+        Me.Label2.Location = New System.Drawing.Point(280, 39)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(187, 18)
         Me.Label2.TabIndex = 19
         Me.Label2.Text = "IMPORTADORA NOELIA"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Eliminar
-        '
-        Me.Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Eliminar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Eliminar.Location = New System.Drawing.Point(656, 81)
-        Me.Eliminar.Name = "Eliminar"
-        Me.Eliminar.Size = New System.Drawing.Size(71, 23)
-        Me.Eliminar.TabIndex = 17
-        Me.Eliminar.Text = "Cancelar"
-        Me.Eliminar.UseVisualStyleBackColor = True
-        '
         'BtnAnadir
         '
         Me.BtnAnadir.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.BtnAnadir.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.BtnAnadir.Location = New System.Drawing.Point(575, 81)
+        Me.BtnAnadir.Location = New System.Drawing.Point(651, 62)
         Me.BtnAnadir.Name = "BtnAnadir"
-        Me.BtnAnadir.Size = New System.Drawing.Size(76, 23)
+        Me.BtnAnadir.Size = New System.Drawing.Size(76, 28)
         Me.BtnAnadir.TabIndex = 16
-        Me.BtnAnadir.Text = "Añadir"
+        Me.BtnAnadir.Text = "Nuevo"
         Me.BtnAnadir.UseVisualStyleBackColor = False
-        '
-        'BtnBuscar
-        '
-        Me.BtnBuscar.BackColor = System.Drawing.Color.Silver
-        Me.BtnBuscar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.BtnBuscar.Location = New System.Drawing.Point(489, 81)
-        Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(76, 23)
-        Me.BtnBuscar.TabIndex = 15
-        Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = False
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(262, 81)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(222, 23)
-        Me.TextBox1.TabIndex = 14
-        '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label3.Location = New System.Drawing.Point(253, 72)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(318, 43)
-        Me.Label3.TabIndex = 20
         '
         'Label1
         '
@@ -107,12 +68,39 @@ Partial Class Clientes
         '
         'TablaClientesDGV
         '
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TablaClientesDGV.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.TablaClientesDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.TablaClientesDGV.Location = New System.Drawing.Point(12, 128)
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.TablaClientesDGV.DefaultCellStyle = DataGridViewCellStyle2
+        Me.TablaClientesDGV.Location = New System.Drawing.Point(12, 98)
         Me.TablaClientesDGV.Name = "TablaClientesDGV"
         Me.TablaClientesDGV.RowTemplate.Height = 25
         Me.TablaClientesDGV.Size = New System.Drawing.Size(715, 279)
         Me.TablaClientesDGV.TabIndex = 23
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.DarkCyan
+        Me.Button1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.Location = New System.Drawing.Point(569, 62)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(76, 28)
+        Me.Button1.TabIndex = 24
+        Me.Button1.Text = "Consultar"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Clientes
         '
@@ -120,14 +108,11 @@ Partial Class Clientes
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(739, 419)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TablaClientesDGV)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Eliminar)
         Me.Controls.Add(Me.BtnAnadir)
-        Me.Controls.Add(Me.BtnBuscar)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label3)
         Me.Margin = New System.Windows.Forms.Padding(1)
         Me.Name = "Clientes"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -138,11 +123,8 @@ Partial Class Clientes
 
     End Sub
     Friend WithEvents Label2 As Label
-    Friend WithEvents Eliminar As Button
     Friend WithEvents BtnAnadir As Button
-    Friend WithEvents BtnBuscar As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents TablaClientesDGV As DataGridView
+    Friend WithEvents Button1 As Button
 End Class

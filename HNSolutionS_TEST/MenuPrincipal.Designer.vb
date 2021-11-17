@@ -173,13 +173,13 @@ Partial Class MenuPrincipal
 
     End Sub
     Friend WithEvents Panel2 As Panel
-	Friend WithEvents BtnGestion As Button
-	Friend WithEvents BtnInventario As Button
-	Friend WithEvents BtnFacturacion As Button
+    Friend WithEvents BtnInventario As Button
+    Friend WithEvents BtnFacturacion As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents BtnClientes As Button
-	Friend WithEvents LblHora As Label
-	Friend WithEvents LblFecha As Label
-	Friend WithEvents HoraFecha As Timer
-	Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents LblHora As Label
+    Friend WithEvents LblFecha As Label
+    Friend WithEvents HoraFecha As Timer
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents BtnGestion As Button
 End Class
