@@ -49,7 +49,7 @@ Partial Class MenuPrincipal
 		Me.Panel2.Location = New System.Drawing.Point(1, 117)
 		Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.Panel2.Name = "Panel2"
-		Me.Panel2.Size = New System.Drawing.Size(273, 713)
+		Me.Panel2.Size = New System.Drawing.Size(273, 831)
 		Me.Panel2.TabIndex = 4
 		'
 		'BtnGestion
@@ -122,7 +122,7 @@ Partial Class MenuPrincipal
 		Me.LblHora.BackColor = System.Drawing.Color.White
 		Me.LblHora.Font = New System.Drawing.Font("Segoe UI", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
 		Me.LblHora.ForeColor = System.Drawing.SystemColors.Highlight
-		Me.LblHora.Location = New System.Drawing.Point(793, 242)
+		Me.LblHora.Location = New System.Drawing.Point(860, 244)
 		Me.LblHora.Name = "LblHora"
 		Me.LblHora.Size = New System.Drawing.Size(260, 128)
 		Me.LblHora.TabIndex = 11
@@ -133,7 +133,7 @@ Partial Class MenuPrincipal
 		Me.LblFecha.AutoSize = True
 		Me.LblFecha.Font = New System.Drawing.Font("Segoe UI", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
 		Me.LblFecha.ForeColor = System.Drawing.SystemColors.Highlight
-		Me.LblFecha.Location = New System.Drawing.Point(540, 423)
+		Me.LblFecha.Location = New System.Drawing.Point(644, 429)
 		Me.LblFecha.Name = "LblFecha"
 		Me.LblFecha.Size = New System.Drawing.Size(174, 74)
 		Me.LblFecha.TabIndex = 12
@@ -159,7 +159,7 @@ Partial Class MenuPrincipal
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.White
-		Me.ClientSize = New System.Drawing.Size(1544, 827)
+		Me.ClientSize = New System.Drawing.Size(1649, 938)
 		Me.Controls.Add(Me.PictureBox1)
 		Me.Controls.Add(Me.LblFecha)
 		Me.Controls.Add(Me.LblHora)

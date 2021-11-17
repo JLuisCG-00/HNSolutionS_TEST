@@ -28,6 +28,8 @@ Partial Class Gestion
 		Me.Label2 = New System.Windows.Forms.Label()
 		Me.Btn_Anadir = New System.Windows.Forms.Button()
 		Me.Txt_buscar = New System.Windows.Forms.TextBox()
+		Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+		CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.SuspendLayout()
 		'
 		'Btn_Buscar
@@ -98,11 +100,23 @@ Partial Class Gestion
 		Me.Txt_buscar.Size = New System.Drawing.Size(337, 31)
 		Me.Txt_buscar.TabIndex = 32
 		'
+		'DataGridView1
+		'
+		Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+		Me.DataGridView1.Location = New System.Drawing.Point(82, 217)
+		Me.DataGridView1.Name = "DataGridView1"
+		Me.DataGridView1.RowHeadersWidth = 62
+		Me.DataGridView1.RowTemplate.Height = 33
+		Me.DataGridView1.Size = New System.Drawing.Size(888, 321)
+		Me.DataGridView1.TabIndex = 33
+		'
 		'Gestion
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(1029, 622)
+		Me.Controls.Add(Me.DataGridView1)
 		Me.Controls.Add(Me.Txt_buscar)
 		Me.Controls.Add(Me.Btn_Buscar)
 		Me.Controls.Add(Me.Btn_Consulta)
@@ -110,7 +124,9 @@ Partial Class Gestion
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Btn_Anadir)
 		Me.Name = "Gestion"
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Gestion"
+		CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
 		Me.ResumeLayout(False)
 		Me.PerformLayout()
 
@@ -122,4 +138,5 @@ Partial Class Gestion
 	Friend WithEvents Label2 As Label
 	Friend WithEvents Btn_Anadir As Button
 	Friend WithEvents Txt_buscar As TextBox
+	Friend WithEvents DataGridView1 As DataGridView
 End Class
