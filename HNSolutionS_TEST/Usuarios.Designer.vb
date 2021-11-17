@@ -23,20 +23,24 @@ Partial Class Usuarios
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
 		Me.Label1 = New System.Windows.Forms.Label()
-		Me.Label2 = New System.Windows.Forms.Label()
 		Me.Label3 = New System.Windows.Forms.Label()
 		Me.Label4 = New System.Windows.Forms.Label()
 		Me.Label5 = New System.Windows.Forms.Label()
 		Me.Label6 = New System.Windows.Forms.Label()
 		Me.Label7 = New System.Windows.Forms.Label()
-		Me.Txt_Codigo = New System.Windows.Forms.TextBox()
 		Me.Txt_Usuario = New System.Windows.Forms.TextBox()
 		Me.Txt_Contraseña = New System.Windows.Forms.TextBox()
 		Me.Txt_Nombre = New System.Windows.Forms.TextBox()
 		Me.Txt_Telefono = New System.Windows.Forms.TextBox()
 		Me.Txt_Email = New System.Windows.Forms.TextBox()
 		Me.BtnAnadir = New System.Windows.Forms.Button()
-		Me.Button1 = New System.Windows.Forms.Button()
+		Me.Btn_limpiar = New System.Windows.Forms.Button()
+		Me.Label8 = New System.Windows.Forms.Label()
+		Me.Txt_estado = New System.Windows.Forms.TextBox()
+		Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+		Me.Btn_CancelarCliente = New System.Windows.Forms.Button()
+		Me.Label2 = New System.Windows.Forms.Label()
+		Me.GroupBox1.SuspendLayout()
 		Me.SuspendLayout()
 		'
 		'Label1
@@ -47,24 +51,15 @@ Partial Class Usuarios
 		Me.Label1.Location = New System.Drawing.Point(-2, -4)
 		Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(548, 62)
+		Me.Label1.Size = New System.Drawing.Size(738, 62)
 		Me.Label1.TabIndex = 23
 		Me.Label1.Text = "REGUISTAR USUARIOS"
 		Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		'
-		'Label2
-		'
-		Me.Label2.AutoSize = True
-		Me.Label2.Location = New System.Drawing.Point(50, 113)
-		Me.Label2.Name = "Label2"
-		Me.Label2.Size = New System.Drawing.Size(71, 25)
-		Me.Label2.TabIndex = 24
-		Me.Label2.Text = "Codigo"
-		'
 		'Label3
 		'
 		Me.Label3.AutoSize = True
-		Me.Label3.Location = New System.Drawing.Point(50, 187)
+		Me.Label3.Location = New System.Drawing.Point(70, 110)
 		Me.Label3.Name = "Label3"
 		Me.Label3.Size = New System.Drawing.Size(76, 25)
 		Me.Label3.TabIndex = 25
@@ -73,7 +68,7 @@ Partial Class Usuarios
 		'Label4
 		'
 		Me.Label4.AutoSize = True
-		Me.Label4.Location = New System.Drawing.Point(50, 247)
+		Me.Label4.Location = New System.Drawing.Point(70, 175)
 		Me.Label4.Name = "Label4"
 		Me.Label4.Size = New System.Drawing.Size(105, 25)
 		Me.Label4.TabIndex = 26
@@ -82,7 +77,7 @@ Partial Class Usuarios
 		'Label5
 		'
 		Me.Label5.AutoSize = True
-		Me.Label5.Location = New System.Drawing.Point(50, 312)
+		Me.Label5.Location = New System.Drawing.Point(70, 235)
 		Me.Label5.Name = "Label5"
 		Me.Label5.Size = New System.Drawing.Size(82, 25)
 		Me.Label5.TabIndex = 27
@@ -91,7 +86,7 @@ Partial Class Usuarios
 		'Label6
 		'
 		Me.Label6.AutoSize = True
-		Me.Label6.Location = New System.Drawing.Point(50, 377)
+		Me.Label6.Location = New System.Drawing.Point(69, 299)
 		Me.Label6.Name = "Label6"
 		Me.Label6.Size = New System.Drawing.Size(83, 25)
 		Me.Label6.TabIndex = 28
@@ -100,50 +95,43 @@ Partial Class Usuarios
 		'Label7
 		'
 		Me.Label7.AutoSize = True
-		Me.Label7.Location = New System.Drawing.Point(50, 431)
+		Me.Label7.Location = New System.Drawing.Point(70, 367)
 		Me.Label7.Name = "Label7"
 		Me.Label7.Size = New System.Drawing.Size(58, 25)
 		Me.Label7.TabIndex = 29
 		Me.Label7.Text = "Email:"
 		'
-		'Txt_Codigo
-		'
-		Me.Txt_Codigo.Location = New System.Drawing.Point(175, 107)
-		Me.Txt_Codigo.Name = "Txt_Codigo"
-		Me.Txt_Codigo.Size = New System.Drawing.Size(230, 31)
-		Me.Txt_Codigo.TabIndex = 30
-		'
 		'Txt_Usuario
 		'
-		Me.Txt_Usuario.Location = New System.Drawing.Point(175, 181)
+		Me.Txt_Usuario.Location = New System.Drawing.Point(289, 110)
 		Me.Txt_Usuario.Name = "Txt_Usuario"
 		Me.Txt_Usuario.Size = New System.Drawing.Size(230, 31)
 		Me.Txt_Usuario.TabIndex = 31
 		'
 		'Txt_Contraseña
 		'
-		Me.Txt_Contraseña.Location = New System.Drawing.Point(175, 244)
+		Me.Txt_Contraseña.Location = New System.Drawing.Point(289, 175)
 		Me.Txt_Contraseña.Name = "Txt_Contraseña"
 		Me.Txt_Contraseña.Size = New System.Drawing.Size(230, 31)
 		Me.Txt_Contraseña.TabIndex = 32
 		'
 		'Txt_Nombre
 		'
-		Me.Txt_Nombre.Location = New System.Drawing.Point(175, 306)
+		Me.Txt_Nombre.Location = New System.Drawing.Point(289, 235)
 		Me.Txt_Nombre.Name = "Txt_Nombre"
 		Me.Txt_Nombre.Size = New System.Drawing.Size(230, 31)
 		Me.Txt_Nombre.TabIndex = 33
 		'
 		'Txt_Telefono
 		'
-		Me.Txt_Telefono.Location = New System.Drawing.Point(175, 374)
+		Me.Txt_Telefono.Location = New System.Drawing.Point(289, 299)
 		Me.Txt_Telefono.Name = "Txt_Telefono"
 		Me.Txt_Telefono.Size = New System.Drawing.Size(230, 31)
 		Me.Txt_Telefono.TabIndex = 34
 		'
 		'Txt_Email
 		'
-		Me.Txt_Email.Location = New System.Drawing.Point(175, 431)
+		Me.Txt_Email.Location = New System.Drawing.Point(289, 367)
 		Me.Txt_Email.Name = "Txt_Email"
 		Me.Txt_Email.Size = New System.Drawing.Size(230, 31)
 		Me.Txt_Email.TabIndex = 35
@@ -152,7 +140,7 @@ Partial Class Usuarios
 		'
 		Me.BtnAnadir.BackColor = System.Drawing.Color.MediumSeaGreen
 		Me.BtnAnadir.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.BtnAnadir.Location = New System.Drawing.Point(133, 512)
+		Me.BtnAnadir.Location = New System.Drawing.Point(167, 625)
 		Me.BtnAnadir.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnAnadir.Name = "BtnAnadir"
 		Me.BtnAnadir.Size = New System.Drawing.Size(109, 38)
@@ -160,57 +148,118 @@ Partial Class Usuarios
 		Me.BtnAnadir.Text = "Registrar"
 		Me.BtnAnadir.UseVisualStyleBackColor = False
 		'
-		'Button1
+		'Btn_limpiar
 		'
-		Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-		Me.Button1.Location = New System.Drawing.Point(269, 512)
-		Me.Button1.Name = "Button1"
-		Me.Button1.Size = New System.Drawing.Size(112, 34)
-		Me.Button1.TabIndex = 39
-		Me.Button1.Text = "Limpiar"
-		Me.Button1.UseVisualStyleBackColor = False
+		Me.Btn_limpiar.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+		Me.Btn_limpiar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_limpiar.Location = New System.Drawing.Point(443, 626)
+		Me.Btn_limpiar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.Btn_limpiar.Name = "Btn_limpiar"
+		Me.Btn_limpiar.Size = New System.Drawing.Size(109, 38)
+		Me.Btn_limpiar.TabIndex = 39
+		Me.Btn_limpiar.Text = "Limpiar"
+		Me.Btn_limpiar.UseVisualStyleBackColor = False
+		'
+		'Label8
+		'
+		Me.Label8.AutoSize = True
+		Me.Label8.Location = New System.Drawing.Point(71, 428)
+		Me.Label8.Name = "Label8"
+		Me.Label8.Size = New System.Drawing.Size(70, 25)
+		Me.Label8.TabIndex = 40
+		Me.Label8.Text = "Estado:"
+		'
+		'Txt_estado
+		'
+		Me.Txt_estado.Location = New System.Drawing.Point(289, 428)
+		Me.Txt_estado.Name = "Txt_estado"
+		Me.Txt_estado.Size = New System.Drawing.Size(230, 31)
+		Me.Txt_estado.TabIndex = 41
+		'
+		'GroupBox1
+		'
+		Me.GroupBox1.Controls.Add(Me.Label8)
+		Me.GroupBox1.Controls.Add(Me.Txt_estado)
+		Me.GroupBox1.Controls.Add(Me.Txt_Usuario)
+		Me.GroupBox1.Controls.Add(Me.Label3)
+		Me.GroupBox1.Controls.Add(Me.Txt_Contraseña)
+		Me.GroupBox1.Controls.Add(Me.Label7)
+		Me.GroupBox1.Controls.Add(Me.Txt_Email)
+		Me.GroupBox1.Controls.Add(Me.Label4)
+		Me.GroupBox1.Controls.Add(Me.Txt_Telefono)
+		Me.GroupBox1.Controls.Add(Me.Label6)
+		Me.GroupBox1.Controls.Add(Me.Txt_Nombre)
+		Me.GroupBox1.Controls.Add(Me.Label5)
+		Me.GroupBox1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.GroupBox1.Location = New System.Drawing.Point(12, 127)
+		Me.GroupBox1.Name = "GroupBox1"
+		Me.GroupBox1.Size = New System.Drawing.Size(676, 490)
+		Me.GroupBox1.TabIndex = 42
+		Me.GroupBox1.TabStop = False
+		Me.GroupBox1.Text = "Agregar Usuario"
+		'
+		'Btn_CancelarCliente
+		'
+		Me.Btn_CancelarCliente.BackColor = System.Drawing.Color.Red
+		Me.Btn_CancelarCliente.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Btn_CancelarCliente.ForeColor = System.Drawing.Color.White
+		Me.Btn_CancelarCliente.Location = New System.Drawing.Point(301, 625)
+		Me.Btn_CancelarCliente.Name = "Btn_CancelarCliente"
+		Me.Btn_CancelarCliente.Size = New System.Drawing.Size(111, 38)
+		Me.Btn_CancelarCliente.TabIndex = 43
+		Me.Btn_CancelarCliente.Text = "Cancelar"
+		Me.Btn_CancelarCliente.UseVisualStyleBackColor = False
+		'
+		'Label2
+		'
+		Me.Label2.AutoSize = True
+		Me.Label2.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label2.Location = New System.Drawing.Point(211, 88)
+		Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+		Me.Label2.Name = "Label2"
+		Me.Label2.Size = New System.Drawing.Size(276, 27)
+		Me.Label2.TabIndex = 44
+		Me.Label2.Text = "IMPORTADORA NOELIA"
+		Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		'
 		'Usuarios
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(544, 600)
-		Me.Controls.Add(Me.Button1)
-		Me.Controls.Add(Me.BtnAnadir)
-		Me.Controls.Add(Me.Txt_Email)
-		Me.Controls.Add(Me.Txt_Telefono)
-		Me.Controls.Add(Me.Txt_Nombre)
-		Me.Controls.Add(Me.Txt_Contraseña)
-		Me.Controls.Add(Me.Txt_Usuario)
-		Me.Controls.Add(Me.Txt_Codigo)
-		Me.Controls.Add(Me.Label7)
-		Me.Controls.Add(Me.Label6)
-		Me.Controls.Add(Me.Label5)
-		Me.Controls.Add(Me.Label4)
-		Me.Controls.Add(Me.Label3)
+		Me.BackColor = System.Drawing.Color.White
+		Me.ClientSize = New System.Drawing.Size(736, 686)
 		Me.Controls.Add(Me.Label2)
+		Me.Controls.Add(Me.Btn_CancelarCliente)
+		Me.Controls.Add(Me.GroupBox1)
+		Me.Controls.Add(Me.Btn_limpiar)
+		Me.Controls.Add(Me.BtnAnadir)
 		Me.Controls.Add(Me.Label1)
 		Me.Name = "Usuarios"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Usuarios"
+		Me.GroupBox1.ResumeLayout(False)
+		Me.GroupBox1.PerformLayout()
 		Me.ResumeLayout(False)
 		Me.PerformLayout()
 
 	End Sub
 
 	Friend WithEvents Label1 As Label
-	Friend WithEvents Label2 As Label
 	Friend WithEvents Label3 As Label
 	Friend WithEvents Label4 As Label
 	Friend WithEvents Label5 As Label
 	Friend WithEvents Label6 As Label
 	Friend WithEvents Label7 As Label
-	Friend WithEvents Txt_Codigo As TextBox
 	Friend WithEvents Txt_Usuario As TextBox
 	Friend WithEvents Txt_Contraseña As TextBox
 	Friend WithEvents Txt_Nombre As TextBox
 	Friend WithEvents Txt_Telefono As TextBox
 	Friend WithEvents Txt_Email As TextBox
 	Friend WithEvents BtnAnadir As Button
-	Friend WithEvents Button1 As Button
+	Friend WithEvents Btn_limpiar As Button
+	Friend WithEvents Label8 As Label
+	Friend WithEvents Txt_estado As TextBox
+	Friend WithEvents GroupBox1 As GroupBox
+	Friend WithEvents Btn_CancelarCliente As Button
+	Friend WithEvents Label2 As Label
 End Class

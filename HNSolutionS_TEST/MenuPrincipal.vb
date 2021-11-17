@@ -22,4 +22,7 @@
         LblFecha.Text = DateTime.Now.ToLongDateString()
     End Sub
 
+    Private Sub BtnGestion_Click(sender As Object, e As EventArgs) Handles BtnGestion.Click
+        Gestion.Show()
+    End Sub
 End Class
