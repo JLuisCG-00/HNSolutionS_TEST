@@ -220,6 +220,7 @@ Partial Class Factura
 		'
 		'Lbx_Sub_Total
 		'
+		Me.Lbx_Sub_Total.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Sub_Total.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Sub_Total.FormattingEnabled = True
 		Me.Lbx_Sub_Total.ItemHeight = 21
@@ -243,6 +244,7 @@ Partial Class Factura
 		'
 		'Lbx_Cantidad
 		'
+		Me.Lbx_Cantidad.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Cantidad.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Cantidad.FormattingEnabled = True
 		Me.Lbx_Cantidad.ItemHeight = 21
@@ -266,6 +268,7 @@ Partial Class Factura
 		'
 		'Lbx_Precio
 		'
+		Me.Lbx_Precio.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Precio.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Precio.FormattingEnabled = True
 		Me.Lbx_Precio.ItemHeight = 21
@@ -289,6 +292,7 @@ Partial Class Factura
 		'
 		'Lbx_Producto
 		'
+		Me.Lbx_Producto.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Producto.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Producto.FormattingEnabled = True
 		Me.Lbx_Producto.ItemHeight = 21
