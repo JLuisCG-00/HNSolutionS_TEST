@@ -338,7 +338,7 @@ Partial Class Factura
 		'
 		Me.Label4.AutoSize = True
 		Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label4.Location = New System.Drawing.Point(52, 82)
+		Me.Label4.Location = New System.Drawing.Point(590, 73)
 		Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
 		Me.Label4.Name = "Label4"
 		Me.Label4.Size = New System.Drawing.Size(104, 24)
@@ -348,10 +348,10 @@ Partial Class Factura
 		'TxtProducto
 		'
 		Me.TxtProducto.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TxtProducto.Location = New System.Drawing.Point(181, 82)
+		Me.TxtProducto.Location = New System.Drawing.Point(756, 73)
 		Me.TxtProducto.Margin = New System.Windows.Forms.Padding(2)
 		Me.TxtProducto.Name = "TxtProducto"
-		Me.TxtProducto.Size = New System.Drawing.Size(235, 31)
+		Me.TxtProducto.Size = New System.Drawing.Size(201, 31)
 		Me.TxtProducto.TabIndex = 1
 		'
 		'Label5
@@ -398,7 +398,7 @@ Partial Class Factura
 		'
 		Me.Label7.AutoSize = True
 		Me.Label7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label7.Location = New System.Drawing.Point(601, 82)
+		Me.Label7.Location = New System.Drawing.Point(54, 80)
 		Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
 		Me.Label7.Name = "Label7"
 		Me.Label7.Size = New System.Drawing.Size(108, 24)
@@ -409,7 +409,7 @@ Partial Class Factura
 		'
 		Me.CbxCategoria.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.CbxCategoria.FormattingEnabled = True
-		Me.CbxCategoria.Location = New System.Drawing.Point(775, 80)
+		Me.CbxCategoria.Location = New System.Drawing.Point(191, 80)
 		Me.CbxCategoria.Margin = New System.Windows.Forms.Padding(2)
 		Me.CbxCategoria.Name = "CbxCategoria"
 		Me.CbxCategoria.Size = New System.Drawing.Size(182, 33)
@@ -450,6 +450,7 @@ Partial Class Factura
 		'
 		Me.CbxPago.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.CbxPago.FormattingEnabled = True
+		Me.CbxPago.Items.AddRange(New Object() {"Credito", "Contado"})
 		Me.CbxPago.Location = New System.Drawing.Point(775, 188)
 		Me.CbxPago.Margin = New System.Windows.Forms.Padding(2)
 		Me.CbxPago.Name = "CbxPago"
@@ -575,7 +576,7 @@ Partial Class Factura
 		Me.PictureBox1.TabIndex = 5
 		Me.PictureBox1.TabStop = False
 		'
-		'Facturacion
+		'Factura
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -587,7 +588,7 @@ Partial Class Factura
 		Me.Controls.Add(Me.GroupBox1)
 		Me.Controls.Add(Me.Gbx_Datosclientes)
 		Me.Margin = New System.Windows.Forms.Padding(2)
-		Me.Name = "Facturacion"
+		Me.Name = "Factura"
 		Me.Text = "Facturacion"
 		Me.Gbx_Datosclientes.ResumeLayout(False)
 		Me.Gbx_Datosclientes.PerformLayout()
