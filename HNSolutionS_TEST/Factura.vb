@@ -5,6 +5,7 @@ Public Class Factura
 	Dim strcomando As String
 	Dim conexion As String
 	Dim adapter As SqlDataAdapter
+	Dim dt As DataTable
 	Dim data As DataSet
 	Private Sub Facturacion_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 		conexion = ("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
@@ -52,5 +53,19 @@ Public Class Factura
 		adapter.Fill(data)
 		CbxVendedor.DataSource = data.Tables(0)
 		CbxVendedor.DisplayMember = "Usuario"
+	End Sub
+
+	Private Sub Cbx_productos_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Cbx_productos.SelectedIndexChanged
+		If Cbx_productos.ValueMember.ToString <> "" Then
+			strcomando = "select * from articulos where idarticulo" + Cbx_productos.SelectedValue.ToString + ""
+			adapter = New System.Data.SqlClient.SqlDataAdapter(strcomando, conexion)
+			dt = New DataTable
+			adapter.Fill(dt)
+			For Each row As DataRow In dt.Rows
+				TxtDescriccion.Text = row("descripcion").ToString
+				TxtPrecio.Text = row("precio_venta").ToString
+
+			Next
+		End If
 	End Sub
 End Class
