@@ -45,7 +45,6 @@ Partial Class Factura
 		Me.Lbx_Producto = New System.Windows.Forms.ListBox()
 		Me.Label12 = New System.Windows.Forms.Label()
 		Me.Label4 = New System.Windows.Forms.Label()
-		Me.TxtProducto = New System.Windows.Forms.TextBox()
 		Me.Label5 = New System.Windows.Forms.Label()
 		Me.TxtDescriccion = New System.Windows.Forms.TextBox()
 		Me.Label6 = New System.Windows.Forms.Label()
@@ -65,6 +64,7 @@ Partial Class Factura
 		Me.Btn_Agregar = New System.Windows.Forms.Button()
 		Me.Label17 = New System.Windows.Forms.Label()
 		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+		Me.Cbx_productos = New System.Windows.Forms.ComboBox()
 		Me.Gbx_Datosclientes.SuspendLayout()
 		Me.GroupBox3.SuspendLayout()
 		Me.GroupBox1.SuspendLayout()
@@ -345,15 +345,6 @@ Partial Class Factura
 		Me.Label4.TabIndex = 0
 		Me.Label4.Text = "Pruducto:"
 		'
-		'TxtProducto
-		'
-		Me.TxtProducto.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TxtProducto.Location = New System.Drawing.Point(756, 73)
-		Me.TxtProducto.Margin = New System.Windows.Forms.Padding(2)
-		Me.TxtProducto.Name = "TxtProducto"
-		Me.TxtProducto.Size = New System.Drawing.Size(201, 31)
-		Me.TxtProducto.TabIndex = 1
-		'
 		'Label5
 		'
 		Me.Label5.AutoSize = True
@@ -513,6 +504,7 @@ Partial Class Factura
 		'
 		'GroupBox1
 		'
+		Me.GroupBox1.Controls.Add(Me.Cbx_productos)
 		Me.GroupBox1.Controls.Add(Me.Btn_Agregar)
 		Me.GroupBox1.Controls.Add(Me.Btn_LimpiarV)
 		Me.GroupBox1.Controls.Add(Me.CbxVendedor)
@@ -529,7 +521,6 @@ Partial Class Factura
 		Me.GroupBox1.Controls.Add(Me.Label6)
 		Me.GroupBox1.Controls.Add(Me.TxtDescriccion)
 		Me.GroupBox1.Controls.Add(Me.Label5)
-		Me.GroupBox1.Controls.Add(Me.TxtProducto)
 		Me.GroupBox1.Controls.Add(Me.Label4)
 		Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.GroupBox1.Location = New System.Drawing.Point(120, 309)
@@ -575,6 +566,15 @@ Partial Class Factura
 		Me.PictureBox1.Size = New System.Drawing.Size(1170, 59)
 		Me.PictureBox1.TabIndex = 5
 		Me.PictureBox1.TabStop = False
+		'
+		'Cbx_productos
+		'
+		Me.Cbx_productos.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Cbx_productos.FormattingEnabled = True
+		Me.Cbx_productos.Location = New System.Drawing.Point(775, 71)
+		Me.Cbx_productos.Name = "Cbx_productos"
+		Me.Cbx_productos.Size = New System.Drawing.Size(182, 33)
+		Me.Cbx_productos.TabIndex = 18
 		'
 		'Factura
 		'
@@ -625,7 +625,6 @@ Partial Class Factura
 	Friend WithEvents Lbx_Producto As ListBox
 	Friend WithEvents Label12 As Label
 	Friend WithEvents Label4 As Label
-	Friend WithEvents TxtProducto As TextBox
 	Friend WithEvents Label5 As Label
 	Friend WithEvents TxtDescriccion As TextBox
 	Friend WithEvents Label6 As Label
@@ -645,4 +644,5 @@ Partial Class Factura
 	Friend WithEvents Btn_Agregar As Button
 	Friend WithEvents Label17 As Label
 	Friend WithEvents PictureBox1 As PictureBox
+	Friend WithEvents Cbx_productos As ComboBox
 End Class
