@@ -46,7 +46,7 @@ Partial Class Factura
 		Me.Label5 = New System.Windows.Forms.Label()
 		Me.TxtDescriccion = New System.Windows.Forms.TextBox()
 		Me.Label6 = New System.Windows.Forms.Label()
-		Me.TextBox1 = New System.Windows.Forms.TextBox()
+		Me.Txt_cantidad = New System.Windows.Forms.TextBox()
 		Me.Label7 = New System.Windows.Forms.Label()
 		Me.CbxCategoria = New System.Windows.Forms.ComboBox()
 		Me.Label8 = New System.Windows.Forms.Label()
@@ -356,14 +356,14 @@ Partial Class Factura
 		Me.Label6.TabIndex = 4
 		Me.Label6.Text = "Cantidad:"
 		'
-		'TextBox1
+		'Txt_cantidad
 		'
-		Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TextBox1.Location = New System.Drawing.Point(181, 185)
-		Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
-		Me.TextBox1.Name = "TextBox1"
-		Me.TextBox1.Size = New System.Drawing.Size(150, 31)
-		Me.TextBox1.TabIndex = 5
+		Me.Txt_cantidad.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Txt_cantidad.Location = New System.Drawing.Point(181, 185)
+		Me.Txt_cantidad.Margin = New System.Windows.Forms.Padding(2)
+		Me.Txt_cantidad.Name = "Txt_cantidad"
+		Me.Txt_cantidad.Size = New System.Drawing.Size(150, 31)
+		Me.Txt_cantidad.TabIndex = 5
 		'
 		'Label7
 		'
@@ -497,7 +497,7 @@ Partial Class Factura
 		Me.GroupBox1.Controls.Add(Me.Label8)
 		Me.GroupBox1.Controls.Add(Me.CbxCategoria)
 		Me.GroupBox1.Controls.Add(Me.Label7)
-		Me.GroupBox1.Controls.Add(Me.TextBox1)
+		Me.GroupBox1.Controls.Add(Me.Txt_cantidad)
 		Me.GroupBox1.Controls.Add(Me.Label6)
 		Me.GroupBox1.Controls.Add(Me.TxtDescriccion)
 		Me.GroupBox1.Controls.Add(Me.Label5)
@@ -606,7 +606,7 @@ Partial Class Factura
 	Friend WithEvents Label5 As Label
 	Friend WithEvents TxtDescriccion As TextBox
 	Friend WithEvents Label6 As Label
-	Friend WithEvents TextBox1 As TextBox
+	Friend WithEvents Txt_cantidad As TextBox
 	Friend WithEvents Label7 As Label
 	Friend WithEvents CbxCategoria As ComboBox
 	Friend WithEvents Label8 As Label

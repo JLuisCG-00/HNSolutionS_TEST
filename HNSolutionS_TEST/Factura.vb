@@ -68,4 +68,18 @@ Public Class Factura
 			Next
 		End If
 	End Sub
+
+	Private Sub Btn_Agregar_Click(sender As Object, e As EventArgs) Handles Btn_Agregar.Click
+		Lbx_Producto.Items.Add(Cbx_productos.Text)
+		Lbx_Precio.Items.Add(TxtPrecio.Text)
+		Lbx_Cantidad.Items.Add(Txt_cantidad.Text)
+		Lbx_Sub_Total.Items.Add(CDbl(TxtPrecio.Text) * Txt_cantidad.Text)
+	End Sub
+	Private Sub Calcular()
+		Dim total As Double
+		For i = 0 To Lbx_Sub_Total.Items.Count - 1
+			total = total + Lbx_Sub_Total.Items.Item(i)
+		Next
+		Lbl_Total.Text = total
+	End Sub
 End Class
