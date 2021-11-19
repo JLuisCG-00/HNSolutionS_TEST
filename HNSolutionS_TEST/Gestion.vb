@@ -16,4 +16,9 @@ Public Class Gestion
 			UsuariosDGV.DataSource = dt
 		End Using
 	End Sub
+
+	Private Sub Btn_Buscar_Click(sender As Object, e As EventArgs) Handles Btn_Volver.Click
+		Me.Hide()
+		MenuPrincipal.Show()
+	End Sub
 End Class
