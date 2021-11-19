@@ -19,4 +19,7 @@ Public Class InventarioOG
         Inventario.Show()
     End Sub
 
+    Private Sub btn_modificar_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
