@@ -80,6 +80,6 @@ Public Class Factura
 		For i = 0 To Lbx_Sub_Total.Items.Count - 1
 			total = total + Lbx_Sub_Total.Items.Item(i)
 		Next
-		Lbl_Total.Text = total
+		Lbl_Total.Text = "L/." & total
 	End Sub
 End Class
