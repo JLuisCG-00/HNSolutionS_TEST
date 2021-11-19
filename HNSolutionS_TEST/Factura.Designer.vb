@@ -25,10 +25,8 @@ Partial Class Factura
 		Me.Gbx_Datosclientes = New System.Windows.Forms.GroupBox()
 		Me.Btn_Limpiar = New System.Windows.Forms.Button()
 		Me.TxtNumeroId = New System.Windows.Forms.TextBox()
-		Me.TxtDirrecion = New System.Windows.Forms.TextBox()
 		Me.TxtDatosClientes = New System.Windows.Forms.TextBox()
 		Me.Label3 = New System.Windows.Forms.Label()
-		Me.Label2 = New System.Windows.Forms.Label()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.GroupBox3 = New System.Windows.Forms.GroupBox()
 		Me.Btn_Nuevo = New System.Windows.Forms.Button()
@@ -45,11 +43,10 @@ Partial Class Factura
 		Me.Lbx_Producto = New System.Windows.Forms.ListBox()
 		Me.Label12 = New System.Windows.Forms.Label()
 		Me.Label4 = New System.Windows.Forms.Label()
-		Me.TxtProducto = New System.Windows.Forms.TextBox()
 		Me.Label5 = New System.Windows.Forms.Label()
 		Me.TxtDescriccion = New System.Windows.Forms.TextBox()
 		Me.Label6 = New System.Windows.Forms.Label()
-		Me.TextBox1 = New System.Windows.Forms.TextBox()
+		Me.Txt_cantidad = New System.Windows.Forms.TextBox()
 		Me.Label7 = New System.Windows.Forms.Label()
 		Me.CbxCategoria = New System.Windows.Forms.ComboBox()
 		Me.Label8 = New System.Windows.Forms.Label()
@@ -62,6 +59,7 @@ Partial Class Factura
 		Me.CbxVendedor = New System.Windows.Forms.ComboBox()
 		Me.Btn_LimpiarV = New System.Windows.Forms.Button()
 		Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+		Me.Cbx_productos = New System.Windows.Forms.ComboBox()
 		Me.Btn_Agregar = New System.Windows.Forms.Button()
 		Me.Label17 = New System.Windows.Forms.Label()
 		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -75,10 +73,8 @@ Partial Class Factura
 		'
 		Me.Gbx_Datosclientes.Controls.Add(Me.Btn_Limpiar)
 		Me.Gbx_Datosclientes.Controls.Add(Me.TxtNumeroId)
-		Me.Gbx_Datosclientes.Controls.Add(Me.TxtDirrecion)
 		Me.Gbx_Datosclientes.Controls.Add(Me.TxtDatosClientes)
 		Me.Gbx_Datosclientes.Controls.Add(Me.Label3)
-		Me.Gbx_Datosclientes.Controls.Add(Me.Label2)
 		Me.Gbx_Datosclientes.Controls.Add(Me.Label1)
 		Me.Gbx_Datosclientes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Gbx_Datosclientes.Location = New System.Drawing.Point(120, 88)
@@ -94,7 +90,7 @@ Partial Class Factura
 		'
 		Me.Btn_Limpiar.BackColor = System.Drawing.Color.DodgerBlue
 		Me.Btn_Limpiar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Btn_Limpiar.Location = New System.Drawing.Point(706, 116)
+		Me.Btn_Limpiar.Location = New System.Drawing.Point(668, 95)
 		Me.Btn_Limpiar.Margin = New System.Windows.Forms.Padding(2)
 		Me.Btn_Limpiar.Name = "Btn_Limpiar"
 		Me.Btn_Limpiar.Size = New System.Drawing.Size(140, 41)
@@ -105,20 +101,11 @@ Partial Class Factura
 		'TxtNumeroId
 		'
 		Me.TxtNumeroId.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-		Me.TxtNumeroId.Location = New System.Drawing.Point(288, 172)
+		Me.TxtNumeroId.Location = New System.Drawing.Point(288, 126)
 		Me.TxtNumeroId.Margin = New System.Windows.Forms.Padding(2)
 		Me.TxtNumeroId.Name = "TxtNumeroId"
 		Me.TxtNumeroId.Size = New System.Drawing.Size(246, 31)
 		Me.TxtNumeroId.TabIndex = 5
-		'
-		'TxtDirrecion
-		'
-		Me.TxtDirrecion.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TxtDirrecion.Location = New System.Drawing.Point(288, 116)
-		Me.TxtDirrecion.Margin = New System.Windows.Forms.Padding(2)
-		Me.TxtDirrecion.Name = "TxtDirrecion"
-		Me.TxtDirrecion.Size = New System.Drawing.Size(246, 31)
-		Me.TxtDirrecion.TabIndex = 4
 		'
 		'TxtDatosClientes
 		'
@@ -133,23 +120,12 @@ Partial Class Factura
 		'
 		Me.Label3.AutoSize = True
 		Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label3.Location = New System.Drawing.Point(54, 172)
+		Me.Label3.Location = New System.Drawing.Point(52, 124)
 		Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
 		Me.Label3.Name = "Label3"
 		Me.Label3.Size = New System.Drawing.Size(184, 24)
 		Me.Label3.TabIndex = 2
 		Me.Label3.Text = "Numero Identidad:"
-		'
-		'Label2
-		'
-		Me.Label2.AutoSize = True
-		Me.Label2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label2.Location = New System.Drawing.Point(52, 116)
-		Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-		Me.Label2.Name = "Label2"
-		Me.Label2.Size = New System.Drawing.Size(114, 24)
-		Me.Label2.TabIndex = 1
-		Me.Label2.Text = "Dirreccion:"
 		'
 		'Label1
 		'
@@ -244,6 +220,7 @@ Partial Class Factura
 		'
 		'Lbx_Sub_Total
 		'
+		Me.Lbx_Sub_Total.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Sub_Total.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Sub_Total.FormattingEnabled = True
 		Me.Lbx_Sub_Total.ItemHeight = 21
@@ -267,6 +244,7 @@ Partial Class Factura
 		'
 		'Lbx_Cantidad
 		'
+		Me.Lbx_Cantidad.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Cantidad.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Cantidad.FormattingEnabled = True
 		Me.Lbx_Cantidad.ItemHeight = 21
@@ -290,6 +268,7 @@ Partial Class Factura
 		'
 		'Lbx_Precio
 		'
+		Me.Lbx_Precio.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Precio.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Precio.FormattingEnabled = True
 		Me.Lbx_Precio.ItemHeight = 21
@@ -313,6 +292,7 @@ Partial Class Factura
 		'
 		'Lbx_Producto
 		'
+		Me.Lbx_Producto.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
 		Me.Lbx_Producto.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Lbx_Producto.FormattingEnabled = True
 		Me.Lbx_Producto.ItemHeight = 21
@@ -338,21 +318,12 @@ Partial Class Factura
 		'
 		Me.Label4.AutoSize = True
 		Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label4.Location = New System.Drawing.Point(52, 82)
+		Me.Label4.Location = New System.Drawing.Point(590, 73)
 		Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
 		Me.Label4.Name = "Label4"
 		Me.Label4.Size = New System.Drawing.Size(104, 24)
 		Me.Label4.TabIndex = 0
 		Me.Label4.Text = "Pruducto:"
-		'
-		'TxtProducto
-		'
-		Me.TxtProducto.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TxtProducto.Location = New System.Drawing.Point(181, 82)
-		Me.TxtProducto.Margin = New System.Windows.Forms.Padding(2)
-		Me.TxtProducto.Name = "TxtProducto"
-		Me.TxtProducto.Size = New System.Drawing.Size(235, 31)
-		Me.TxtProducto.TabIndex = 1
 		'
 		'Label5
 		'
@@ -385,20 +356,20 @@ Partial Class Factura
 		Me.Label6.TabIndex = 4
 		Me.Label6.Text = "Cantidad:"
 		'
-		'TextBox1
+		'Txt_cantidad
 		'
-		Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TextBox1.Location = New System.Drawing.Point(181, 185)
-		Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
-		Me.TextBox1.Name = "TextBox1"
-		Me.TextBox1.Size = New System.Drawing.Size(150, 31)
-		Me.TextBox1.TabIndex = 5
+		Me.Txt_cantidad.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Txt_cantidad.Location = New System.Drawing.Point(181, 185)
+		Me.Txt_cantidad.Margin = New System.Windows.Forms.Padding(2)
+		Me.Txt_cantidad.Name = "Txt_cantidad"
+		Me.Txt_cantidad.Size = New System.Drawing.Size(150, 31)
+		Me.Txt_cantidad.TabIndex = 5
 		'
 		'Label7
 		'
 		Me.Label7.AutoSize = True
 		Me.Label7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label7.Location = New System.Drawing.Point(601, 82)
+		Me.Label7.Location = New System.Drawing.Point(54, 80)
 		Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
 		Me.Label7.Name = "Label7"
 		Me.Label7.Size = New System.Drawing.Size(108, 24)
@@ -409,7 +380,7 @@ Partial Class Factura
 		'
 		Me.CbxCategoria.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.CbxCategoria.FormattingEnabled = True
-		Me.CbxCategoria.Location = New System.Drawing.Point(775, 80)
+		Me.CbxCategoria.Location = New System.Drawing.Point(191, 80)
 		Me.CbxCategoria.Margin = New System.Windows.Forms.Padding(2)
 		Me.CbxCategoria.Name = "CbxCategoria"
 		Me.CbxCategoria.Size = New System.Drawing.Size(182, 33)
@@ -450,6 +421,7 @@ Partial Class Factura
 		'
 		Me.CbxPago.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.CbxPago.FormattingEnabled = True
+		Me.CbxPago.Items.AddRange(New Object() {"Credito", "Contado"})
 		Me.CbxPago.Location = New System.Drawing.Point(775, 188)
 		Me.CbxPago.Margin = New System.Windows.Forms.Padding(2)
 		Me.CbxPago.Name = "CbxPago"
@@ -512,6 +484,7 @@ Partial Class Factura
 		'
 		'GroupBox1
 		'
+		Me.GroupBox1.Controls.Add(Me.Cbx_productos)
 		Me.GroupBox1.Controls.Add(Me.Btn_Agregar)
 		Me.GroupBox1.Controls.Add(Me.Btn_LimpiarV)
 		Me.GroupBox1.Controls.Add(Me.CbxVendedor)
@@ -524,11 +497,10 @@ Partial Class Factura
 		Me.GroupBox1.Controls.Add(Me.Label8)
 		Me.GroupBox1.Controls.Add(Me.CbxCategoria)
 		Me.GroupBox1.Controls.Add(Me.Label7)
-		Me.GroupBox1.Controls.Add(Me.TextBox1)
+		Me.GroupBox1.Controls.Add(Me.Txt_cantidad)
 		Me.GroupBox1.Controls.Add(Me.Label6)
 		Me.GroupBox1.Controls.Add(Me.TxtDescriccion)
 		Me.GroupBox1.Controls.Add(Me.Label5)
-		Me.GroupBox1.Controls.Add(Me.TxtProducto)
 		Me.GroupBox1.Controls.Add(Me.Label4)
 		Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.GroupBox1.Location = New System.Drawing.Point(120, 309)
@@ -539,6 +511,15 @@ Partial Class Factura
 		Me.GroupBox1.TabIndex = 1
 		Me.GroupBox1.TabStop = False
 		Me.GroupBox1.Text = "Datos de Venta:"
+		'
+		'Cbx_productos
+		'
+		Me.Cbx_productos.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Cbx_productos.FormattingEnabled = True
+		Me.Cbx_productos.Location = New System.Drawing.Point(775, 71)
+		Me.Cbx_productos.Name = "Cbx_productos"
+		Me.Cbx_productos.Size = New System.Drawing.Size(182, 33)
+		Me.Cbx_productos.TabIndex = 18
 		'
 		'Btn_Agregar
 		'
@@ -575,7 +556,7 @@ Partial Class Factura
 		Me.PictureBox1.TabIndex = 5
 		Me.PictureBox1.TabStop = False
 		'
-		'Facturacion
+		'Factura
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -587,7 +568,7 @@ Partial Class Factura
 		Me.Controls.Add(Me.GroupBox1)
 		Me.Controls.Add(Me.Gbx_Datosclientes)
 		Me.Margin = New System.Windows.Forms.Padding(2)
-		Me.Name = "Facturacion"
+		Me.Name = "Factura"
 		Me.Text = "Facturacion"
 		Me.Gbx_Datosclientes.ResumeLayout(False)
 		Me.Gbx_Datosclientes.PerformLayout()
@@ -604,10 +585,8 @@ Partial Class Factura
 	Friend WithEvents Gbx_Datosclientes As GroupBox
 	Friend WithEvents Btn_Limpiar As Button
 	Friend WithEvents TxtNumeroId As TextBox
-	Friend WithEvents TxtDirrecion As TextBox
 	Friend WithEvents TxtDatosClientes As TextBox
 	Friend WithEvents Label3 As Label
-	Friend WithEvents Label2 As Label
 	Friend WithEvents Label1 As Label
 	Friend WithEvents GroupBox3 As GroupBox
 	Friend WithEvents Btn_Nuevo As Button
@@ -624,11 +603,10 @@ Partial Class Factura
 	Friend WithEvents Lbx_Producto As ListBox
 	Friend WithEvents Label12 As Label
 	Friend WithEvents Label4 As Label
-	Friend WithEvents TxtProducto As TextBox
 	Friend WithEvents Label5 As Label
 	Friend WithEvents TxtDescriccion As TextBox
 	Friend WithEvents Label6 As Label
-	Friend WithEvents TextBox1 As TextBox
+	Friend WithEvents Txt_cantidad As TextBox
 	Friend WithEvents Label7 As Label
 	Friend WithEvents CbxCategoria As ComboBox
 	Friend WithEvents Label8 As Label
@@ -644,4 +622,5 @@ Partial Class Factura
 	Friend WithEvents Btn_Agregar As Button
 	Friend WithEvents Label17 As Label
 	Friend WithEvents PictureBox1 As PictureBox
+	Friend WithEvents Cbx_productos As ComboBox
 End Class
