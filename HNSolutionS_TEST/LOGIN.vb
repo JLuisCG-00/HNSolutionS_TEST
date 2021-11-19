@@ -11,6 +11,7 @@ Public Class LOGIN
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
+
     End Sub
 
     Private Sub BtnIniciar_Click(sender As Object, e As EventArgs) Handles BtnIniciar.Click
@@ -39,6 +40,12 @@ Public Class LOGIN
         txtUsuario.Text = ""
         txtContra.Text = ""
 
+        If txtUsuario.Text = "ADMIN" Then
+            CAdmin = 1
+        Else
+            CAdmin = 0
+        End If
+
     End Sub
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
@@ -59,7 +66,4 @@ Public Class LOGIN
         End If
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
-    End Sub
 End Class

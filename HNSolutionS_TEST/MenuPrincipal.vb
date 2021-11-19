@@ -25,4 +25,12 @@
     Private Sub BtnGestion_Click(sender As Object, e As EventArgs) Handles BtnGestion.Click
         Gestion.Show()
     End Sub
+
+    Private Sub MenuPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If CAdmin = 1 Then
+            BtnGestion.Enabled = False
+        Else
+            BtnGestion.Enabled = True
+        End If
+    End Sub
 End Class
