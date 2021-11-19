@@ -15,25 +15,25 @@ Public Class Usuarios
     End Sub
 
     Private Sub BtnAnadir_Click(sender As Object, e As EventArgs) Handles BtnAnadir.Click
-        ' Dim conexion As New SqlConnection("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
-        'Dim command As New SqlCommand("IngresoUsuarios", conexion)
-        'Command.CommandType = CommandType.StoredProcedure
-        'Command.Parameters.AddWithValue("@usuarioU", Txt_Usuario.Text)
-        'Command.Parameters.AddWithValue("@nombreU", Txt_Nombre.Text)
-        'Command.Parameters.AddWithValue("@contraseñaU", Txt_Contraseña.Text)
-        'Command.Parameters.AddWithValue("@telC", Txt_Telefono.Text)
-        'Command.Parameters.AddWithValue("@correoC", Txt_Email.Text)
-        'Command.Parameters.AddWithValue("@estadoU", Txt_estado.Text)
-        'Try
-        'conexion.Open()
-        'Command.ExecuteNonQuery()
-        'Catch ex As Exception
-        'MessageBox.Show(ex.Message)
-        'Finally
-        'conexion.Dispose()
-        'Command.Dispose()
-        'MsgBox("Usuario Registrado Correctamente", vbInformation, "Sistema")
-        'End Try
+        Dim conexion As New SqlConnection("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
+        Dim command As New SqlCommand("IngresarUsuarios", conexion)
+        command.CommandType = CommandType.StoredProcedure
+        command.Parameters.AddWithValue("@UsuarioU", Txt_Usuario.Text)
+        command.Parameters.AddWithValue("@ContraseñaU", Txt_Contraseña.Text)
+        command.Parameters.AddWithValue("@NomU", Txt_Nombre.Text)
+        command.Parameters.AddWithValue("@telU", Txt_Telefono.Text)
+        command.Parameters.AddWithValue("@correoU", Txt_Email.Text)
+        command.Parameters.AddWithValue("@EstadoU", Txt_estado.Text)
+        Try
+            conexion.Open()
+            command.ExecuteNonQuery()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        Finally
+            conexion.Dispose()
+            command.Dispose()
+            MsgBox("Usuario Registrado Correctamente", vbInformation, "Sistema")
+        End Try
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
