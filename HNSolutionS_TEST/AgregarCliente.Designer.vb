@@ -127,6 +127,7 @@ Partial Class AgregarCliente
 		'Txt_NumeroIdentidad
 		'
 		Me.Txt_NumeroIdentidad.Location = New System.Drawing.Point(297, 48)
+		Me.Txt_NumeroIdentidad.MaxLength = 13
 		Me.Txt_NumeroIdentidad.Name = "Txt_NumeroIdentidad"
 		Me.Txt_NumeroIdentidad.Size = New System.Drawing.Size(274, 30)
 		Me.Txt_NumeroIdentidad.TabIndex = 4
