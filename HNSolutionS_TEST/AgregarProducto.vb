@@ -40,4 +40,12 @@
 			MsgBox("Solo se puede ingresar  números", MsgBoxStyle.Exclamation, "Ingreso de Número")
 		End If
 	End Sub
+
+	Private Sub Btn_CancelarCliente_Click(sender As Object, e As EventArgs) Handles Btn_CancelarCliente.Click
+		Txt_codigo.Clear()
+		Txt_Nombre.Clear()
+		Txt_StockMaximo.Clear()
+		Txt_StockMinimo.Clear()
+		Txt_Strock.Clear()
+	End Sub
 End Class
