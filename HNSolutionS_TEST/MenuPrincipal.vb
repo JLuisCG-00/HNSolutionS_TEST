@@ -27,10 +27,12 @@
     End Sub
 
     Private Sub MenuPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If CAdmin = 1 Then
-            BtnGestion.Enabled = False
-        Else
+        If CAdmin = True Then
             BtnGestion.Enabled = True
+        End If
+
+        If CAdmin = False Then
+            BtnGestion.Enabled = False
         End If
     End Sub
 End Class

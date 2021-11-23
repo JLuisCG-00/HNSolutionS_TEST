@@ -1,3 +1,4 @@
 ﻿Module VariablesGlobales
-    Public CAdmin As Integer
+    Public CAdmin As Boolean
+
 End Module

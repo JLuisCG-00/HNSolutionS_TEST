@@ -14,7 +14,7 @@ Public Class LOGIN
 
     End Sub
 
-    Private Sub BtnIniciar_Click(sender As Object, e As EventArgs) Handles BtnIniciar.Click
+    Public Sub BtnIniciar_Click(sender As Object, e As EventArgs) Handles BtnIniciar.Click
         Dim consulta As String
         Dim lista As Byte
         Using Sql As New SqlConnection("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
@@ -26,6 +26,11 @@ Public Class LOGIN
             datos = New DataSet
             adaptador.Fill(datos, "Users")
             lista = datos.Tables("Users").Rows.Count
+            If txtUsuario.Text = "ADMIN" Then
+                CAdmin = True
+            Else
+                CAdmin = False
+            End If
         End If
         If lista <> 0 Then
             txtUsuario.Text = datos.Tables("Users").Rows(0).Item("Contraseña")
@@ -39,12 +44,6 @@ Public Class LOGIN
 
         txtUsuario.Text = ""
         txtContra.Text = ""
-
-        If txtUsuario.Text = "ADMIN" Then
-            CAdmin = 1
-        Else
-            CAdmin = 0
-        End If
 
     End Sub
 
@@ -66,4 +65,7 @@ Public Class LOGIN
         End If
     End Sub
 
+    Private Sub txtUsuario_TextChanged(sender As Object, e As EventArgs) Handles txtUsuario.TextChanged
+
+    End Sub
 End Class
