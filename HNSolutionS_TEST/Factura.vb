@@ -34,10 +34,10 @@ Public Class Factura
 	Private Sub CbxCategoria_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbxCategoria.SelectedIndexChanged
 		Dim cod As Integer = Val(CbxCategoria.SelectedValue.ToString)
 		Dim tabla As New DataTable
-		Dim sql As String = "Select nombre FROM articulos WHERE idcategoria =" & cod
+		Dim sql As String = "Select nombre * FROM articulos WHERE idcategoria =" & cod
 		adapter = New System.Data.SqlClient.SqlDataAdapter(sql, conexion)
-		data = New DataSet
-		adapter.Fill(tabla)
+		dt = New DataTable
+		adapter.Fill(dt)
 		Cbx_productos.DataSource = tabla
 		Cbx_productos.DisplayMember = "nombre"
 
@@ -81,5 +81,9 @@ Public Class Factura
 			total = total + Lbx_Sub_Total.Items.Item(i)
 		Next
 		Lbl_Total.Text = "L/." & total
+	End Sub
+
+	Private Sub Btn_Guardar_Click(sender As Object, e As EventArgs) Handles Btn_Guardar.Click
+
 	End Sub
 End Class
