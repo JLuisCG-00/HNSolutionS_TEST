@@ -204,11 +204,13 @@ Partial Class AgregarProducto
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(896, 685)
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.GroupBox1)
 		Me.Controls.Add(Me.Label1)
 		Me.Name = "AgregarProducto"
+		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "AgregarProducto"
 		Me.GroupBox1.ResumeLayout(False)
 		Me.GroupBox1.PerformLayout()
