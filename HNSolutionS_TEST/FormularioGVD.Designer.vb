@@ -55,7 +55,7 @@ Partial Class FormularioGVD
 		'
 		Me.BtnAtras.FlatStyle = System.Windows.Forms.FlatStyle.System
 		Me.BtnAtras.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.BtnAtras.Location = New System.Drawing.Point(664, 102)
+		Me.BtnAtras.Location = New System.Drawing.Point(688, 102)
 		Me.BtnAtras.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnAtras.Name = "BtnAtras"
 		Me.BtnAtras.Size = New System.Drawing.Size(106, 70)
@@ -98,7 +98,7 @@ Partial Class FormularioGVD
 		Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
 		Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Total, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
 		Me.DataGridView1.Location = New System.Drawing.Point(41, 211)
-		Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
 		Me.DataGridView1.Name = "DataGridView1"
 		Me.DataGridView1.RowHeadersWidth = 51
 		Me.DataGridView1.RowTemplate.Height = 29
@@ -167,7 +167,7 @@ Partial Class FormularioGVD
 		Me.Controls.Add(Me.TextBox1)
 		Me.Controls.Add(Me.Label3)
 		Me.Controls.Add(Me.Label1)
-		Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.Margin = New System.Windows.Forms.Padding(4)
 		Me.Name = "FormularioGVD"
 		Me.Text = "Facturación"
 		CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

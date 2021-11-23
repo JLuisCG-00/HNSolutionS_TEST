@@ -11,8 +11,8 @@ Public Class Factura
 		conexion = ("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
 		strcomando = "select * from categoria"
 		adapter = New System.Data.SqlClient.SqlDataAdapter(strcomando, conexion)
-		data = New DataSet
-		adapter.Fill(data)
+		dt = New DataTable
+		adapter.Fill(dt)
 		CbxCategoria.DataSource = data.Tables(0)
 		CbxCategoria.DisplayMember = "nombre"
 		CbxCategoria.ValueMember = "idcategoria"
