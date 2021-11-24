@@ -25,7 +25,7 @@ Partial Class Factura
 		Me.Gbx_Datosclientes = New System.Windows.Forms.GroupBox()
 		Me.Btn_Limpiar = New System.Windows.Forms.Button()
 		Me.TxtNumeroId = New System.Windows.Forms.TextBox()
-		Me.TxtDatosClientes = New System.Windows.Forms.TextBox()
+		Me.TxtnombreClientes = New System.Windows.Forms.TextBox()
 		Me.Label3 = New System.Windows.Forms.Label()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.GroupBox3 = New System.Windows.Forms.GroupBox()
@@ -73,7 +73,7 @@ Partial Class Factura
 		'
 		Me.Gbx_Datosclientes.Controls.Add(Me.Btn_Limpiar)
 		Me.Gbx_Datosclientes.Controls.Add(Me.TxtNumeroId)
-		Me.Gbx_Datosclientes.Controls.Add(Me.TxtDatosClientes)
+		Me.Gbx_Datosclientes.Controls.Add(Me.TxtnombreClientes)
 		Me.Gbx_Datosclientes.Controls.Add(Me.Label3)
 		Me.Gbx_Datosclientes.Controls.Add(Me.Label1)
 		Me.Gbx_Datosclientes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
@@ -107,14 +107,14 @@ Partial Class Factura
 		Me.TxtNumeroId.Size = New System.Drawing.Size(245, 31)
 		Me.TxtNumeroId.TabIndex = 5
 		'
-		'TxtDatosClientes
+		'TxtnombreClientes
 		'
-		Me.TxtDatosClientes.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.TxtDatosClientes.Location = New System.Drawing.Point(289, 60)
-		Me.TxtDatosClientes.Margin = New System.Windows.Forms.Padding(1, 2, 1, 2)
-		Me.TxtDatosClientes.Name = "TxtDatosClientes"
-		Me.TxtDatosClientes.Size = New System.Drawing.Size(245, 31)
-		Me.TxtDatosClientes.TabIndex = 3
+		Me.TxtnombreClientes.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.TxtnombreClientes.Location = New System.Drawing.Point(289, 60)
+		Me.TxtnombreClientes.Margin = New System.Windows.Forms.Padding(1, 2, 1, 2)
+		Me.TxtnombreClientes.Name = "TxtnombreClientes"
+		Me.TxtnombreClientes.Size = New System.Drawing.Size(245, 31)
+		Me.TxtnombreClientes.TabIndex = 3
 		'
 		'Label3
 		'
@@ -196,7 +196,7 @@ Partial Class Factura
 		Me.Btn_Guardar.Name = "Btn_Guardar"
 		Me.Btn_Guardar.Size = New System.Drawing.Size(111, 47)
 		Me.Btn_Guardar.TabIndex = 10
-		Me.Btn_Guardar.Text = "Guardar"
+		Me.Btn_Guardar.Text = "Vender"
 		Me.Btn_Guardar.UseVisualStyleBackColor = False
 		'
 		'Lbl_Total
@@ -585,7 +585,7 @@ Partial Class Factura
 	Friend WithEvents Gbx_Datosclientes As GroupBox
 	Friend WithEvents Btn_Limpiar As Button
 	Friend WithEvents TxtNumeroId As TextBox
-	Friend WithEvents TxtDatosClientes As TextBox
+	Friend WithEvents TxtnombreClientes As TextBox
 	Friend WithEvents Label3 As Label
 	Friend WithEvents Label1 As Label
 	Friend WithEvents GroupBox3 As GroupBox

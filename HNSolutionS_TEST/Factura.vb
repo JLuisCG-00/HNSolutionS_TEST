@@ -86,4 +86,24 @@ Public Class Factura
 	Private Sub TxtDescriccion_TextChanged(sender As Object, e As EventArgs) Handles TxtDescriccion.TextChanged
 
 	End Sub
+
+	Private Sub Btn_Nuevo_Click(sender As Object, e As EventArgs) Handles Btn_Nuevo.Click
+		TxtnombreClientes.Clear()
+		TxtNumeroId.Clear()
+		CbxCategoria.Items.Clear()
+		Cbx_productos.Items.Clear()
+		CbxPago.Items.Clear()
+		CbxVendedor.Items.Clear()
+		TxtPrecio.Clear()
+		TxtDescriccion.Clear()
+		Lbx_Producto.Items.Clear()
+		Lbx_Precio.Items.Clear()
+
+
+
+
+
+
+
+	End Sub
 End Class
