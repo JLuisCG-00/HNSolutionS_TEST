@@ -48,4 +48,8 @@
 		Txt_StockMinimo.Clear()
 		Txt_Strock.Clear()
 	End Sub
+
+	Private Sub AgregarProducto_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+	End Sub
 End Class

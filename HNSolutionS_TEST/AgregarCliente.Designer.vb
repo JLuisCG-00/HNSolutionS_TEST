@@ -113,6 +113,7 @@ Partial Class AgregarCliente
 		'Txt_TelefonoCliente
 		'
 		Me.Txt_TelefonoCliente.Location = New System.Drawing.Point(297, 193)
+		Me.Txt_TelefonoCliente.MaxLength = 8
 		Me.Txt_TelefonoCliente.Name = "Txt_TelefonoCliente"
 		Me.Txt_TelefonoCliente.Size = New System.Drawing.Size(267, 30)
 		Me.Txt_TelefonoCliente.TabIndex = 6
