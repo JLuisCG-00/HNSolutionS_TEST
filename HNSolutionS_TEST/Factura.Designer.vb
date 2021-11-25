@@ -65,6 +65,7 @@ Partial Class Factura
 		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
 		Me.Label2 = New System.Windows.Forms.Label()
 		Me.TextBox1 = New System.Windows.Forms.TextBox()
+		Me.Label18 = New System.Windows.Forms.Label()
 		Me.Gbx_Datosclientes.SuspendLayout()
 		Me.GroupBox3.SuspendLayout()
 		Me.GroupBox1.SuspendLayout()
@@ -574,12 +575,25 @@ Partial Class Factura
 		Me.TextBox1.Size = New System.Drawing.Size(150, 29)
 		Me.TextBox1.TabIndex = 14
 		'
+		'Label18
+		'
+		Me.Label18.AutoSize = True
+		Me.Label18.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label18.Location = New System.Drawing.Point(157, 69)
+		Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+		Me.Label18.Name = "Label18"
+		Me.Label18.Size = New System.Drawing.Size(276, 27)
+		Me.Label18.TabIndex = 25
+		Me.Label18.Text = "IMPORTADORA NOELIA"
+		Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		'
 		'Factura
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(1090, 1050)
+		Me.Controls.Add(Me.Label18)
 		Me.Controls.Add(Me.TextBox1)
 		Me.Controls.Add(Me.Label17)
 		Me.Controls.Add(Me.Label2)
@@ -647,4 +661,5 @@ Partial Class Factura
 	Friend WithEvents Cbx_productos As ComboBox
 	Friend WithEvents Label2 As Label
 	Friend WithEvents TextBox1 As TextBox
+	Friend WithEvents Label18 As Label
 End Class
