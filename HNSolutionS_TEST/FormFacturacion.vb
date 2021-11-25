@@ -14,6 +14,6 @@ Public Class FormFacturacion
 
     Private Sub BtnAnadir_Click(sender As Object, e As EventArgs) Handles BtnAnadir.Click
         Me.Hide()
-        Factura.Show()
+        ventas.Show()
     End Sub
 End Class
