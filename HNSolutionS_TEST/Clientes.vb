@@ -17,7 +17,14 @@ Public Class Clientes
 		End Using
 	End Sub
 
-	Private Sub Button1_Click(sender As Object, e As EventArgs) 
-
+	Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+		Dim dt As DataTable = New DataTable
+		Using Sql As New SqlConnection("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
+			Sql.Open()
+			Dim da As New SqlDataAdapter("exec LlamarClientes5", Sql)
+			dt = New DataTable
+			da.Fill(dt)
+			TablaClientesDGV.DataSource = dt
+		End Using
 	End Sub
 End Class
