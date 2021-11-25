@@ -9,9 +9,6 @@ Public Class AgregarCliente
         txtCorreo.Clear()
     End Sub
 
-    Private Sub Txt_NumeroIdentidad_TextChanged(sender As Object, e As EventArgs) Handles Txt_NumeroIdentidad.TextChanged
-
-    End Sub
 
 
     Private Sub Txt_NumeroIdentidad_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Txt_NumeroIdentidad.KeyPress

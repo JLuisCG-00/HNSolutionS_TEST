@@ -432,7 +432,7 @@ Partial Class Factura
 		'
 		Me.Label10.AutoSize = True
 		Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Label10.Location = New System.Drawing.Point(677, 64)
+		Me.Label10.Location = New System.Drawing.Point(602, 69)
 		Me.Label10.Margin = New System.Windows.Forms.Padding(1, 0, 1, 0)
 		Me.Label10.Name = "Label10"
 		Me.Label10.Size = New System.Drawing.Size(74, 24)
@@ -443,7 +443,7 @@ Partial Class Factura
 		'
 		Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.DateTimePicker1.Location = New System.Drawing.Point(773, 60)
+		Me.DateTimePicker1.Location = New System.Drawing.Point(705, 62)
 		Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(1, 2, 1, 2)
 		Me.DateTimePicker1.Name = "DateTimePicker1"
 		Me.DateTimePicker1.Size = New System.Drawing.Size(300, 31)

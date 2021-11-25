@@ -19,19 +19,11 @@ Public Class Factura
 
 	End Sub
 
-	Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
-
-	End Sub
-
-	Private Sub Label17_Click(sender As Object, e As EventArgs) Handles Label17.Click
-
-	End Sub
-
 	Private Sub CbxCategoria_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbxCategoria.SelectedIndexChanged
 		Dim cod As Integer = Val(CbxCategoria.SelectedValue.ToString)
 		Dim tabla As New DataTable
-		Dim sql As String = "Select nombre * FROM articulos WHERE idcategoria =" & cod
-		adapter = New System.Data.SqlClient.SqlDataAdapter(sql, conexion)
+		Dim sql As String = "Select nombre *FROM articulos WHERE idcategoria =" & cod
+		adapter = New System.Data.SqlClient.SqlDataAdapter(strcomando, conexion)
 		dt = New DataTable
 		adapter.Fill(dt)
 		Cbx_productos.DataSource = tabla
@@ -43,7 +35,7 @@ Public Class Factura
 
 	Private Sub CbxVendedor_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbxVendedor.SelectedIndexChanged
 		conexion = ("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
-		strcomando = "select * from Users"
+		strcomando = "select *From Users"
 		adapter = New System.Data.SqlClient.SqlDataAdapter(strcomando, conexion)
 		data = New DataSet
 		adapter.Fill(data)
@@ -98,12 +90,18 @@ Public Class Factura
 		TxtDescriccion.Clear()
 		Lbx_Producto.Items.Clear()
 		Lbx_Precio.Items.Clear()
+		Lbx_Sub_Total.Items.Clear()
+		Lbx_Cantidad.Items.Clear()
+	End Sub
 
-
-
-
-
-
-
+	Private Sub Txt_cantidad_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Txt_cantidad.KeyPress
+		If Char.IsDigit(e.KeyChar) Then
+			e.Handled = False
+		ElseIf Char.IsControl(e.KeyChar) Then
+			e.Handled = False
+		Else
+			e.Handled = True
+			MsgBox("Solo se puede ingresar  números", MsgBoxStyle.Exclamation, "Ingreso de Número")
+		End If
 	End Sub
 End Class
