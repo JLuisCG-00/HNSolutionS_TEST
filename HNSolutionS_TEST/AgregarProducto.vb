@@ -49,5 +49,8 @@ Public Class AgregarProducto
 		Txt_StockMaximo.Clear()
 		Txt_StockMinimo.Clear()
 		Txt_Strock.Clear()
+		MsgBox(vbYesNo)
+		Me.Hide()
+		Clientes.Show()
 	End Sub
 End Class

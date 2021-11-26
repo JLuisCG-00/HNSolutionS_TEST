@@ -34,8 +34,20 @@ Partial Class MenuPrincipal
         Me.LblFecha = New System.Windows.Forms.Label()
         Me.HoraFecha = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ImprimirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExportarPDFToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TemaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClaroToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OscuroToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ManualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ComoUsarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel2
@@ -56,7 +68,7 @@ Partial Class MenuPrincipal
         Me.BtnGestion.BackColor = System.Drawing.Color.White
         Me.BtnGestion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnGestion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnGestion.Location = New System.Drawing.Point(14, 169)
+        Me.BtnGestion.Location = New System.Drawing.Point(14, 199)
         Me.BtnGestion.Name = "BtnGestion"
         Me.BtnGestion.Size = New System.Drawing.Size(152, 22)
         Me.BtnGestion.TabIndex = 10
@@ -68,7 +80,7 @@ Partial Class MenuPrincipal
         Me.BtnInventario.BackColor = System.Drawing.Color.White
         Me.BtnInventario.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnInventario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnInventario.Location = New System.Drawing.Point(14, 131)
+        Me.BtnInventario.Location = New System.Drawing.Point(14, 161)
         Me.BtnInventario.Name = "BtnInventario"
         Me.BtnInventario.Size = New System.Drawing.Size(152, 22)
         Me.BtnInventario.TabIndex = 9
@@ -80,7 +92,7 @@ Partial Class MenuPrincipal
         Me.BtnFacturacion.BackColor = System.Drawing.Color.White
         Me.BtnFacturacion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnFacturacion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnFacturacion.Location = New System.Drawing.Point(14, 89)
+        Me.BtnFacturacion.Location = New System.Drawing.Point(14, 119)
         Me.BtnFacturacion.Name = "BtnFacturacion"
         Me.BtnFacturacion.Size = New System.Drawing.Size(152, 22)
         Me.BtnFacturacion.TabIndex = 8
@@ -92,7 +104,7 @@ Partial Class MenuPrincipal
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(24, 15)
+        Me.Label1.Location = New System.Drawing.Point(24, 45)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(126, 20)
         Me.Label1.TabIndex = 6
@@ -103,7 +115,7 @@ Partial Class MenuPrincipal
         Me.BtnClientes.BackColor = System.Drawing.Color.White
         Me.BtnClientes.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnClientes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.BtnClientes.Location = New System.Drawing.Point(14, 50)
+        Me.BtnClientes.Location = New System.Drawing.Point(14, 80)
         Me.BtnClientes.Name = "BtnClientes"
         Me.BtnClientes.Size = New System.Drawing.Size(152, 22)
         Me.BtnClientes.TabIndex = 5
@@ -142,13 +154,85 @@ Partial Class MenuPrincipal
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(1, -2)
+        Me.PictureBox1.Location = New System.Drawing.Point(1, 28)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(191, 80)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 13
         Me.PictureBox1.TabStop = False
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.TemaToolStripMenuItem, Me.AyudaToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1154, 24)
+        Me.MenuStrip1.TabIndex = 14
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'ArchivoToolStripMenuItem
+        '
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ImprimirToolStripMenuItem, Me.ExportarPDFToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
+        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
+        Me.ArchivoToolStripMenuItem.Text = "Archivo"
+        '
+        'ImprimirToolStripMenuItem
+        '
+        Me.ImprimirToolStripMenuItem.Name = "ImprimirToolStripMenuItem"
+        Me.ImprimirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ImprimirToolStripMenuItem.Text = "Imprimir"
+        '
+        'ExportarPDFToolStripMenuItem
+        '
+        Me.ExportarPDFToolStripMenuItem.Name = "ExportarPDFToolStripMenuItem"
+        Me.ExportarPDFToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ExportarPDFToolStripMenuItem.Text = "Exportar PDF"
+        '
+        'SalirToolStripMenuItem
+        '
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Text = "Salir"
+        '
+        'TemaToolStripMenuItem
+        '
+        Me.TemaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClaroToolStripMenuItem, Me.OscuroToolStripMenuItem})
+        Me.TemaToolStripMenuItem.Name = "TemaToolStripMenuItem"
+        Me.TemaToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
+        Me.TemaToolStripMenuItem.Text = "Tema"
+        '
+        'ClaroToolStripMenuItem
+        '
+        Me.ClaroToolStripMenuItem.Name = "ClaroToolStripMenuItem"
+        Me.ClaroToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ClaroToolStripMenuItem.Text = "Claro"
+        '
+        'OscuroToolStripMenuItem
+        '
+        Me.OscuroToolStripMenuItem.Name = "OscuroToolStripMenuItem"
+        Me.OscuroToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.OscuroToolStripMenuItem.Text = "Oscuro"
+        '
+        'AyudaToolStripMenuItem
+        '
+        Me.AyudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ManualToolStripMenuItem, Me.ComoUsarToolStripMenuItem})
+        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.AyudaToolStripMenuItem.Text = "Ayuda"
+        '
+        'ManualToolStripMenuItem
+        '
+        Me.ManualToolStripMenuItem.Name = "ManualToolStripMenuItem"
+        Me.ManualToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ManualToolStripMenuItem.Text = "Manual"
+        '
+        'ComoUsarToolStripMenuItem
+        '
+        Me.ComoUsarToolStripMenuItem.Name = "ComoUsarToolStripMenuItem"
+        Me.ComoUsarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ComoUsarToolStripMenuItem.Text = "Como usar?"
         '
         'MenuPrincipal
         '
@@ -160,7 +244,9 @@ Partial Class MenuPrincipal
         Me.Controls.Add(Me.LblFecha)
         Me.Controls.Add(Me.LblHora)
         Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "MenuPrincipal"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -168,6 +254,8 @@ Partial Class MenuPrincipal
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -182,4 +270,15 @@ Partial Class MenuPrincipal
     Friend WithEvents HoraFecha As Timer
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BtnGestion As Button
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ImprimirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ExportarPDFToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TemaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ClaroToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OscuroToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AyudaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ManualToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ComoUsarToolStripMenuItem As ToolStripMenuItem
 End Class
