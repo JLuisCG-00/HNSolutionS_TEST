@@ -122,4 +122,18 @@ Public Class AgregarCliente
 
         End Try
     End Sub
+
+    Private Sub Txt_TelefonoCliente_Validated(sender As Object, e As EventArgs) Handles Txt_TelefonoCliente.Validated
+        Dim errors As Integer = 0
+
+        Try
+            If Txt_TelefonoCliente.Text < 8 Then
+                ErrorProvider1.SetError(Txt_TelefonoCliente, "Numero de telefono  inválido")
+                errors += 1
+            End If
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class

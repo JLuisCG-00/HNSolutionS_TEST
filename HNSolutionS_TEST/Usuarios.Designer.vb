@@ -22,6 +22,7 @@ Partial Class Usuarios
 	'No lo modifique con el editor de código.
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
+		Me.components = New System.ComponentModel.Container()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.Label3 = New System.Windows.Forms.Label()
 		Me.Label4 = New System.Windows.Forms.Label()
@@ -40,7 +41,9 @@ Partial Class Usuarios
 		Me.GroupBox1 = New System.Windows.Forms.GroupBox()
 		Me.Btn_CancelarCliente = New System.Windows.Forms.Button()
 		Me.Label2 = New System.Windows.Forms.Label()
+		Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
 		Me.GroupBox1.SuspendLayout()
+		CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.SuspendLayout()
 		'
 		'Label1
@@ -125,6 +128,7 @@ Partial Class Usuarios
 		'Txt_Telefono
 		'
 		Me.Txt_Telefono.Location = New System.Drawing.Point(323, 263)
+		Me.Txt_Telefono.MaxLength = 8
 		Me.Txt_Telefono.Name = "Txt_Telefono"
 		Me.Txt_Telefono.Size = New System.Drawing.Size(230, 30)
 		Me.Txt_Telefono.TabIndex = 34
@@ -222,6 +226,10 @@ Partial Class Usuarios
 		Me.Label2.Text = "IMPORTADORA NOELIA"
 		Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		'
+		'ErrorProvider1
+		'
+		Me.ErrorProvider1.ContainerControl = Me
+		'
 		'Usuarios
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
@@ -239,6 +247,7 @@ Partial Class Usuarios
 		Me.Text = "Usuarios"
 		Me.GroupBox1.ResumeLayout(False)
 		Me.GroupBox1.PerformLayout()
+		CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
 		Me.ResumeLayout(False)
 		Me.PerformLayout()
 
@@ -262,4 +271,5 @@ Partial Class Usuarios
 	Friend WithEvents GroupBox1 As GroupBox
 	Friend WithEvents Btn_CancelarCliente As Button
 	Friend WithEvents Label2 As Label
+	Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class

@@ -67,4 +67,22 @@ Public Class Usuarios
             validar_campos = True
         End If
     End Function
+
+    Private Sub Txt_Telefono_TextChanged(sender As Object, e As EventArgs) Handles Txt_Telefono.TextChanged
+
+    End Sub
+
+    Private Sub Txt_Telefono_Validated(sender As Object, e As EventArgs) Handles Txt_Telefono.Validated
+        Dim errors As Integer = 0
+
+        Try
+            If Txt_Telefono.Text < 8 Then
+                ErrorProvider1.SetError(Txt_Telefono, "Numero de telefono  inválido")
+                errors += 1
+            End If
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class
