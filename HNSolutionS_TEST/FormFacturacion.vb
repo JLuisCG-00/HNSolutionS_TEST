@@ -25,4 +25,15 @@ Public Class FormFacturacion
         Me.Hide()
         MenuPrincipal.Show()
     End Sub
+
+    Private Sub btnRefresh_Click(sender As Object, e As EventArgs) Handles btnRefresh.Click
+        Dim DaTable As DataTable = New DataTable
+        Using Sql As New SqlConnection("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
+            Sql.Open()
+            Dim da As New SqlDataAdapter("exec LlamarFacturas", Sql)
+            DaTable = New DataTable
+            da.Fill(DaTable)
+            MostrarFacturasDGV.DataSource = DaTable
+        End Using
+    End Sub
 End Class
