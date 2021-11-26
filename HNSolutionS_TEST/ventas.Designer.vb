@@ -1,28 +1,28 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ventas
-	Inherits System.Windows.Forms.Form
+    Inherits System.Windows.Forms.Form
 
-	'Form reemplaza a Dispose para limpiar la lista de componentes.
-	<System.Diagnostics.DebuggerNonUserCode()> _
-	Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-		Try
-			If disposing AndAlso components IsNot Nothing Then
-				components.Dispose()
-			End If
-		Finally
-			MyBase.Dispose(disposing)
-		End Try
-	End Sub
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
 
-	'Requerido por el Diseñador de Windows Forms
-	Private components As System.ComponentModel.IContainer
+    'Requerido por el Diseñador de Windows Forms
+    Private components As System.ComponentModel.IContainer
 
-	'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
-	'Se puede modificar usando el Diseñador de Windows Forms.  
-	'No lo modifique con el editor de código.
-	<System.Diagnostics.DebuggerStepThrough()> _
-	Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+    'Se puede modificar usando el Diseñador de Windows Forms.  
+    'No lo modifique con el editor de código.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txtNFactura = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -245,8 +245,8 @@ Partial Class ventas
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DGClientes.DefaultCellStyle = DataGridViewCellStyle2
-        Me.DGClientes.Location = New System.Drawing.Point(10, 133)
-        Me.DGClientes.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
+        Me.DGClientes.Location = New System.Drawing.Point(9, 100)
+        Me.DGClientes.Margin = New System.Windows.Forms.Padding(2)
         Me.DGClientes.Name = "DGClientes"
         Me.DGClientes.RowHeadersWidth = 62
         Me.DGClientes.RowTemplate.Height = 33
@@ -426,18 +426,18 @@ Partial Class ventas
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-	Friend WithEvents GroupBox2 As GroupBox
-	Friend WithEvents Label2 As Label
-	Friend WithEvents DateTimePicker1 As DateTimePicker
-	Friend WithEvents Label1 As Label
-	Friend WithEvents txtNFactura As TextBox
-	Friend WithEvents Label4 As Label
-	Friend WithEvents TextBox2 As TextBox
-	Friend WithEvents TextBox1 As TextBox
-	Friend WithEvents Label3 As Label
-	Friend WithEvents Txt_DireccionCliente As TextBox
-	Friend WithEvents Btn_Cancelar As Button
-	Friend WithEvents Btn_Imprimir As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txtNFactura As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Txt_DireccionCliente As TextBox
+    Friend WithEvents Btn_Cancelar As Button
+    Friend WithEvents Btn_Imprimir As Button
     Friend WithEvents txtNomArt As TextBox
     Friend WithEvents DGClientes As DataGridView
     Friend WithEvents Label6 As Label
