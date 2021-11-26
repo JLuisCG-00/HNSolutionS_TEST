@@ -85,4 +85,9 @@ Public Class Usuarios
 
         End Try
     End Sub
+
+    Private Sub Btn_CancelarCliente_Click(sender As Object, e As EventArgs) Handles Btn_CancelarCliente.Click
+        Me.Hide()
+        Gestion.Show()
+    End Sub
 End Class

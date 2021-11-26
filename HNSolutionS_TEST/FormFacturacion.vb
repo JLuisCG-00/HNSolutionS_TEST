@@ -16,4 +16,13 @@ Public Class FormFacturacion
         Me.Hide()
         ventas.Show()
     End Sub
+
+    Private Sub MostrarFacturasDGV_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles MostrarFacturasDGV.CellContentClick
+
+    End Sub
+
+    Private Sub Eliminar_Click(sender As Object, e As EventArgs) Handles Eliminar.Click
+        Me.Hide()
+        MenuPrincipal.Show()
+    End Sub
 End Class
