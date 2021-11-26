@@ -10,6 +10,8 @@ Public Class ventas
             da.Fill(dt)
             DGClientes.DataSource = dt
         End Using
+
+
     End Sub
 
     Private Sub DGClientes_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGClientes.CellClick
@@ -21,6 +23,10 @@ Public Class ventas
         txtTotal.Text = DGClientes.Item(2, i).Value()
 
         txtImpuesto.Text = Format(Val(DGClientes.Item(2, i).Value()) * 0.15, "0,00.0")
+
+    End Sub
+
+    Private Sub txtNFactura_TextChanged(sender As Object, e As EventArgs) Handles txtNFactura.TextChanged
 
     End Sub
 End Class
