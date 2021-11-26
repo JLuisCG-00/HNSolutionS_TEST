@@ -22,9 +22,9 @@ Partial Class ventas
 	'No lo modifique con el editor de código.
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtNFactura = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Txt_DireccionCliente = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -36,10 +36,10 @@ Partial Class ventas
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.txtCodArt = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.txtNomArt = New System.Windows.Forms.TextBox()
         Me.DGClientes = New System.Windows.Forms.DataGridView()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
@@ -49,10 +49,10 @@ Partial Class ventas
         Me.Label13 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtTotal = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.txtImpuesto = New System.Windows.Forms.TextBox()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -62,7 +62,7 @@ Partial Class ventas
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.TextBox3)
+        Me.GroupBox1.Controls.Add(Me.txtNFactura)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Txt_DireccionCliente)
         Me.GroupBox1.Controls.Add(Me.Label2)
@@ -78,13 +78,13 @@ Partial Class ventas
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Información de factura"
         '
-        'TextBox3
+        'txtNFactura
         '
-        Me.TextBox3.Location = New System.Drawing.Point(127, 29)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(215, 22)
-        Me.TextBox3.TabIndex = 13
+        Me.txtNFactura.Location = New System.Drawing.Point(127, 29)
+        Me.txtNFactura.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtNFactura.Name = "txtNFactura"
+        Me.txtNFactura.Size = New System.Drawing.Size(215, 22)
+        Me.txtNFactura.TabIndex = 13
         '
         'Label4
         '
@@ -183,10 +183,10 @@ Partial Class ventas
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.txtCodArt)
         Me.GroupBox2.Controls.Add(Me.Label10)
         Me.GroupBox2.Controls.Add(Me.Label11)
-        Me.GroupBox2.Controls.Add(Me.TextBox4)
-        Me.GroupBox2.Controls.Add(Me.ComboBox1)
+        Me.GroupBox2.Controls.Add(Me.txtNomArt)
         Me.GroupBox2.Controls.Add(Me.DGClientes)
         Me.GroupBox2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox2.Location = New System.Drawing.Point(17, 275)
@@ -197,6 +197,14 @@ Partial Class ventas
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Articulos:"
+        '
+        'txtCodArt
+        '
+        Me.txtCodArt.Location = New System.Drawing.Point(79, 29)
+        Me.txtCodArt.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtCodArt.Name = "txtCodArt"
+        Me.txtCodArt.Size = New System.Drawing.Size(86, 22)
+        Me.txtCodArt.TabIndex = 15
         '
         'Label10
         '
@@ -218,34 +226,25 @@ Partial Class ventas
         Me.Label11.TabIndex = 13
         Me.Label11.Text = "Codigo:"
         '
-        'TextBox4
+        'txtNomArt
         '
-        Me.TextBox4.Location = New System.Drawing.Point(79, 61)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(214, 22)
-        Me.TextBox4.TabIndex = 2
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(79, 29)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(129, 24)
-        Me.ComboBox1.TabIndex = 1
+        Me.txtNomArt.Location = New System.Drawing.Point(79, 61)
+        Me.txtNomArt.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtNomArt.Name = "txtNomArt"
+        Me.txtNomArt.Size = New System.Drawing.Size(214, 22)
+        Me.txtNomArt.TabIndex = 2
         '
         'DGClientes
         '
         Me.DGClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DGClientes.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DGClientes.DefaultCellStyle = DataGridViewCellStyle2
         Me.DGClientes.Location = New System.Drawing.Point(9, 100)
         Me.DGClientes.Margin = New System.Windows.Forms.Padding(2)
         Me.DGClientes.Name = "DGClientes"
@@ -328,6 +327,7 @@ Partial Class ventas
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(97, 23)
         Me.TextBox7.TabIndex = 28
+        Me.TextBox7.Text = "0.00"
         '
         'Label12
         '
@@ -339,14 +339,15 @@ Partial Class ventas
         Me.Label12.TabIndex = 27
         Me.Label12.Text = "Descuento:"
         '
-        'TextBox5
+        'txtTotal
         '
-        Me.TextBox5.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.TextBox5.Location = New System.Drawing.Point(533, 529)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(97, 23)
-        Me.TextBox5.TabIndex = 4
+        Me.txtTotal.AcceptsReturn = True
+        Me.txtTotal.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.txtTotal.Location = New System.Drawing.Point(533, 529)
+        Me.txtTotal.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtTotal.Name = "txtTotal"
+        Me.txtTotal.Size = New System.Drawing.Size(97, 23)
+        Me.txtTotal.TabIndex = 4
         '
         'Label14
         '
@@ -368,14 +369,14 @@ Partial Class ventas
         Me.Label5.TabIndex = 3
         Me.Label5.Text = "Total:"
         '
-        'TextBox8
+        'txtImpuesto
         '
-        Me.TextBox8.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.TextBox8.Location = New System.Drawing.Point(533, 475)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(97, 23)
-        Me.TextBox8.TabIndex = 30
+        Me.txtImpuesto.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.txtImpuesto.Location = New System.Drawing.Point(533, 475)
+        Me.txtImpuesto.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtImpuesto.Name = "txtImpuesto"
+        Me.txtImpuesto.Size = New System.Drawing.Size(97, 23)
+        Me.txtImpuesto.TabIndex = 30
         '
         'TextBox9
         '
@@ -393,13 +394,13 @@ Partial Class ventas
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(656, 576)
         Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.txtImpuesto)
         Me.Controls.Add(Me.Btn_Cancelar)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Btn_Imprimir)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtTotal)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.GroupBox1)
@@ -426,7 +427,7 @@ Partial Class ventas
 	Friend WithEvents Label2 As Label
 	Friend WithEvents DateTimePicker1 As DateTimePicker
 	Friend WithEvents Label1 As Label
-	Friend WithEvents TextBox3 As TextBox
+	Friend WithEvents txtNFactura As TextBox
 	Friend WithEvents Label4 As Label
 	Friend WithEvents TextBox2 As TextBox
 	Friend WithEvents TextBox1 As TextBox
@@ -434,8 +435,7 @@ Partial Class ventas
 	Friend WithEvents Txt_DireccionCliente As TextBox
 	Friend WithEvents Btn_Cancelar As Button
 	Friend WithEvents Btn_Imprimir As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents txtNomArt As TextBox
     Friend WithEvents DGClientes As DataGridView
     Friend WithEvents Label6 As Label
     Friend WithEvents Label10 As Label
@@ -447,9 +447,10 @@ Partial Class ventas
     Friend WithEvents Label13 As Label
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtTotal As TextBox
     Friend WithEvents Label14 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents txtImpuesto As TextBox
     Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents txtCodArt As TextBox
 End Class
