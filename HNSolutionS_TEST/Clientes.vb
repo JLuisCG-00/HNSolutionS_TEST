@@ -35,13 +35,13 @@ Public Class Clientes
 	End Sub
 
 	Private Sub Btn_Buscar_Click(sender As Object, e As EventArgs) Handles Btn_Buscar.Click
-		Dim conexion As String
-		conexion = ("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
-		Dim datos As New SqlDataAdapter("select *from clientes where nombre like '%" & Me.Txt_buscar.Text & "%", conexion)
-		Dim ds As New DataSet()
-		datos.Fill(ds, "clientes")
+		'Dim conexion As String
+		'conexion = ("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
+		'Dim datos As New SqlDataAdapter("select *from clientes where nombre like '%" & Me.Txt_buscar.Text & "%", conexion)
+		'Dim ds As New DataSet()
+		'datos.Fill(ds, "clientes")
 
-		Me.TablaClientesDGV.DataSource = ds.Tables(0)
+		'Me.TablaClientesDGV.DataSource = ds.Tables(0)
 
 	End Sub
 End Class

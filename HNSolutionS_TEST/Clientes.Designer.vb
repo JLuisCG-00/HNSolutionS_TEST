@@ -1,30 +1,30 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Clientes
-    Inherits System.Windows.Forms.Form
+	Inherits System.Windows.Forms.Form
 
-    'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()>
-    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-        Try
-            If disposing AndAlso components IsNot Nothing Then
-                components.Dispose()
-            End If
-        Finally
-            MyBase.Dispose(disposing)
-        End Try
-    End Sub
+	'Form reemplaza a Dispose para limpiar la lista de componentes.
+	<System.Diagnostics.DebuggerNonUserCode()>
+	Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+		Try
+			If disposing AndAlso components IsNot Nothing Then
+				components.Dispose()
+			End If
+		Finally
+			MyBase.Dispose(disposing)
+		End Try
+	End Sub
 
-    'Requerido por el Diseñador de Windows Forms
-    Private components As System.ComponentModel.IContainer
+	'Requerido por el Diseñador de Windows Forms
+	Private components As System.ComponentModel.IContainer
 
-    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
-    'Se puede modificar usando el Diseñador de Windows Forms.  
-    'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()>
-    Private Sub InitializeComponent()
+	'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+	'Se puede modificar usando el Diseñador de Windows Forms.  
+	'No lo modifique con el editor de código.
+	<System.Diagnostics.DebuggerStepThrough()>
+	Private Sub InitializeComponent()
 		Me.components = New System.ComponentModel.Container()
-		Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-		Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+		Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+		Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
 		Me.Label2 = New System.Windows.Forms.Label()
 		Me.BtnAnadir = New System.Windows.Forms.Button()
 		Me.Label1 = New System.Windows.Forms.Label()
@@ -75,23 +75,23 @@ Partial Class Clientes
 		'
 		'TablaClientesDGV
 		'
-		DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-		DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
-		DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
-		DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-		DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-		DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-		Me.TablaClientesDGV.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
+		DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+		DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control
+		DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
+		DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+		DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+		DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+		Me.TablaClientesDGV.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
 		Me.TablaClientesDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-		DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-		DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
-		DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText
-		DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-		DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-		DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-		Me.TablaClientesDGV.DefaultCellStyle = DataGridViewCellStyle4
+		DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+		DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
+		DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText
+		DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+		DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+		DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+		Me.TablaClientesDGV.DefaultCellStyle = DataGridViewCellStyle6
 		Me.TablaClientesDGV.Location = New System.Drawing.Point(17, 163)
 		Me.TablaClientesDGV.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.TablaClientesDGV.Name = "TablaClientesDGV"
@@ -109,7 +109,7 @@ Partial Class Clientes
 		'
 		'Btn_Buscar
 		'
-		Me.Btn_Buscar.BackColor = System.Drawing.Color.DarkSeaGreen
+		Me.Btn_Buscar.BackColor = System.Drawing.Color.Yellow
 		Me.Btn_Buscar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Btn_Buscar.Location = New System.Drawing.Point(647, 107)
 		Me.Btn_Buscar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
@@ -155,11 +155,11 @@ Partial Class Clientes
 
 	End Sub
 	Friend WithEvents Label2 As Label
-    Friend WithEvents BtnAnadir As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents TablaClientesDGV As DataGridView
-    Friend WithEvents Txt_buscar As TextBox
-    Friend WithEvents Btn_Buscar As Button
+	Friend WithEvents BtnAnadir As Button
+	Friend WithEvents Label1 As Label
+	Friend WithEvents TablaClientesDGV As DataGridView
+	Friend WithEvents Txt_buscar As TextBox
+	Friend WithEvents Btn_Buscar As Button
 	Friend WithEvents Button1 As Button
-    Friend WithEvents RefrescarClientes As Timer
+	Friend WithEvents RefrescarClientes As Timer
 End Class

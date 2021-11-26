@@ -27,6 +27,7 @@ Partial Class InventarioOG
 		Me.TablaArticulosDGV = New System.Windows.Forms.DataGridView()
 		Me.Btn_Buscar = New System.Windows.Forms.Button()
 		Me.Txt_buscar = New System.Windows.Forms.TextBox()
+		Me.Button1 = New System.Windows.Forms.Button()
 		CType(Me.TablaArticulosDGV, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.SuspendLayout()
 		'
@@ -50,7 +51,7 @@ Partial Class InventarioOG
 		Me.btn_agregar.Location = New System.Drawing.Point(939, 92)
 		Me.btn_agregar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.btn_agregar.Name = "btn_agregar"
-		Me.btn_agregar.Size = New System.Drawing.Size(109, 58)
+		Me.btn_agregar.Size = New System.Drawing.Size(109, 52)
 		Me.btn_agregar.TabIndex = 31
 		Me.btn_agregar.Text = "Agregar"
 		Me.btn_agregar.UseVisualStyleBackColor = False
@@ -68,9 +69,9 @@ Partial Class InventarioOG
 		'
 		'Btn_Buscar
 		'
-		Me.Btn_Buscar.BackColor = System.Drawing.Color.DarkSeaGreen
+		Me.Btn_Buscar.BackColor = System.Drawing.Color.Yellow
 		Me.Btn_Buscar.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.Btn_Buscar.Location = New System.Drawing.Point(757, 92)
+		Me.Btn_Buscar.Location = New System.Drawing.Point(757, 97)
 		Me.Btn_Buscar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.Btn_Buscar.Name = "Btn_Buscar"
 		Me.Btn_Buscar.Size = New System.Drawing.Size(109, 47)
@@ -85,12 +86,27 @@ Partial Class InventarioOG
 		Me.Txt_buscar.Size = New System.Drawing.Size(337, 31)
 		Me.Txt_buscar.TabIndex = 34
 		'
+		'Button1
+		'
+		Me.Button1.BackColor = System.Drawing.Color.Transparent
+		Me.Button1.BackgroundImage = Global.HNSolutionS_TEST.My.Resources.Resources.Actualizar1
+		Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+		Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+		Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+		Me.Button1.Location = New System.Drawing.Point(53, 87)
+		Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+		Me.Button1.Name = "Button1"
+		Me.Button1.Size = New System.Drawing.Size(40, 48)
+		Me.Button1.TabIndex = 36
+		Me.Button1.UseVisualStyleBackColor = False
+		'
 		'InventarioOG
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
 		Me.ClientSize = New System.Drawing.Size(1094, 618)
+		Me.Controls.Add(Me.Button1)
 		Me.Controls.Add(Me.Btn_Buscar)
 		Me.Controls.Add(Me.Txt_buscar)
 		Me.Controls.Add(Me.TablaArticulosDGV)
@@ -111,4 +127,5 @@ Partial Class InventarioOG
 	Friend WithEvents TablaArticulosDGV As DataGridView
     Friend WithEvents Btn_Buscar As Button
     Friend WithEvents Txt_buscar As TextBox
+	Friend WithEvents Button1 As Button
 End Class

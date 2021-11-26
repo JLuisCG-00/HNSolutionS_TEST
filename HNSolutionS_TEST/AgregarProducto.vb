@@ -9,6 +9,22 @@ Public Class AgregarProducto
 		Txt_Strock.Clear()
 	End Sub
 
+	Private Function validar_campos() As Boolean
+		If Trim(Txt_codigo.Text) = "" Then
+			validar_campos = False
+		ElseIf Trim(Txt_Nombre.Text) = "" Then
+			validar_campos = False
+		ElseIf Trim(Txt_StockMaximo.Text) = "" Then
+			validar_campos = False
+		ElseIf Trim(Txt_Strock.Text) = "" Then
+			validar_campos = False
+		ElseIf Trim(Txt_StockMinimo.Text) = "" Then
+			validar_campos = False
+		Else
+			validar_campos = True
+		End If
+	End Function
+
 	Private Sub Txt_Strock_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Txt_Strock.KeyPress
 		If Char.IsDigit(e.KeyChar) Then
 			e.Handled = False
@@ -51,5 +67,22 @@ Public Class AgregarProducto
 		Txt_Strock.Clear()
 		Me.Hide()
 		InventarioOG.Show()
+	End Sub
+
+	Private Sub AgregarProducto_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+	End Sub
+
+	Private Sub Btn_GuardaInventa_Click(sender As Object, e As EventArgs) Handles Btn_GuardaInventa.Click
+
+
+
+		If validar_campos() = True Then
+
+
+
+		ElseIf validar_campos() = False Then
+			MsgBox("No ha ingresado todo los campos", vbOK)
+		End If
 	End Sub
 End Class
