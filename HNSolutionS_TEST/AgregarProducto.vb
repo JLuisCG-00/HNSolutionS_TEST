@@ -50,25 +50,4 @@ Public Class AgregarProducto
 		Txt_StockMinimo.Clear()
 		Txt_Strock.Clear()
 	End Sub
-
-	Private Sub Btn_GuardaInventa_Click(sender As Object, e As EventArgs) Handles Btn_GuardaInventa.Click
-		Dim conexion As New SqlConnection("Data Source=localhost;Initial Catalog=HNSolutionS2;Integrated Security=True")
-		Dim command As New SqlCommand("IngresarArticulos", conexion)
-		command.CommandType = CommandType.StoredProcedure
-		command.Parameters.AddWithValue("@CodigoI", Txt_codigo.Text)
-		command.Parameters.AddWithValue("@NomI", Txt_Nombre.Text)
-		command.Parameters.AddWithValue("@Stock", Txt_Strock.Text)
-		command.Parameters.AddWithValue("@StockM", Txt_StockMinimo.Text)
-		command.Parameters.AddWithValue("@StockMx", Txt_StockMaximo.Text)
-		Try
-			conexion.Open()
-			command.ExecuteNonQuery()
-		Catch ex As Exception
-			MessageBox.Show(ex.Message)
-		Finally
-			conexion.Dispose()
-			command.Dispose()
-			MsgBox("Artículo Registrado Correctamente", vbInformation, "Sistema")
-		End Try
-	End Sub
 End Class
