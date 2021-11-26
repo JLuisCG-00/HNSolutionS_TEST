@@ -23,4 +23,9 @@ Public Class ventas
         txtImpuesto.Text = Format(Val(DGClientes.Item(2, i).Value()) * 0.15, "0,00.0")
 
     End Sub
+
+    Private Sub Btn_Cancelar_Click(sender As Object, e As EventArgs) Handles Btn_Cancelar.Click
+        Me.Hide()
+        FormFacturacion.Show()
+    End Sub
 End Class
