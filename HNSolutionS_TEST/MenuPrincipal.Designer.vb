@@ -47,6 +47,8 @@ Partial Class MenuPrincipal
 		Me.ComoUsarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.Panel1 = New System.Windows.Forms.Panel()
 		Me.Panel3 = New System.Windows.Forms.Panel()
+		Me.Panel4 = New System.Windows.Forms.Panel()
+		Me.Panel5 = New System.Windows.Forms.Panel()
 		Me.Panel2.SuspendLayout()
 		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.MenuStrip1.SuspendLayout()
@@ -55,6 +57,8 @@ Partial Class MenuPrincipal
 		'Panel2
 		'
 		Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
+		Me.Panel2.Controls.Add(Me.Panel5)
+		Me.Panel2.Controls.Add(Me.Panel4)
 		Me.Panel2.Controls.Add(Me.Panel3)
 		Me.Panel2.Controls.Add(Me.Panel1)
 		Me.Panel2.Controls.Add(Me.BtnGestion)
@@ -65,31 +69,35 @@ Partial Class MenuPrincipal
 		Me.Panel2.Location = New System.Drawing.Point(1, 117)
 		Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.Panel2.Name = "Panel2"
-		Me.Panel2.Size = New System.Drawing.Size(372, 832)
+		Me.Panel2.Size = New System.Drawing.Size(325, 832)
 		Me.Panel2.TabIndex = 4
 		'
 		'BtnGestion
 		'
-		Me.BtnGestion.BackColor = System.Drawing.Color.White
+		Me.BtnGestion.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
 		Me.BtnGestion.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.BtnGestion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.BtnGestion.Location = New System.Drawing.Point(109, 430)
+		Me.BtnGestion.ForeColor = System.Drawing.Color.White
+		Me.BtnGestion.Image = Global.HNSolutionS_TEST.My.Resources.Resources.empleados
+		Me.BtnGestion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+		Me.BtnGestion.Location = New System.Drawing.Point(22, 409)
 		Me.BtnGestion.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnGestion.Name = "BtnGestion"
-		Me.BtnGestion.Size = New System.Drawing.Size(217, 37)
+		Me.BtnGestion.Size = New System.Drawing.Size(244, 58)
 		Me.BtnGestion.TabIndex = 10
 		Me.BtnGestion.Text = "Gestión"
 		Me.BtnGestion.UseVisualStyleBackColor = False
 		'
 		'BtnInventario
 		'
-		Me.BtnInventario.BackColor = System.Drawing.Color.White
+		Me.BtnInventario.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
 		Me.BtnInventario.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-		Me.BtnInventario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(115, Byte), Integer))
-		Me.BtnInventario.Location = New System.Drawing.Point(123, 365)
+		Me.BtnInventario.ForeColor = System.Drawing.Color.White
+		Me.BtnInventario.Image = Global.HNSolutionS_TEST.My.Resources.Resources.producto2
+		Me.BtnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+		Me.BtnInventario.Location = New System.Drawing.Point(22, 311)
 		Me.BtnInventario.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
 		Me.BtnInventario.Name = "BtnInventario"
-		Me.BtnInventario.Size = New System.Drawing.Size(217, 37)
+		Me.BtnInventario.Size = New System.Drawing.Size(244, 58)
 		Me.BtnInventario.TabIndex = 9
 		Me.BtnInventario.Text = "Inventario"
 		Me.BtnInventario.UseVisualStyleBackColor = False
@@ -111,12 +119,12 @@ Partial Class MenuPrincipal
 		'Label1
 		'
 		Me.Label1.AutoSize = True
-		Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+		Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
 		Me.Label1.ForeColor = System.Drawing.Color.White
 		Me.Label1.Location = New System.Drawing.Point(34, 75)
 		Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(183, 27)
+		Me.Label1.Size = New System.Drawing.Size(256, 37)
 		Me.Label1.TabIndex = 6
 		Me.Label1.Text = "Importadora Noelia"
 		'
@@ -168,7 +176,7 @@ Partial Class MenuPrincipal
 		Me.PictureBox1.Location = New System.Drawing.Point(1, 47)
 		Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
 		Me.PictureBox1.Name = "PictureBox1"
-		Me.PictureBox1.Size = New System.Drawing.Size(372, 133)
+		Me.PictureBox1.Size = New System.Drawing.Size(325, 133)
 		Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
 		Me.PictureBox1.TabIndex = 13
 		Me.PictureBox1.TabStop = False
@@ -263,6 +271,22 @@ Partial Class MenuPrincipal
 		Me.Panel3.Size = New System.Drawing.Size(24, 58)
 		Me.Panel3.TabIndex = 16
 		'
+		'Panel4
+		'
+		Me.Panel4.BackColor = System.Drawing.Color.SeaGreen
+		Me.Panel4.Location = New System.Drawing.Point(0, 311)
+		Me.Panel4.Name = "Panel4"
+		Me.Panel4.Size = New System.Drawing.Size(24, 58)
+		Me.Panel4.TabIndex = 16
+		'
+		'Panel5
+		'
+		Me.Panel5.BackColor = System.Drawing.Color.SeaGreen
+		Me.Panel5.Location = New System.Drawing.Point(0, 409)
+		Me.Panel5.Name = "Panel5"
+		Me.Panel5.Size = New System.Drawing.Size(24, 58)
+		Me.Panel5.TabIndex = 17
+		'
 		'MenuPrincipal
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
@@ -313,4 +337,6 @@ Partial Class MenuPrincipal
     Friend WithEvents ComoUsarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel1 As Panel
+	Friend WithEvents Panel5 As Panel
+	Friend WithEvents Panel4 As Panel
 End Class
