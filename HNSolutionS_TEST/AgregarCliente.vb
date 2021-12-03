@@ -63,6 +63,12 @@ Public Class AgregarCliente
     End Sub
 
     Private Sub Txt_TelefonoCliente_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Txt_TelefonoCliente.KeyPress
+        If Len(Me.Txt_TelefonoCliente.Text) = "0" Then
+            If InStr(1, "3,8,9" & Chr(8), e.KeyChar) = 0 Then
+                e.KeyChar = ""
+            End If
+        End If
+
         If Char.IsDigit(e.KeyChar) Then
             e.Handled = False
         ElseIf Char.IsControl(e.KeyChar) Then
