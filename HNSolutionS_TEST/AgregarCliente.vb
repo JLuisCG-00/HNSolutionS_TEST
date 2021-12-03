@@ -18,7 +18,11 @@ Public Class AgregarCliente
             validar_campos = False
         ElseIf Trim(Txt_NumeroIdentidad.Text) = "" Then
             validar_campos = False
+        ElseIf Trim(Txt_NumeroIdentidad.Text) = "0000000000000" Then
+            validar_campos = False
         ElseIf Trim(Txt_TelefonoCliente.Text) = "" Then
+            validar_campos = False
+        ElseIf Trim(Txt_TelefonoCliente.Text) = "00000000" Then
             validar_campos = False
         ElseIf Trim(txtCorreo.Text) = "" Then
             validar_campos = False
