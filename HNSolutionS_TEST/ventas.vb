@@ -18,7 +18,6 @@ Public Class ventas
         txtCodArt.Text = DGClientes.Item(0, i).Value()
         txtNomArt.Text = DGClientes.Item(1, i).Value()
         txtTotal.Text = DGClientes.Item(2, i).Value()
-
         txtImpuesto.Text = Format(Val(DGClientes.Item(2, i).Value()) * 0.15, "0,00.0")
 
     End Sub
